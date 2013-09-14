@@ -1,0 +1,21 @@
+---
+author: stefan.buynov
+comments: true
+date: 2008-12-22 17:27:32+00:00
+layout: post
+slug: alehouse
+title: Alehouse
+wordpress_id: 142
+categories:
+- Entertainment
+---
+
+[![Аlehouse, Sofia](http://buynov.com/wordpress/wp-content/uploads/2008/12/alehouse.jpg)
+](http://buynov.com/wordpress/wp-content/uploads/2008/12/alehouse.jpg)
+
+[bulgarian]Днес посетих интересно ново заведение в София - [Alehouse](http://www.programata.bg/?p=75&l=1&c=1&id=5244). Заведението се намира на [улица "Христо Белчев" No 42](http://maps.google.com/maps?f=q&hl=bg&geocode=&q=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F,+%D1%83%D0%BB.+%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE+%D0%91%D0%B5%D0%BB%D1%87%D0%B5%D0%B2+42&sll=37.0625,-95.677068&sspn=51.222969,114.257812&ie=UTF8&z=16&g=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F,+%D1%83%D0%BB.+%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE+%D0%91%D0%B5%D0%BB%D1%87%D0%B5%D0%B2+42&iwloc=addr) и е уникално с това, че можеш сам да си наливаш бирата (виж снимката). Има инсталация, която предоставя кранче за всяка маса, отчитащо изпитото количество бира на грамаж (виж индикатора на снимката, показва 0.55 литра - едва започвахме ;)).
+
+В допълнение не е много скъпо (да не се объркаш, цената на наливната бира в менюто е за **литър**, не за една бира), кухнята я бива (препоръчвам ти три вида наденица с три вида сос) и атмосферата е приятна (стил ирландски пъб). Пробвай ако искаш, на мен ми хареса :).[/bulgarian]
+[english]I've been in an interesting new pub in Sofia today - [Alehouse](http://www.programata.bg/?p=75&l=1&c=1&id=5244). The pub is located on [42 Hristo Belchev Str., Sofia, Bulgaria](http://maps.google.com/maps?f=q&hl=bg&geocode=&q=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F,+%D1%83%D0%BB.+%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE+%D0%91%D0%B5%D0%BB%D1%87%D0%B5%D0%B2+42&sll=37.0625,-95.677068&sspn=51.222969,114.257812&ie=UTF8&z=16&g=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F,+%D1%83%D0%BB.+%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE+%D0%91%D0%B5%D0%BB%D1%87%D0%B5%D0%B2+42&iwloc=addr) and it is unique in that you can fill your beer mug by yourself (see the picture). There is an installation, which provides a tap on every table and it measures the quantity you had already (see the indicator on the picture, which stands at 0.55 litres, we were just starting up ;)).
+
+Additionally, it is not expensive (don't be fooled by the menu, the price for the draught beer there is per litre, not per beer). The meal is good as well, I recommend three types of sausages with three sauces. The style is pleasant - similar to an Irish pub. I, personally liked it. Try it for yourself :).[/english]

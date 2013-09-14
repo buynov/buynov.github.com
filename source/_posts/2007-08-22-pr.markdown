@@ -1,0 +1,34 @@
+---
+author: stefan.buynov
+comments: true
+date: 2007-08-22 10:34:40+00:00
+layout: post
+slug: pr
+title: PR
+wordpress_id: 12
+categories:
+- General
+---
+
+[bulgarian]Време беше да ме споменат и мен в медиите:
+
+
+
+	
+  * [http://www.insurance.bg/news/?cat=news&cat_id=1&sn_id=5169](http://4press.idg.bg/?call=USE~press;&action=item&id=1533)
+
+	
+  * [http://4press.idg.bg/?call=USE~press;&action=item&id=1533](http://4press.idg.bg/?call=USE~press;&action=item&id=1533)
+
+
+[/bulgarian]
+[english]It was about time my name to appear in the news:
+
+	
+  * [http://www.insurance.bg/news/?cat=news&cat_id=1&sn_id=51691](http://www.insurance.bg/news/?cat=news&cat_id=1&sn_id=51691)
+
+	
+  * [http://4press.idg.bg/?call=USE~press;&action=item&id=1533](http://4press.idg.bg/?call=USE~press;&action=item&id=1533)
+
+
+[/english]
