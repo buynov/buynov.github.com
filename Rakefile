@@ -398,3 +398,33 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
+
+##########
+# TESTS  #
+##########
+desc "Rename files in the posts directory"
+task :rename_posts do
+  Dir.chdir("#{source_dir}/#{posts_dir}") do
+    Dir['*.markdown'].each do |post|
+      post_date = ""
+      post_title = ""
+      File.open( post ) do |f|
+        f.grep( /^date: / ) do |line|
+          post_date = line.gsub(/date: /, "").gsub(/\s.*$/, "")
+          break
+        end
+        f.grep( /^title: / ) do |line|
+          post_title = line.gsub(/title: /, "").gsub(/\n.*$/, "")
+          break
+        end
+      end
+      # post_title = post.to_s.gsub(/\d{4}-\d{2}-\d{2}/, "")  # Get the post title from the currently processed post
+      new_post_name = post_date + '-' + post_title.downcase.gsub(/\s+/, '-').gsub(/[^a-z0-9_-]/, '').squeeze('-') + '.markdown' # determing the correct filename
+
+      if post.downcase != new_post_name
+        puts "renaming #{post} to #{new_post_name}"
+        FileUtils.mv(post, new_post_name)
+      end
+    end
+  end
+end
