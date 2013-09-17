@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gadgets | Buynov]]></title>
+  <link href="http://buynov.github.io/blog/categories/gadgets/atom.xml" rel="self"/>
+  <link href="http://buynov.github.io/"/>
+  <updated>2013-09-17T16:05:16+03:00</updated>
+  <id>http://buynov.github.io/</id>
+  <author>
+    <name><![CDATA[Stefan Buynov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi and RaspBMC as a Media Player]]></title>
+    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <updated>2013-03-13T10:36:17+02:00</updated>
+    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <content type="html"><![CDATA[<h3>Малко Предистория</h3>
+
+<p>Есента си купих телевизор (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). Телевизорът е LED, има 3D (не че това има значение), вграден WiFi, Smart TV и т.н. На хартия изглеждаше супер, а и цената беше приемлива. Картината, в интерес на истината, е доста добра &ndash; и слава богу, защото това в един телевизор е може би основното. Софтуерът, обаче, е зле. Много зле. Поддържат се уж някакви стандарти, има уж някакви канали и програми, но всичко е толкова бавно, недодялано и нeдомислено, че общо взето не си струва човек да се занимава. Без да изпадам в подробности (а с подробностите не съм и много запознат, защото бързо загубих интерес), ще кажа че медия плейъра на телевизора не ме удовлетвори (меко казано, не поддържа никакви субтитри на кирилица) и реших да си взема външен. Ориентирах се към <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, който е може би най добрия вариант като сравниш цената и качеството. Бързо се навих и го поръчах. Беше около Коледа и дали заради това, или заради друго, но се оказа че този модел в момента го няма в България. Никъде. Нямало внос. Това само по нашите географски ширини може да се случи &ndash; да можеш да поръчаш нещо от Амазон във Великобритания, например, но местния доставчик да го мързи да се напъне да направи доставка. Както и да е.</p>
+
+<h3><a href="/images/2013/03/RPi_front_small.jpg"><img src="/images/2013/03/RPi_front_small.jpg" alt="" /></a></h3>
+
+<p>В търсене на алтернатива, се заиграх с <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (или RPi накратко) на един колега. Взех го за един уикенд, инсталирах <a href="http://www.raspbmc.com/">RaspBMC</a>, вързах го за телевизора с HDMI и всичко тръгна! Няколко филма, снимки, всичко вървеше без проблем. Срещу 35 евро (плюс няколко други неща, виж по долу) без ДДС (ако си гледал новини за $35, тук все пак е Европа ;)), можех да си &ldquo;сглобя&rdquo; медия плейър, и то доста добър. При това, Raspberry Pi (или RPi накратко) си е компютър, който можеш да ползваш и за сървър &ndash; четох че някои хора си хостват и Wordpress блога на него. Повечето имиджи за RPi са Debian базирани (включително официалния <a href="http://www.raspbian.org/">Raspbian</a> и <a href="http://www.raspbmc.com/">RaspBMC</a>, който аз предпочитам), така че имаш доста пакети готови за инсталация.</p>
+
+<!-- More -->
+
+
+<h3>Малко Информация за Raspberry Pi</h3>
+
+<p>В случай че не знаеш, <a href="http://www.raspberrypi.org/">Raspberry Pi</a> е евтин миниатюрен компютър, разработен от независима фондация, първоначално с цел да се популяризират компютрите и &ldquo;играта&rdquo; с тях в образованието, най вече сред подрастващите (каква дума само). На практика, обаче, RPi доби огромна популярност най вече сред децата над 20-30 години и вече има две версии на &ldquo;железарията&rdquo;, като по всичко изглежда, че ще се развива бурно и в бъдеще.</p>
+
+<h3></h3>
+
+<p>Имай предвид, че това не е готов компютър &ndash; самото RPi е една &ldquo;гола&rdquo; платка и за да го ползваш, ще ти трябват още микро USB захранващ кабел, SD флаш карта (не е зле да се консултираш първо с <a href="http://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards">този списък</a> ) и HDMI кабел за връзка с монитор или телевизор. Можеш да си вземеш и други аксесоари, като кутийка, клавиатура, мишка, WiFi адаптер и т.н., но имай предвид че някои са безсмислено скъпи (изглежда някои хора се опитват да изкарат лесни пари от популярността на продукта). Най общо казано, RPi е като конструктор и изисква &ldquo;направи си сам&rdquo; подход &ndash; ако това те притеснява и предпочиташ всичко да работи на готово, RPi не е за теб.</p>
+
+<h3><a href="/images/2013/03/RPi_sideways_small.jpg"><img src="/images/2013/03/RPi_sideways_small.jpg" alt="" /></a></h3>
+
+<h3>Малко Ограничения</h3>
+
+<p>RPi е с ARM процесор, което ще рече, че поне на този етап, на него не можеш да инсталираш Windows. Microsoft вече имат версия на Windows за ARM (<a href="http://en.wikipedia.org/wiki/Windows_RT">Windows RT</a>), но не съм видял някой да го е пускал на RPi. А и предвид сериозните му изисквания (<a href="http://www.tomshardware.com/news/Surface-Windows-RT-Microsoft-windows-8,18536.html">за дисково пространство</a>, например), може и да не се случи.</p>
+
+<h3>Малко Логистика</h3>
+
+<p>RPi има само два официални дистрибутора в света &ndash; <a href="http://www.farnell.com/">Farnell</a> и <a href="http://www.rs-components.com">RS Components</a>. За щастие, единият от тези, Farnell, има официален представител в България &ndash; а именно, <a href="http://www.comet.bg/">Комет</a>. Можеш да си поръчаш RPi и от сайтове извън България (Амазон, например), но едва ли ще ти излезе по евтино. Аз си взех моето от Комет и не съжалявам. Хората да доста отзивчиви &ndash; цялата комуникация протече по мейла, като почти винаги получавах отговор до няколко часа. Отговориха на всичките ми въпроси и ми дадоха актуална цена преди да поръчам. Освен самото RPi, от Комет можеш да поръчаш и <a href="http://store.comet.bg/bg/CatalogueFarnell/Search/?keywords=raspberry#eyJpcHAiOiIxMCIsImsiOiJyYXNwYmVycnkifQ%3D%3D">всички аксесоари</a>, които Farnell предлагат (имай предвид че търсачката на Комет е малко странна и отнема време докато зареди резултатите, без да има индикация за това). При поръчка, Комет доставят през Speedy или Еконт &ndash; около 10 лева в рамките на София, например. Можеш да си вземеш нещата и от техен офис &ndash; има един някъде около попа. Аз си взех и <a href="http://bg.farnell.com/multicomp/mc-rp001-clr/enclosure-raspberry-pi-clear/dp/2113799#">прозрачна кутийка</a>, която е доста симпатична.</p>
+
+<h3><a href="/images/2013/03/xbmc_theater.jpg"><img src="/images/2013/03/xbmc_theater.jpg" alt="" /></a></h3>
+
+<h3>Малък Медия Плейър</h3>
+
+<p>Когато чуеш компютър, нормално е да си представиш базова периферия като клавиатура и мишка. Принципно можеш да вържеш такива към RPi, но с RaspBMC това не е задължително, дори не е нужно. RaspBMC всъщност е Debian с <a href="http://xbmc.org/">XBMC</a> като потребителски интерфейс. Името на XBMC идва от Xbox Media Center, или иначе казано медия плейър наподобяващ интерфейса на Xbox. Софтуерът е доста развит и стабилен, последната версия е 12, и го има от доста време. XBMC е с отворен изходен код и има доста допълнения/плъгини за него. Най важното е, че едно XBMC може да бъде управлявано по много различни начини, включително през уеб контролен панел (който на RaspBMC е пуснат по подразбиране), приложения за &ldquo;умни&rdquo; телефони (аз ползвам <a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree">това</a>, много е добро), а понеже поддържа <a href="http://en.wikipedia.org/wiki/Digital_Living_Network_Alliance">DLNA</a>, можеш да ползваш и DLNA контролери, като <a href="http://www.imediashare.tv/">iMediaShare</a>. Накратко, взимаш си SD флаш картата от RPi, инсталираш RaspBMC на компютър, слагаш картата в RPi и го стартираш. Всичко работи чудесно. Отново, ако инсталиране, конфигуриране и подобни неща те притесняват, RPi не е за теб. Провери WD Live, може би вече е наличен ;)</p>
+
+<h3>Малко Екстри</h3>
+
+<p>С RaspBMC идва и една не особено популярна, но важна библиотека &ndash; <a href="http://libcec.pulse-eight.com/">libCEC</a>. Тя имплементира един стандарт, <a href="http://en.wikipedia.org/wiki/HDMI#CEC">CEC</a>, за чието съществуване до скоро не знаех &ndash; един колега ме &ldquo;открехна&rdquo;. Този стандарт позволява да управляваш XBMC-то си с дистанционното на телевизора, през HDMI кабела! И това работи … донякъде. На колегата на телевизора, например, който е Sony, работи без проблем. Сменяш HDMI входа на този от RPi и дори не ти е нужно друго устройство. На моя телевизор обаче (Philips), това работи от време на време. Имам чувството, че това е свързано донякъде с факта, че имам друго устройство на друг HDMI вход (за телевизията). Връзката обаче не е много ясна &ndash; понякога дистанционното работи когато устройството за телевизията е изключено, понякога когато е включено. Понякога опитвам да превключа на HDMI входа на RPi и да включвам и изключвам устройството за телевизията с надеждата да &ldquo;събудя&rdquo; връзката, но понякога работи, друг път &ndash; не. Ако имаш друг телевизор, обаче (например Sony), може би ще работи.</p>
+
+<p>Друго сериозно предимство на тази конфигурация е, че има много плъгини за XBMC. Можеш да намериш готов плъгин за много услуги (включително телевизии по интернет), а ако нещо много ти липсва, можеш да си направиш един :)</p>
+
+<p>Ако това не ти е достатъчно, имаш пълна Linux дистрибуция, включително SSH достъп (потребител: pi, парола: raspberry, хитро, а) и apt-get. Можеш да се опиташ да пуснеш каквото ти душа иска.</p>
+
+<h3>Обобщение</h3>
+
+<p>Raspberry Pi плюс RaspBMC е един много добър вариант за медия плейър. Устройството е малко и удобно, софтуера е надежден и се развива активно. Един колега дори си захранва RPi от USB порта на телевизора и го е закачил отзад, за да не се пречка. Да не говорим, че след сериозния интерес към RPi като цяло, можеш да си сигурен че нещата в бъдеще ще стават все по добри, Кой знае, някой ден дори може да не ти се налага да плащаш за телевизия ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Andy Rubin at D: Dive Into Mobile]]></title>
+    <link href="http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
+    <updated>2011-01-05T10:06:41+02:00</updated>
+    <id>http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
+    <content type="html"><![CDATA[<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>Това е пълното интервю с <a href="http://en.wikipedia.org/wiki/Andy_Rubin">Анди Рубин</a> от (вече) миналогодишната <a href="http://allthingsd.com/d/dive-into-mobile/">D: Dive Into Mobile</a> конференция (за конференциите на <a href="http://allthingsd.com/">All Things Digital</a> съм писал и <a href="http://buynov.com/2010/06/08/810">преди</a>).</p>
+
+<p>Анди Рубин има два успешни старъпа. Единият (така наречения <a href="http://en.wikipedia.org/wiki/T-Mobile_Sidekick">T-Mobile Sidekick</a>) е продал на Micro$oft, другият (а именно, <a href="http://www.android.com/">Android</a>) -  на Google. Това, само по себе си, би трябвало да ти говори достатъчно.</p>
+
+<p>Интервюто е дълго (около час и половина), но ако питаш мен, си струва. Приятно гледане!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[John's Phone]]></title>
+    <link href="http://buynov.github.io/blog/2010/11/16/johns-phone/"/>
+    <updated>2010-11-16T09:43:05+02:00</updated>
+    <id>http://buynov.github.io/blog/2010/11/16/johns-phone</id>
+    <content type="html"><![CDATA[<p>Това е НАЙ елементарният мобилен телефон. Списъкът с контактите направо цепи мрака &hellip;</p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"> </embed></object>
+
+
+<p>Най интересното е, че телефона изглежда е истински &ndash; можеш да го поръчаш <a href="http://www.johnsphones.com">оттук</a>. Цената не е много истинска, но пък от друга страна е доста изобретателно. iPhone вече не изглежда толкова оргинален, нали <strong>;)</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPad from Metro]]></title>
+    <link href="http://buynov.github.io/blog/2010/09/03/ipad-from-metro/"/>
+    <updated>2010-09-03T11:04:55+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/09/03/ipad-from-metro</id>
+    <content type="html"><![CDATA[<p><a href="/images/2010/09/iPad_v_Metro.png"><img src="/images/2010/09/iPad_v_Metro-242x300.png" alt="" /></a></p>
+
+<p>Невероятно, но факт &ndash; пуснали са <a href="http://www.apple.com/ipad/">iPad</a> в <a href="http://www.metro.bg">Метро</a>! Ако не вярваш, виж в <a href="http://metro.bg/pages/1102.aspx?0&amp;mm=10180&amp;cd=2&amp;kd=1&amp;pg=6">онлайн каталога</a> (трябва ти Метро карта).</p>
+
+<p> Цената не е толкова впечатляваща (като се има предвид, че същия модел в Щатите струва $499), но е по добра от <a href="http://laptopi-apple-i-pad-ot-notebook-bg.apple.laptopi.notebook.bg/laptop-apple-i-pad-16-gb-wi-fi/">други оферти</a> в България . Изумителното в случая (поне за мен) е, че са пуснали продукт на Apple във верига за продажба на едро, като Метро.</p>
+
+<p>Ако офертата ти харесва, побързай &ndash; изтича на 08 Септември. След това цената ще е по висока, подозирам.</p>
+
+<p>В този контекст, онзи ден Apple обявиха новото <a href="http://www.apple.com/appletv/">Apple TV</a>. Можеш да гледаш пълен запис на представянето <a href="http://www.apple.com/apple-events/september-2010/">тук</a> (тъкмо да си упражниш английския). Дори и да нямаш нито един продукт на Apple (като мен), презентациите на Стив Джобс си струва да се гледат.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mobile Biography]]></title>
+    <link href="http://buynov.github.io/blog/2010/04/22/mobile-biography/"/>
+    <updated>2010-04-22T09:48:25+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/04/22/mobile-biography</id>
+    <content type="html"><![CDATA[<p><a href="/images/2010/04/01_Ericsson_GA628.gif"><img src="/images/2010/04/01_Ericsson_GA628.gif" alt="" /></a></p>
+
+<p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=615">Ericsson GA-628</a></strong></p>
+
+<p>Година: <strong>1998</strong></p>
+
+<p>Взех го с предплатена карта на <a href="http://online.vodafone.co.uk/">Vodafone UK</a>. Не че можех да си го позволя, но не издържах на изкушението. Ericsson по онова време си беше един от водещите производители на телефони, а GA-628 се характеризираше с <strong>двуредов</strong> дисплей (за пиксели тогава, никой не говореше).</p>
+
+<p>Ползвах телефона около месец и след като се прибрах в България се опитах да го продам. Тогава разбрах, че телефоните можело да се &ldquo;кодират&rdquo; и за да работят с други мрежи, не на оператора от който си го закупил, трябва да си намериш човек, който да го разкодира. Срещу пари, естествено. Авантюрата, в края на краищата, ми излезе скъпо, но пък си беше яко по онова време да имаш мобилен телефон.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/02_Motorola_T2288.gif"><img src="/images/2010/04/02_Motorola_T2288.gif" alt="" /></a></p>
+
+<p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=401">Motorola T2288</a></strong></p>
+
+<p>Година: <strong>2000</strong></p>
+
+<p>Една приятелка ми го донесе от Германия. Номерът с &ldquo;разкодирането&rdquo; вече го знаех и този път ми излезе само 15 лева. Спомням си, че след като си получих телефона, се редих половин ден на опашка за SIM карта на единствения тогава оператор в България, <a href="http://mtel.net">Mobiltel</a>. Телефонът не беше нещо особено, но ставаше.</p>
+
+<hr />
+
+<!-- More -->
+
+
+<p><a href="/images/2010/04/03_Nokia_7110.jpg"><img src="/images/2010/04/03_Nokia_7110.jpg" alt="" /></a></p>
+
+<p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=183">Nokia 7110</a></strong></p>
+
+<p>Година: <strong>2002</strong></p>
+
+<p>Взех си телефона на старо &ndash; нямах пари да си го взема нов. Пък и модела беше донякъде морално остарял &ndash; беше излязъл преди две-три години (през 1999-та). Момчето, от което го взех, си беше взел чисто нов <a href="http://www.mobilebulgaria.com/mobiles/view.php?id=562">Nokia 6310</a> и затова продаваше 7110-ката.  Благородно му завиждах, че може да си го позволи.</p>
+
+<p>Иначе 7110, сам по себе си, беше доста добър телефон. Много хора бъркат, че това е модела, ползван във феномелната първа серия на &ldquo;<a href="http://www.imdb.com/title/tt0133093/">Матрицата</a>&rdquo; (сещаш се, пакета който Нео получи в офиса и в който имаше телефон) &ndash; това не е вярно. Там ползваха <a href="http://www.mobilebulgaria.com/mobiles/view.php?id=335">8110</a>.</p>
+
+<p>Спомням си че това беше първия телефон, на който си качвах мелодии (ringtone-ове). Даже имаше интернет сайтове, през които можеше да си изпратиш мелодия на телефона &ndash; на някои от тях при това, безплатно.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/04_SonyEricsson_P800.jpg"><img src="/images/2010/04/04_SonyEricsson_P800.jpg" alt="" /></a></p>
+
+<p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=118">Sony Ericsson P800</a></strong></p>
+
+<p>Година: <strong>2004</strong></p>
+
+<p>Уникален телефон, един от първите истински смарт-телефони. Истината е, че отидох в магазина с нагласата да си взема новата &ldquo;джапанка&rdquo; на Nokia (<a href="http://www.mobilebulgaria.com/mobiles/view.php?id=75">Nokia 6600</a>), но когато видях Sony Ericsson-а, не можах да се сдържа. Самата демонстрация се състоеше в това да ти пуснат рекламно филмче на самия телефон. А като поцъкаш малко и по touch-екрана, вече си &ldquo;олекнал&rdquo; с няколкостотин лева. Най интересното е, че това с видеото не беше трик &ndash; намирал съм си дългометражни филми, които можех да гледам на самия телефон.</p>
+
+<p>Уникално устройство, за времето си. Бях събрал едно DVD със софтуер, който съм намерил из нета &ndash; имаше симулатор за SEGA игри (който ти позволяваше да си пускаш SEGA игри на телефона), VNC клиент (е, вярно е че се виждаше само около 5% от десктопа, но все пак &hellip;), SSH клиент и още една карама друг софтуер. Уникално устройство.</p>
+
+<p>За малко да забравя &ndash; един от първите Symbian телефони на пазара. Да те подсетя &ndash; Nokia пуснаха първия си Symbian телефон с touch-екран през 2008 г., а P800 излезе 2002 г.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/05_SonyEricsson_K750i.jpg"><img src="/images/2010/04/05_SonyEricsson_K750i.jpg" alt="" /></a></p>
+
+<p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=775">Sony Ericsson K750i</a></strong></p>
+
+<p>Година: <strong>2006</strong></p>
+
+<p>Още един великолепен екземпляр от рафта на Sony Ericsson. Този път не толкова &ldquo;смарт&rdquo;, но все пак чудесен телефон. Това което ме изуми, е колко лесно свикнах да го ползвам и колко много ми хареса добре замисления му потребителски интерфейс. Още тогава, Sony Ericsson бяха &ldquo;измислили&rdquo; notification bar-а, който в момента го има на Андроид &ndash; като натиснеш бутона точно над джойстика, се покаваше екран с всички събития, аларми, обаждания, които си пропуснал.</p>
+
+<p>Това е и първия телефон, на който пробвах <a href="http://www.opera.com/mobile/">Opera Mini</a>, работеше перфектно. Великолепен телефон.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/06_Nokia_E66.jpg"><img src="/images/2010/04/06_Nokia_E66.jpg" alt="" /></a></p>
+
+<p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=1627">Nokia E66</a></strong></p>
+
+<p>Година: <strong>2008</strong></p>
+
+<p>Голямо разочарование. Така и не разбрах как Nokia са допуснали че някой, който си купи телефон от бизнес серията им (Eхх), ще остане доволен от устройство, чиято батерия &ldquo;пада&rdquo; всеки божи ден. Не можах да разбера защо, но дори и да говоря само 2-3 пъти на ден и да не правя почти нищо друго на телефона, батерията &ldquo;умираше&rdquo; за не повече от ден и половина. Повярвай ми, пробвах го &ndash; зареждам телефона, пускам task manager и убивам всички процеси, които не мисля за полезни и въпреки това след максимум ден и половина, телефона &ldquo;умира&rdquo;. Защото няма батерия. Абсурдно. Като добавиш и &ldquo;брадатия&rdquo; S60 интерфейс &hellip; огромно разочарование.</p>
+
+<p>Иначе като изработка телефона не беше никак зле &ndash; беше доста здрав и си личеше, че е качествен. Изпускал съм го няколко пъти на асфалт, на плочки и т.н. &ndash; нямаше и драскотина по корпуса. Механизмът за отваряне и затваряне също беше солиден. И браузърът не беше лош.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/07_HTC_Magic.jpg"><img src="/images/2010/04/07_HTC_Magic.jpg" alt="" /></a></p>
+
+<p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=1783">HTC Magic</a></strong></p>
+
+<p>Година: <strong>2009</strong></p>
+
+<p>От HTC Magic има много какво да се желае, но все пак имай предвид, че това е едва втория модел с Android. По едно време много се бях ядосал на HTC, защото оргиналния софтуер започна да бави доста и да ме изнервя, но тогава реших да експериментирам с ROM-ове на <a href="http://forum.xda-developers.com/forumdisplay.php?f=493">XDA Developers</a> и съм много доволен. <a href="http://en.wikipedia.org/wiki/HTC_Sense">HTC Sense</a> преобразява телефона и му дава нов живот. Ако имаш Android телефон, задължително му качи Sense &ndash; уникално добър е.</p>
+
+<p>За Magic <a href="/2009/09/24/440">съм писал</a> и преди, така че няма да изпадам в подробности.</p>
+
+<p>Какво се чудиш? Направи собствената си мобилна биография и постни линка като коментар.</p>
+
+<hr />
+
+<p>P.S. &ldquo;Откраднах&rdquo; идеята <a href="http://www.paxmodept.com/telesto/blogitem.htm?id=809">оттук</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

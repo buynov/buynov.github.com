@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: General | Buynov]]></title>
+  <link href="http://buynov.github.io/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://buynov.github.io/"/>
+  <updated>2013-09-17T16:05:16+03:00</updated>
+  <id>http://buynov.github.io/</id>
+  <author>
+    <name><![CDATA[Stefan Buynov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Buynov.com - 2 years later]]></title>
+    <link href="http://buynov.github.io/blog/2009/07/27/buynovcom-2-years-later/"/>
+    <updated>2009-07-27T22:53:29+03:00</updated>
+    <id>http://buynov.github.io/blog/2009/07/27/buynovcom-2-years-later</id>
+    <content type="html"><![CDATA[<p>Днес, 27 Юли, стават точно две години от <a href="/blog/2007/07/27/get-the-party-started-/">първия ми пост</a> в този блог. Реших, че по този повод си залужава да публикувам малко статистика за сайта.</p>
+
+<p>За две години съм публикувал <strong>41 отделни поста</strong> (този е 42) и две страници. В блога има <strong>115 коментара</strong>. Ето и най четените публикации според <a href="http://wordpress.org/extend/plugins/stats/">официалния плъгин на Wordpress.com</a>:</p>
+
+<table>
+    <tr>
+        <th width="10%"><strong>No</strong></th>
+        <th width="50%"><strong>Title</strong></th>
+        <th width="10%"><strong>Views</strong></th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td><a href="http://buynov.github.io/blog/2008/11/21/linksys-wrt54gl/">Linksys WRT54GL </td>
+        <td style="text-align:right;">349</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td><a href="http://buynov.github.io/blog/2008/12/05/phonetic-keyboard-layout-for-windows-vista/">Фонетична кирилица за Windows Vista</td>
+        <td style="text-align:right;">281</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td><a href="http://buynov.github.io/blog/2008/01/29/surva/">СУРВА</td>
+        <td style="text-align:right;">141</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td><a href="http://buynov.github.io/blog/2007/11/23/divide-et-impera/">Divide et impera</td>
+        <td style="text-align:right;">137</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td><a href="http://buynov.com/2007/08/12/9">За Васко</td>
+        <td style="text-align:right;">125</td>
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td><a href="http://buynov.github.io/blog/2007/09/03/how-to-become-a-manager/">Как да станеш мениджър.</td>
+        <td style="text-align:right;">117</td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td><a href="http://buynov.github.io/blog/2008/12/22/alehouse/">Alehouse</td>
+        <td style="text-align:right;">82</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td><a href="http://buynov.github.io/blog/2008/02/17/movies-part-i/">Филми, I-ва част</td>
+        <td style="text-align:right;">72</td>
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td><a href="http://buynov.github.io/blog/2007/09/15/something-to-drink/">Нещо за пиене?</td>
+        <td style="text-align:right;">62</td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td><a href="http://buynov.github.io/blog/2008/07/16/the-fan/">Фенът</td>
+        <td style="text-align:right;">54</td>
+    </tr>
+</table>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Fan]]></title>
+    <link href="http://buynov.github.io/blog/2008/07/16/the-fan/"/>
+    <updated>2008-07-16T20:39:50+03:00</updated>
+    <id>http://buynov.github.io/blog/2008/07/16/the-fan</id>
+    <content type="html"><![CDATA[<p>Може да е само един, но поне е доста колоритен :).</p>
+
+<p><a href="/images/2008/12/lyubo_front.jpg"><img src="/images/2008/12/lyubo_front.jpg" alt="" /></a></p>
+
+<p><a href="/images/2008/12/lyubo_back.jpg"><img src="/images/2008/12/lyubo_back.jpg" alt="" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Reminder!]]></title>
+    <link href="http://buynov.github.io/blog/2007/10/12/a-reminder/"/>
+    <updated>2007-10-12T21:38:03+03:00</updated>
+    <id>http://buynov.github.io/blog/2007/10/12/a-reminder</id>
+    <content type="html"><![CDATA[<p>Никога не забравяй, че <strong>И ТИ</strong> си резултат на <a href="http://www.pbs.org/wgbh/evolution/change/deeptime/index.html">милиарди години еволюция</a>.</p>
+
+<p>Това задължава &ndash; представяш ли си всичко да е било напразно?!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bilingual - what is it?]]></title>
+    <link href="http://buynov.github.io/blog/2007/08/03/bilingual-what-is-it/"/>
+    <updated>2007-08-03T00:57:47+03:00</updated>
+    <id>http://buynov.github.io/blog/2007/08/03/bilingual-what-is-it</id>
+    <content type="html"><![CDATA[<p>Вече няколко дни се опитвам да пусна блога на два езика &ndash; т.е. да мога да пиша на английски и български, и лесно да се преминава от едния пост към другия. Опитах няколко плъгина за <a href="http://wordpress.org/">WordPress</a>, включително <a href="http://www.fredfred.net/skriker/index.php/polyglot">Polyglot</a> и <a href="http://poplarware.com/languageplugin.html">Language Switcher</a>, но по една или друга причина не се получаваше. Сега обаче мисля че уцелих &ndash; свалих <strong><a href="http://jakobj.dk/blog/archives/38">jLanguage</a></strong> и той изглежда върши работа.</p>
+
+<p>Можеш сам да провериш, като цъкнеш на знаменцата в края на поста ;).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Get the party started ;)]]></title>
+    <link href="http://buynov.github.io/blog/2007/07/27/get-the-party-started-/"/>
+    <updated>2007-07-27T00:01:29+03:00</updated>
+    <id>http://buynov.github.io/blog/2007/07/27/get-the-party-started-</id>
+    <content type="html"><![CDATA[<p>Всеки IT специалист трябва да присъства в мрежата. Въпрос на престиж.</p>
+
+<p>Регистрираш си домейн, купуваш си хостинг и оттам нататък &ndash; каквото душа ти поиска. Бих те посъветвал да потърсиш хостинг със CPanel &ndash; много добър инструмент. Да не говорим че ти дава всичко, от което имаш нужда, включително CMS, Blog, Image Gallery, etc.</p>
+
+<p>Няма  какво да го умуваш &ndash; ти IT професионалист ли си, или не ?!</p>
+]]></content>
+  </entry>
+  
+</feed>

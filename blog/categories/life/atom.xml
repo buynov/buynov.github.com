@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Life | Buynov]]></title>
+  <link href="http://buynov.github.io/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://buynov.github.io/"/>
+  <updated>2013-09-17T16:05:16+03:00</updated>
+  <id>http://buynov.github.io/</id>
+  <author>
+    <name><![CDATA[Stefan Buynov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Digital Natives]]></title>
+    <link href="http://buynov.github.io/blog/2011/06/23/digital-natives/"/>
+    <updated>2011-06-23T11:10:15+03:00</updated>
+    <id>http://buynov.github.io/blog/2011/06/23/digital-natives</id>
+    <content type="html"><![CDATA[<p><strong>Предупреждение</strong>: Клипчето е реклама. Но си струва :)</p>
+
+<iframe width="560" height="349" src="http://www.youtube.com/embed/_eq3Sj1GGs8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Germany and Benelux 2011]]></title>
+    <link href="http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011/"/>
+    <updated>2011-06-10T10:53:45+03:00</updated>
+    <id>http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011</id>
+    <content type="html"><![CDATA[<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
+
+
+<p>Вижте <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;source=embed">Germany and Benelux</a> на по-голяма карта</p>
+
+<p><strong>Девет дни</strong> (21 Май 04:30 &ndash; 29 Май 22:00), <strong>5300 километра</strong> (виж картата), <strong>6 европейски столици</strong> (Берлин, Амстердам, Брюксел, Люксембург, Любляна, Загреб), <strong>2 бирени столици</strong> (Радеберг/Radeberger, Фрайзинг/Weihenstephan), <strong>още 6 европейски града</strong> (Дрезден, Лайпциг, Майнц, Щутгарт, Мюнхен, Блед),  Mazda CX7, трима приятели &ndash; безценно!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Problems and Solutions]]></title>
+    <link href="http://buynov.github.io/blog/2010/11/10/problems-and-solutions/"/>
+    <updated>2010-11-10T21:12:53+02:00</updated>
+    <id>http://buynov.github.io/blog/2010/11/10/problems-and-solutions</id>
+    <content type="html"><![CDATA[<p><a href="/images/2010/11/community.jpg"><img src="/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
+
+<p>Вчера отидох на сайта на <a href="http://eclipse.org/">Eclipse</a>, да сваля последната версия (JEE edition, ако трябва да уточнявам). Отидох на <a href="http://eclipse.org/home/categories/index.php?category=enterprise">Enterprise Java</a> &ndash;> <strong>Eclipse IDE for Java EE Developers</strong> и download-а тръгна, но ми направи впечатление че версията, която започна да се сваля, е стара (не е от последния, Helios release). Слава богу, версията я има в името на файла. Отидох на <a href="http://www.eclipse.org/downloads/">Downloads</a> и там успях да си сваля актуалната, последна версия.</p>
+
+<p>Позачудих се обаче, какво да направя, за да се реши проблема с линка на сайта. Сетих се, че Eclipse общността си има система за докладване и проследяване на проблеми, <a href="https://bugs.eclipse.org/bugs/">Bugzilla</a>. Отидох там и създадох нов бъг, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329827">329827</a>. След около 15-тина минути, проблема беше оправен (виж времето между първия и предпоследния коментар в бъга).</p>
+
+<p>Сега, реално погледнато, можеше и нищо да не правя. Не само това, но можеше да разправям наляво-надясно какви тъпаци са тия от Eclipse и как сайта им е супер &ldquo;дървен&rdquo; и линковете не работят. Типично по български. Аз обаче се понапънах и направих друго.</p>
+
+<p>Оставям на теб да прецениш кой е по правилния подход.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TED.com - in Bulgarian!]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian/"/>
+    <updated>2010-06-03T08:32:02+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian</id>
+    <content type="html"><![CDATA[<p><a href="/images/2010/06/TED-BG.png"><img src="/images/2010/06/TED-BG.png" alt="" /></a></p>
+
+<p>Може и да не е новина, но днес забелязах, че някои от TED презентациите имат субтитри. Включително и на български!</p>
+
+<p>Ето няколко от любимите ми филмчета, за които има субтитри на български (гледай ги, няма да съжаляваш):</p>
+
+<ul>
+<li><a href="http://www.ted.com/index.php/talks/lang/bul/ken_robinson_says_schools_kill_creativity.html">Кен Робинсън казва че училищата убиват творчеството</a></li>
+<li><a href="http://www.ted.com/index.php/talks/lang/bul/david_pogue_says_simplicity_sells.html">Дейвид Поуг казва &ldquo;Простотата продава&rdquo;</a></li>
+<li><a href="http://www.ted.com/index.php/talks/lang/bul/al_gore_on_averting_climate_crisis.html?ga_source=embed">Ал Гор за предотвратяването на климатичните промени</a></li>
+<li><a href="http://www.ted.com/talks/lang/bul/dan_gilbert_asks_why_are_we_happy.html">Дан Гилбърт пита: &ldquo;Защо сме щастливи?&rdquo;</a></li>
+</ul>
+
+
+<p>Ето и още филмчета, преведени на български:</p>
+
+<p><a href="http://www.ted.com/translate/languages/bul">Talks in Bulgarian</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["No Matter What" Guarantee]]></title>
+    <link href="http://buynov.github.io/blog/2010/03/18/no-matter-what-guarantee/"/>
+    <updated>2010-03-18T08:21:42+02:00</updated>
+    <id>http://buynov.github.io/blog/2010/03/18/no-matter-what-guarantee</id>
+    <content type="html"><![CDATA[<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/5LRnq3ooGDc&amp;hl=en_US&amp;fs=1&amp;" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/5LRnq3ooGDc&amp;hl=en_US&amp;fs=1&amp;" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>Ей на <a href="https://www.nomatterwhatguarantee.com/main_structure.php?page=home">ТОВА</a> му викам аз ГАРАНЦИЯ:</p>
+
+<blockquote><p><strong>Гаранция за вашето пълно удовлетворение</strong>
+Можете да върнете лаптопа си до 14 календарни дни след датата на покупка. Лаптопът не трябва да е повреден и не трябва да липсва нищо от него. Toshiba ще замени лаптопа ви или ще ви върне парите.
+<em>(fantastic, whooho, fantastic, fantastic)</em></p>
+
+<p><strong>Застраховка от случайна повреда</strong>
+Гаранцията покрива всякакъв вид щети или случайни повреди на лаптопа ви, които пречат на нормалната му работа. Toshiba ще замени или ще ремонтира лаптопа ви.
+<em>(great, great, yupee)</em></p>
+
+<p><strong>Застраховка срещу кражба</strong>
+Гаранцията покрива кражба на лаптопа, при условие че сте я регистрирали в полицията. Toshiba ще замени лаптопа ви.
+<em>(wonderful, yahoo, wonderful, wonderful)</em></p>
+
+<p><strong>Застраховка срещу загуба на работа</strong> <em>(!!! &ndash; това ми е любимото)</em>
+От 1ви май 2009 г. Toshiba ви предлага допълнителна застраховка, в случай че останете без работа. <strong>Toshiba ще ви върне парите, а вие ще можете да задържите лаптопа</strong>, в случай че трудовият ви договор бъде прекратен за повече от 3 месеца.</p></blockquote>
+
+<p>Промоционалната гаранция важи до 31 Март и изглежда е в сила само за държавите, <a href="http://www.nomatterwhatguarantee.com">изброени тук</a>. За да се възползваш от офертата, трябва да регистрираш новозакупения си лаптоп Toshiba в 7-дневен срок на два уеб сайта: <a href="http://www.toshiba-europe.com/registration">този за активация на стандартната гаранция</a> и <a href="http://www.nomatterwhatguarantee.com">този за промоцията</a>. Промоционалната гаранция важи само в рамките на България и само за пълнолетни български граждани. Не може да регистрираш лаптоп, закупен на изплащане.</p>
+
+<p>Къде е &ldquo;уловката&rdquo;? Имаш право само на една рекламация в рамките на една година.
+Ако решиш да се възползваш, добре е да погледнеш секция <strong>5. Изключения от промоцията</strong> от <a href="https://www.nomatterwhatguarantee.com/download/TC_Trust_Toshiba_BG.pdf">Общите условия</a> на промоцията. Гаранцията не важи, например, ако си жертва на кражба без взлом или без насилие (малко цинично звучи, но искат документ от полицията или медицинско).</p>
+
+<p>Въпреки условностите, офертата си я бива. Също така, ако се съди по <a href="https://www.nomatterwhatguarantee.com/content/tc_show_BG.php?reg=0">страницата с Общите условия</a>, е и регулярна.</p>
+]]></content>
+  </entry>
+  
+</feed>

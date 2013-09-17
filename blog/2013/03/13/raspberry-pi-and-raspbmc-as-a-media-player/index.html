@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Raspberry Pi and RaspBMC as a Media Player - Buynov</title>
+  <meta name="author" content="Stefan Buynov">
+
+  
+  <meta name="description" content="Малко Предистория Есента си купих телевизор (Philips 46PFL5537K/12). Телевизорът е LED, има 3D (не че това има значение), вграден WiFi, Smart TV и т. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Buynov" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9025872-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:buynov.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+    <li><a href="/">
+        <span class="blue_light">
+            Buynov
+        </span>
+       
+           <span class="blue_dark">
+             Memento Mori
+           </span>
+       
+    </a></li>
+  <li><a href="/blog/archives">All Posts</a></li>
+  <li><a href="/mines">Mines</a></li>
+  <li><a href="/buynomobile">Buynomobile</a></li>
+  <li><a href="/about">About me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Raspberry Pi and RaspBMC as a Media Player</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-13T10:36:17+02:00" pubdate data-updated="true">13 Mar 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h3>Малко Предистория</h3>
+
+<p>Есента си купих телевизор (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). Телевизорът е LED, има 3D (не че това има значение), вграден WiFi, Smart TV и т.н. На хартия изглеждаше супер, а и цената беше приемлива. Картината, в интерес на истината, е доста добра &ndash; и слава богу, защото това в един телевизор е може би основното. Софтуерът, обаче, е зле. Много зле. Поддържат се уж някакви стандарти, има уж някакви канали и програми, но всичко е толкова бавно, недодялано и нeдомислено, че общо взето не си струва човек да се занимава. Без да изпадам в подробности (а с подробностите не съм и много запознат, защото бързо загубих интерес), ще кажа че медия плейъра на телевизора не ме удовлетвори (меко казано, не поддържа никакви субтитри на кирилица) и реших да си взема външен. Ориентирах се към <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, който е може би най добрия вариант като сравниш цената и качеството. Бързо се навих и го поръчах. Беше около Коледа и дали заради това, или заради друго, но се оказа че този модел в момента го няма в България. Никъде. Нямало внос. Това само по нашите географски ширини може да се случи &ndash; да можеш да поръчаш нещо от Амазон във Великобритания, например, но местния доставчик да го мързи да се напъне да направи доставка. Както и да е.</p>
+
+<h3><a href="/images/2013/03/RPi_front_small.jpg"><img src="/images/2013/03/RPi_front_small.jpg" alt="" /></a></h3>
+
+<p>В търсене на алтернатива, се заиграх с <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (или RPi накратко) на един колега. Взех го за един уикенд, инсталирах <a href="http://www.raspbmc.com/">RaspBMC</a>, вързах го за телевизора с HDMI и всичко тръгна! Няколко филма, снимки, всичко вървеше без проблем. Срещу 35 евро (плюс няколко други неща, виж по долу) без ДДС (ако си гледал новини за $35, тук все пак е Европа ;)), можех да си &ldquo;сглобя&rdquo; медия плейър, и то доста добър. При това, Raspberry Pi (или RPi накратко) си е компютър, който можеш да ползваш и за сървър &ndash; четох че някои хора си хостват и Wordpress блога на него. Повечето имиджи за RPi са Debian базирани (включително официалния <a href="http://www.raspbian.org/">Raspbian</a> и <a href="http://www.raspbmc.com/">RaspBMC</a>, който аз предпочитам), така че имаш доста пакети готови за инсталация.</p>
+
+<!-- More -->
+
+
+<h3>Малко Информация за Raspberry Pi</h3>
+
+<p>В случай че не знаеш, <a href="http://www.raspberrypi.org/">Raspberry Pi</a> е евтин миниатюрен компютър, разработен от независима фондация, първоначално с цел да се популяризират компютрите и &ldquo;играта&rdquo; с тях в образованието, най вече сред подрастващите (каква дума само). На практика, обаче, RPi доби огромна популярност най вече сред децата над 20-30 години и вече има две версии на &ldquo;железарията&rdquo;, като по всичко изглежда, че ще се развива бурно и в бъдеще.</p>
+
+<h3></h3>
+
+<p>Имай предвид, че това не е готов компютър &ndash; самото RPi е една &ldquo;гола&rdquo; платка и за да го ползваш, ще ти трябват още микро USB захранващ кабел, SD флаш карта (не е зле да се консултираш първо с <a href="http://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards">този списък</a> ) и HDMI кабел за връзка с монитор или телевизор. Можеш да си вземеш и други аксесоари, като кутийка, клавиатура, мишка, WiFi адаптер и т.н., но имай предвид че някои са безсмислено скъпи (изглежда някои хора се опитват да изкарат лесни пари от популярността на продукта). Най общо казано, RPi е като конструктор и изисква &ldquo;направи си сам&rdquo; подход &ndash; ако това те притеснява и предпочиташ всичко да работи на готово, RPi не е за теб.</p>
+
+<h3><a href="/images/2013/03/RPi_sideways_small.jpg"><img src="/images/2013/03/RPi_sideways_small.jpg" alt="" /></a></h3>
+
+<h3>Малко Ограничения</h3>
+
+<p>RPi е с ARM процесор, което ще рече, че поне на този етап, на него не можеш да инсталираш Windows. Microsoft вече имат версия на Windows за ARM (<a href="http://en.wikipedia.org/wiki/Windows_RT">Windows RT</a>), но не съм видял някой да го е пускал на RPi. А и предвид сериозните му изисквания (<a href="http://www.tomshardware.com/news/Surface-Windows-RT-Microsoft-windows-8,18536.html">за дисково пространство</a>, например), може и да не се случи.</p>
+
+<h3>Малко Логистика</h3>
+
+<p>RPi има само два официални дистрибутора в света &ndash; <a href="http://www.farnell.com/">Farnell</a> и <a href="http://www.rs-components.com">RS Components</a>. За щастие, единият от тези, Farnell, има официален представител в България &ndash; а именно, <a href="http://www.comet.bg/">Комет</a>. Можеш да си поръчаш RPi и от сайтове извън България (Амазон, например), но едва ли ще ти излезе по евтино. Аз си взех моето от Комет и не съжалявам. Хората да доста отзивчиви &ndash; цялата комуникация протече по мейла, като почти винаги получавах отговор до няколко часа. Отговориха на всичките ми въпроси и ми дадоха актуална цена преди да поръчам. Освен самото RPi, от Комет можеш да поръчаш и <a href="http://store.comet.bg/bg/CatalogueFarnell/Search/?keywords=raspberry#eyJpcHAiOiIxMCIsImsiOiJyYXNwYmVycnkifQ%3D%3D">всички аксесоари</a>, които Farnell предлагат (имай предвид че търсачката на Комет е малко странна и отнема време докато зареди резултатите, без да има индикация за това). При поръчка, Комет доставят през Speedy или Еконт &ndash; около 10 лева в рамките на София, например. Можеш да си вземеш нещата и от техен офис &ndash; има един някъде около попа. Аз си взех и <a href="http://bg.farnell.com/multicomp/mc-rp001-clr/enclosure-raspberry-pi-clear/dp/2113799#">прозрачна кутийка</a>, която е доста симпатична.</p>
+
+<h3><a href="/images/2013/03/xbmc_theater.jpg"><img src="/images/2013/03/xbmc_theater.jpg" alt="" /></a></h3>
+
+<h3>Малък Медия Плейър</h3>
+
+<p>Когато чуеш компютър, нормално е да си представиш базова периферия като клавиатура и мишка. Принципно можеш да вържеш такива към RPi, но с RaspBMC това не е задължително, дори не е нужно. RaspBMC всъщност е Debian с <a href="http://xbmc.org/">XBMC</a> като потребителски интерфейс. Името на XBMC идва от Xbox Media Center, или иначе казано медия плейър наподобяващ интерфейса на Xbox. Софтуерът е доста развит и стабилен, последната версия е 12, и го има от доста време. XBMC е с отворен изходен код и има доста допълнения/плъгини за него. Най важното е, че едно XBMC може да бъде управлявано по много различни начини, включително през уеб контролен панел (който на RaspBMC е пуснат по подразбиране), приложения за &ldquo;умни&rdquo; телефони (аз ползвам <a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree">това</a>, много е добро), а понеже поддържа <a href="http://en.wikipedia.org/wiki/Digital_Living_Network_Alliance">DLNA</a>, можеш да ползваш и DLNA контролери, като <a href="http://www.imediashare.tv/">iMediaShare</a>. Накратко, взимаш си SD флаш картата от RPi, инсталираш RaspBMC на компютър, слагаш картата в RPi и го стартираш. Всичко работи чудесно. Отново, ако инсталиране, конфигуриране и подобни неща те притесняват, RPi не е за теб. Провери WD Live, може би вече е наличен ;)</p>
+
+<h3>Малко Екстри</h3>
+
+<p>С RaspBMC идва и една не особено популярна, но важна библиотека &ndash; <a href="http://libcec.pulse-eight.com/">libCEC</a>. Тя имплементира един стандарт, <a href="http://en.wikipedia.org/wiki/HDMI#CEC">CEC</a>, за чието съществуване до скоро не знаех &ndash; един колега ме &ldquo;открехна&rdquo;. Този стандарт позволява да управляваш XBMC-то си с дистанционното на телевизора, през HDMI кабела! И това работи … донякъде. На колегата на телевизора, например, който е Sony, работи без проблем. Сменяш HDMI входа на този от RPi и дори не ти е нужно друго устройство. На моя телевизор обаче (Philips), това работи от време на време. Имам чувството, че това е свързано донякъде с факта, че имам друго устройство на друг HDMI вход (за телевизията). Връзката обаче не е много ясна &ndash; понякога дистанционното работи когато устройството за телевизията е изключено, понякога когато е включено. Понякога опитвам да превключа на HDMI входа на RPi и да включвам и изключвам устройството за телевизията с надеждата да &ldquo;събудя&rdquo; връзката, но понякога работи, друг път &ndash; не. Ако имаш друг телевизор, обаче (например Sony), може би ще работи.</p>
+
+<p>Друго сериозно предимство на тази конфигурация е, че има много плъгини за XBMC. Можеш да намериш готов плъгин за много услуги (включително телевизии по интернет), а ако нещо много ти липсва, можеш да си направиш един :)</p>
+
+<p>Ако това не ти е достатъчно, имаш пълна Linux дистрибуция, включително SSH достъп (потребител: pi, парола: raspberry, хитро, а) и apt-get. Можеш да се опиташ да пуснеш каквото ти душа иска.</p>
+
+<h3>Обобщение</h3>
+
+<p>Raspberry Pi плюс RaspBMC е един много добър вариант за медия плейър. Устройството е малко и удобно, софтуера е надежден и се развива активно. Един колега дори си захранва RPi от USB порта на телевизора и го е закачил отзад, за да не се пречка. Да не говорим, че след сериозния интерес към RPi като цяло, можеш да си сигурен че нещата в бъдеще ще стават все по добри, Кой знае, някой ден дори може да не ти се налага да плащаш за телевизия ;)</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Stefan Buynov</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-13T10:36:17+02:00" pubdate data-updated="true">13 Mar 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/entertainment/'>Entertainment</a>, <a class='category' href='/blog/categories/gadgets/'>Gadgets</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/" data-via="buynov" data-counturl="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/03/20/motivation/" title="Previous Post: Motivation">&laquo; Motivation</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+<section>
+<a class="twitter-timeline"  href="https://twitter.com/buynov" data-widget-id="263722348220391424">Tweets by @buynov</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/">Raspberry Pi and RaspBMC as a Media Player</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/20/motivation/">Motivation</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/23/digital-natives/">Digital Natives</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/10/germany-and-benelux-2011/">Germany and Benelux 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/04/12/bears-downtown-sofia/">Bears, downtown Sofia</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/buynov">@buynov</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'buynov',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/105419545613893436649?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Stefan Buynov -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

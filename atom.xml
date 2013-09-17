@@ -4,7 +4,7 @@
   <title><![CDATA[Buynov]]></title>
   <link href="http://buynov.github.io/atom.xml" rel="self"/>
   <link href="http://buynov.github.io/"/>
-  <updated>2013-09-14T13:54:23+03:00</updated>
+  <updated>2013-09-17T16:05:16+03:00</updated>
   <id>http://buynov.github.io/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
@@ -12,5 +12,426 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi and RaspBMC as a Media Player]]></title>
+    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <updated>2013-03-13T10:36:17+02:00</updated>
+    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <content type="html"><![CDATA[<h3>Малко Предистория</h3>
+
+<p>Есента си купих телевизор (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). Телевизорът е LED, има 3D (не че това има значение), вграден WiFi, Smart TV и т.н. На хартия изглеждаше супер, а и цената беше приемлива. Картината, в интерес на истината, е доста добра &ndash; и слава богу, защото това в един телевизор е може би основното. Софтуерът, обаче, е зле. Много зле. Поддържат се уж някакви стандарти, има уж някакви канали и програми, но всичко е толкова бавно, недодялано и нeдомислено, че общо взето не си струва човек да се занимава. Без да изпадам в подробности (а с подробностите не съм и много запознат, защото бързо загубих интерес), ще кажа че медия плейъра на телевизора не ме удовлетвори (меко казано, не поддържа никакви субтитри на кирилица) и реших да си взема външен. Ориентирах се към <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, който е може би най добрия вариант като сравниш цената и качеството. Бързо се навих и го поръчах. Беше около Коледа и дали заради това, или заради друго, но се оказа че този модел в момента го няма в България. Никъде. Нямало внос. Това само по нашите географски ширини може да се случи &ndash; да можеш да поръчаш нещо от Амазон във Великобритания, например, но местния доставчик да го мързи да се напъне да направи доставка. Както и да е.</p>
+
+<h3><a href="http://buynov.github.io/images/2013/03/RPi_front_small.jpg"><img src="http://buynov.github.io/images/2013/03/RPi_front_small.jpg" alt="" /></a></h3>
+
+<p>В търсене на алтернатива, се заиграх с <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (или RPi накратко) на един колега. Взех го за един уикенд, инсталирах <a href="http://www.raspbmc.com/">RaspBMC</a>, вързах го за телевизора с HDMI и всичко тръгна! Няколко филма, снимки, всичко вървеше без проблем. Срещу 35 евро (плюс няколко други неща, виж по долу) без ДДС (ако си гледал новини за $35, тук все пак е Европа ;)), можех да си &ldquo;сглобя&rdquo; медия плейър, и то доста добър. При това, Raspberry Pi (или RPi накратко) си е компютър, който можеш да ползваш и за сървър &ndash; четох че някои хора си хостват и Wordpress блога на него. Повечето имиджи за RPi са Debian базирани (включително официалния <a href="http://www.raspbian.org/">Raspbian</a> и <a href="http://www.raspbmc.com/">RaspBMC</a>, който аз предпочитам), така че имаш доста пакети готови за инсталация.</p>
+
+<!-- More -->
+
+
+<h3>Малко Информация за Raspberry Pi</h3>
+
+<p>В случай че не знаеш, <a href="http://www.raspberrypi.org/">Raspberry Pi</a> е евтин миниатюрен компютър, разработен от независима фондация, първоначално с цел да се популяризират компютрите и &ldquo;играта&rdquo; с тях в образованието, най вече сред подрастващите (каква дума само). На практика, обаче, RPi доби огромна популярност най вече сред децата над 20-30 години и вече има две версии на &ldquo;железарията&rdquo;, като по всичко изглежда, че ще се развива бурно и в бъдеще.</p>
+
+<h3></h3>
+
+<p>Имай предвид, че това не е готов компютър &ndash; самото RPi е една &ldquo;гола&rdquo; платка и за да го ползваш, ще ти трябват още микро USB захранващ кабел, SD флаш карта (не е зле да се консултираш първо с <a href="http://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards">този списък</a> ) и HDMI кабел за връзка с монитор или телевизор. Можеш да си вземеш и други аксесоари, като кутийка, клавиатура, мишка, WiFi адаптер и т.н., но имай предвид че някои са безсмислено скъпи (изглежда някои хора се опитват да изкарат лесни пари от популярността на продукта). Най общо казано, RPi е като конструктор и изисква &ldquo;направи си сам&rdquo; подход &ndash; ако това те притеснява и предпочиташ всичко да работи на готово, RPi не е за теб.</p>
+
+<h3><a href="http://buynov.github.io/images/2013/03/RPi_sideways_small.jpg"><img src="http://buynov.github.io/images/2013/03/RPi_sideways_small.jpg" alt="" /></a></h3>
+
+<h3>Малко Ограничения</h3>
+
+<p>RPi е с ARM процесор, което ще рече, че поне на този етап, на него не можеш да инсталираш Windows. Microsoft вече имат версия на Windows за ARM (<a href="http://en.wikipedia.org/wiki/Windows_RT">Windows RT</a>), но не съм видял някой да го е пускал на RPi. А и предвид сериозните му изисквания (<a href="http://www.tomshardware.com/news/Surface-Windows-RT-Microsoft-windows-8,18536.html">за дисково пространство</a>, например), може и да не се случи.</p>
+
+<h3>Малко Логистика</h3>
+
+<p>RPi има само два официални дистрибутора в света &ndash; <a href="http://www.farnell.com/">Farnell</a> и <a href="http://www.rs-components.com">RS Components</a>. За щастие, единият от тези, Farnell, има официален представител в България &ndash; а именно, <a href="http://www.comet.bg/">Комет</a>. Можеш да си поръчаш RPi и от сайтове извън България (Амазон, например), но едва ли ще ти излезе по евтино. Аз си взех моето от Комет и не съжалявам. Хората да доста отзивчиви &ndash; цялата комуникация протече по мейла, като почти винаги получавах отговор до няколко часа. Отговориха на всичките ми въпроси и ми дадоха актуална цена преди да поръчам. Освен самото RPi, от Комет можеш да поръчаш и <a href="http://store.comet.bg/bg/CatalogueFarnell/Search/?keywords=raspberry#eyJpcHAiOiIxMCIsImsiOiJyYXNwYmVycnkifQ%3D%3D">всички аксесоари</a>, които Farnell предлагат (имай предвид че търсачката на Комет е малко странна и отнема време докато зареди резултатите, без да има индикация за това). При поръчка, Комет доставят през Speedy или Еконт &ndash; около 10 лева в рамките на София, например. Можеш да си вземеш нещата и от техен офис &ndash; има един някъде около попа. Аз си взех и <a href="http://bg.farnell.com/multicomp/mc-rp001-clr/enclosure-raspberry-pi-clear/dp/2113799#">прозрачна кутийка</a>, която е доста симпатична.</p>
+
+<h3><a href="http://buynov.github.io/images/2013/03/xbmc_theater.jpg"><img src="http://buynov.github.io/images/2013/03/xbmc_theater.jpg" alt="" /></a></h3>
+
+<h3>Малък Медия Плейър</h3>
+
+<p>Когато чуеш компютър, нормално е да си представиш базова периферия като клавиатура и мишка. Принципно можеш да вържеш такива към RPi, но с RaspBMC това не е задължително, дори не е нужно. RaspBMC всъщност е Debian с <a href="http://xbmc.org/">XBMC</a> като потребителски интерфейс. Името на XBMC идва от Xbox Media Center, или иначе казано медия плейър наподобяващ интерфейса на Xbox. Софтуерът е доста развит и стабилен, последната версия е 12, и го има от доста време. XBMC е с отворен изходен код и има доста допълнения/плъгини за него. Най важното е, че едно XBMC може да бъде управлявано по много различни начини, включително през уеб контролен панел (който на RaspBMC е пуснат по подразбиране), приложения за &ldquo;умни&rdquo; телефони (аз ползвам <a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree">това</a>, много е добро), а понеже поддържа <a href="http://en.wikipedia.org/wiki/Digital_Living_Network_Alliance">DLNA</a>, можеш да ползваш и DLNA контролери, като <a href="http://www.imediashare.tv/">iMediaShare</a>. Накратко, взимаш си SD флаш картата от RPi, инсталираш RaspBMC на компютър, слагаш картата в RPi и го стартираш. Всичко работи чудесно. Отново, ако инсталиране, конфигуриране и подобни неща те притесняват, RPi не е за теб. Провери WD Live, може би вече е наличен ;)</p>
+
+<h3>Малко Екстри</h3>
+
+<p>С RaspBMC идва и една не особено популярна, но важна библиотека &ndash; <a href="http://libcec.pulse-eight.com/">libCEC</a>. Тя имплементира един стандарт, <a href="http://en.wikipedia.org/wiki/HDMI#CEC">CEC</a>, за чието съществуване до скоро не знаех &ndash; един колега ме &ldquo;открехна&rdquo;. Този стандарт позволява да управляваш XBMC-то си с дистанционното на телевизора, през HDMI кабела! И това работи … донякъде. На колегата на телевизора, например, който е Sony, работи без проблем. Сменяш HDMI входа на този от RPi и дори не ти е нужно друго устройство. На моя телевизор обаче (Philips), това работи от време на време. Имам чувството, че това е свързано донякъде с факта, че имам друго устройство на друг HDMI вход (за телевизията). Връзката обаче не е много ясна &ndash; понякога дистанционното работи когато устройството за телевизията е изключено, понякога когато е включено. Понякога опитвам да превключа на HDMI входа на RPi и да включвам и изключвам устройството за телевизията с надеждата да &ldquo;събудя&rdquo; връзката, но понякога работи, друг път &ndash; не. Ако имаш друг телевизор, обаче (например Sony), може би ще работи.</p>
+
+<p>Друго сериозно предимство на тази конфигурация е, че има много плъгини за XBMC. Можеш да намериш готов плъгин за много услуги (включително телевизии по интернет), а ако нещо много ти липсва, можеш да си направиш един :)</p>
+
+<p>Ако това не ти е достатъчно, имаш пълна Linux дистрибуция, включително SSH достъп (потребител: pi, парола: raspberry, хитро, а) и apt-get. Можеш да се опиташ да пуснеш каквото ти душа иска.</p>
+
+<h3>Обобщение</h3>
+
+<p>Raspberry Pi плюс RaspBMC е един много добър вариант за медия плейър. Устройството е малко и удобно, софтуера е надежден и се развива активно. Един колега дори си захранва RPi от USB порта на телевизора и го е закачил отзад, за да не се пречка. Да не говорим, че след сериозния интерес към RPi като цяло, можеш да си сигурен че нещата в бъдеще ще стават все по добри, Кой знае, някой ден дори може да не ти се налага да плащаш за телевизия ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Motivation]]></title>
+    <link href="http://buynov.github.io/blog/2012/03/20/motivation/"/>
+    <updated>2012-03-20T10:22:45+02:00</updated>
+    <id>http://buynov.github.io/blog/2012/03/20/motivation</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2012/02/motivation.jpg"><img src="http://buynov.github.io/images/2012/02/motivation.jpg" alt="" /></a></p>
+
+<p>Една <a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">статия</a> на <a href="http://joelonsoftware.com/items/2012/02/13.html">Джоел Сполски</a> ми напомни за уводния ми курс по мениджмънт в университета. Има (само) една тема, която много добре си спомням от този курс &ndash; теориите за човешката мотивация.
+В общи линии има <a href="http://en.wikipedia.org/wiki/Theory_X_and_theory_Y">две</a> (добре де &ndash; <a href="http://en.wikipedia.org/wiki/Theory_Z">три</a>, ако трябва да сме точни, но третата се отнася основно за Азия). Основната разлика е във възгледа за хората/служителите и подхода им към работата:</p>
+
+<p><strong>Теория X</strong></p>
+
+<p>Тази теория предполага, че служителите са мързеливи, не харесват работата си и биха избягвали да я свършат при всяка възможност. Мениджърите не трябва да вярват на служителите и трябва да ги &ldquo;наглеждат&rdquo; по всяко време, ако искат да се свърши каквото и да е полезно. Служителите ще вършат работа само ако бъдат принудени да го правят, трябва да бъдат обвинявани за всяка грешка и основният им интерес в работата са парите.</p>
+
+<p><strong>Теория Y</strong></p>
+
+<p>Тази теория предполага, че хората са склонни да бъдат инициативни, когато им се даде такава възможност, да бъдат мотивирани и да вършат повече, отколкото се очаква от тях. При подходящите условия, хората ще приемат отговорност, ще бъдат отдадени на работата от само себе си, и ще чувстват нуждата да постигат целите дори само заради удовлетворението от собствените си постижения.</p>
+
+<!-- More -->
+
+
+<p>Има няколко пасажа от статията на Джоел, които ми харесаха &ndash; може би именно заради тяхната провокативност (превода е на автора):</p>
+
+<blockquote><p>Оказва се, че е категорично демотивиращо да работиш за компания, където работата ти е да мълчиш и да приемаш заповеди. В страната на технологичните старт-ъпи, инстинктивно усещаме че трябва да наемаме супер умни хора, но забравяме, че трябва да организираме работната сила така, че хората да използват уменията си 24/7.</p>
+
+<p>&hellip;</p>
+
+<p>&ldquo;Мениджърският екип&rdquo; не е екипът, който &ldquo;взема решенията&rdquo;. Това е поддържаща функция. Трябва да ги наричаме Администрация, вместо Мениджмънт, за да не им позволяваме да надвишат своите правомощия.</p></blockquote>
+
+<p>Администрацията не би трябвало да взима трудните решения. Тя не знае достатъчно. Всички тези супер гениални специалисти по компютърни науки, които трябваше да наемеш от MIT срещу крупно заплащане би трябвало да вземат трудните решения. За това им плащаш&hellip;</p>
+
+<p><a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">Статията</a> си струва &ndash; съветвам те да я прочетеш.</p>
+
+<p>П.П. Донякъде по темата &ndash; <a href="http://buynov.com/2007/09/03/16">разсъжденията ми</a> от преди няколко години.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Digital Natives]]></title>
+    <link href="http://buynov.github.io/blog/2011/06/23/digital-natives/"/>
+    <updated>2011-06-23T11:10:15+03:00</updated>
+    <id>http://buynov.github.io/blog/2011/06/23/digital-natives</id>
+    <content type="html"><![CDATA[<p><strong>Предупреждение</strong>: Клипчето е реклама. Но си струва :)</p>
+
+<iframe width="560" height="349" src="http://www.youtube.com/embed/_eq3Sj1GGs8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Germany and Benelux 2011]]></title>
+    <link href="http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011/"/>
+    <updated>2011-06-10T10:53:45+03:00</updated>
+    <id>http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011</id>
+    <content type="html"><![CDATA[<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
+
+
+<p>Вижте <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;source=embed">Germany and Benelux</a> на по-голяма карта</p>
+
+<p><strong>Девет дни</strong> (21 Май 04:30 &ndash; 29 Май 22:00), <strong>5300 километра</strong> (виж картата), <strong>6 европейски столици</strong> (Берлин, Амстердам, Брюксел, Люксембург, Любляна, Загреб), <strong>2 бирени столици</strong> (Радеберг/Radeberger, Фрайзинг/Weihenstephan), <strong>още 6 европейски града</strong> (Дрезден, Лайпциг, Майнц, Щутгарт, Мюнхен, Блед),  Mazda CX7, трима приятели &ndash; безценно!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bears, downtown Sofia]]></title>
+    <link href="http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia/"/>
+    <updated>2011-04-12T10:33:39+03:00</updated>
+    <id>http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia</id>
+    <content type="html"><![CDATA[<p>Повече от 120 мечки обикалят света от 2003 година насам. Повече информация, <a href="http://www.buddy-baer.com/united-buddy-bears/world-tour/sofija-2011.html">тук</a>.
+Добрата новина е, че мечките са в София до началото на Май месец, на <a href="http://bg360.net/pano/sofia/sveta-nedelya.php">площад Света Неделя</a> до едноименната църква.</p>
+
+<p>И както можеш да се увериш от фото материала по долу, Кубинската мечка е най-добрия приятел на Българската мечка ;)</p>
+
+<p><a href="http://buynov.github.io/gallery/sofia-bears/dsc02629.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02630.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02646.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02647.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02648.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02649.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02655.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02662.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02667.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02679.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02691.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02694.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02695.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02698.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg" alt="" /></a>
+<a href="http://buynov.github.io/gallery/sofia-bears/dsc02699.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg" alt="" /></a></p>
+
+<p>Ами освен да се разходиш и да ги разгледаш?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Andy Rubin at D: Dive Into Mobile]]></title>
+    <link href="http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
+    <updated>2011-01-05T10:06:41+02:00</updated>
+    <id>http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
+    <content type="html"><![CDATA[<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>Това е пълното интервю с <a href="http://en.wikipedia.org/wiki/Andy_Rubin">Анди Рубин</a> от (вече) миналогодишната <a href="http://allthingsd.com/d/dive-into-mobile/">D: Dive Into Mobile</a> конференция (за конференциите на <a href="http://allthingsd.com/">All Things Digital</a> съм писал и <a href="http://buynov.com/2010/06/08/810">преди</a>).</p>
+
+<p>Анди Рубин има два успешни старъпа. Единият (така наречения <a href="http://en.wikipedia.org/wiki/T-Mobile_Sidekick">T-Mobile Sidekick</a>) е продал на Micro$oft, другият (а именно, <a href="http://www.android.com/">Android</a>) -  на Google. Това, само по себе си, би трябвало да ти говори достатъчно.</p>
+
+<p>Интервюто е дълго (около час и половина), но ако питаш мен, си струва. Приятно гледане!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[John's Phone]]></title>
+    <link href="http://buynov.github.io/blog/2010/11/16/johns-phone/"/>
+    <updated>2010-11-16T09:43:05+02:00</updated>
+    <id>http://buynov.github.io/blog/2010/11/16/johns-phone</id>
+    <content type="html"><![CDATA[<p>Това е НАЙ елементарният мобилен телефон. Списъкът с контактите направо цепи мрака &hellip;</p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"> </embed></object>
+
+
+<p>Най интересното е, че телефона изглежда е истински &ndash; можеш да го поръчаш <a href="http://www.johnsphones.com">оттук</a>. Цената не е много истинска, но пък от друга страна е доста изобретателно. iPhone вече не изглежда толкова оргинален, нали <strong>;)</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Problems and Solutions]]></title>
+    <link href="http://buynov.github.io/blog/2010/11/10/problems-and-solutions/"/>
+    <updated>2010-11-10T21:12:53+02:00</updated>
+    <id>http://buynov.github.io/blog/2010/11/10/problems-and-solutions</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/11/community.jpg"><img src="http://buynov.github.io/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
+
+<p>Вчера отидох на сайта на <a href="http://eclipse.org/">Eclipse</a>, да сваля последната версия (JEE edition, ако трябва да уточнявам). Отидох на <a href="http://eclipse.org/home/categories/index.php?category=enterprise">Enterprise Java</a> &ndash;> <strong>Eclipse IDE for Java EE Developers</strong> и download-а тръгна, но ми направи впечатление че версията, която започна да се сваля, е стара (не е от последния, Helios release). Слава богу, версията я има в името на файла. Отидох на <a href="http://www.eclipse.org/downloads/">Downloads</a> и там успях да си сваля актуалната, последна версия.</p>
+
+<p>Позачудих се обаче, какво да направя, за да се реши проблема с линка на сайта. Сетих се, че Eclipse общността си има система за докладване и проследяване на проблеми, <a href="https://bugs.eclipse.org/bugs/">Bugzilla</a>. Отидох там и създадох нов бъг, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329827">329827</a>. След около 15-тина минути, проблема беше оправен (виж времето между първия и предпоследния коментар в бъга).</p>
+
+<p>Сега, реално погледнато, можеше и нищо да не правя. Не само това, но можеше да разправям наляво-надясно какви тъпаци са тия от Eclipse и как сайта им е супер &ldquo;дървен&rdquo; и линковете не работят. Типично по български. Аз обаче се понапънах и направих друго.</p>
+
+<p>Оставям на теб да прецениш кой е по правилния подход.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPad from Metro]]></title>
+    <link href="http://buynov.github.io/blog/2010/09/03/ipad-from-metro/"/>
+    <updated>2010-09-03T11:04:55+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/09/03/ipad-from-metro</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/09/iPad_v_Metro.png"><img src="http://buynov.github.io/images/2010/09/iPad_v_Metro-242x300.png" alt="" /></a></p>
+
+<p>Невероятно, но факт &ndash; пуснали са <a href="http://www.apple.com/ipad/">iPad</a> в <a href="http://www.metro.bg">Метро</a>! Ако не вярваш, виж в <a href="http://metro.bg/pages/1102.aspx?0&amp;mm=10180&amp;cd=2&amp;kd=1&amp;pg=6">онлайн каталога</a> (трябва ти Метро карта).</p>
+
+<p> Цената не е толкова впечатляваща (като се има предвид, че същия модел в Щатите струва $499), но е по добра от <a href="http://laptopi-apple-i-pad-ot-notebook-bg.apple.laptopi.notebook.bg/laptop-apple-i-pad-16-gb-wi-fi/">други оферти</a> в България . Изумителното в случая (поне за мен) е, че са пуснали продукт на Apple във верига за продажба на едро, като Метро.</p>
+
+<p>Ако офертата ти харесва, побързай &ndash; изтича на 08 Септември. След това цената ще е по висока, подозирам.</p>
+
+<p>В този контекст, онзи ден Apple обявиха новото <a href="http://www.apple.com/appletv/">Apple TV</a>. Можеш да гледаш пълен запис на представянето <a href="http://www.apple.com/apple-events/september-2010/">тук</a> (тъкмо да си упражниш английския). Дори и да нямаш нито един продукт на Apple (като мен), презентациите на Стив Джобс си струва да се гледат.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[InitialSetup - Internet/Network Applications]]></title>
+    <link href="http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
+    <updated>2010-08-25T11:32:08+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
+    <content type="html"><![CDATA[<p>На USB флашката/паметта, която нося със себе си, имам една директория  (InitialSetup) със софтуер за Windows, който регулярно актуализирам (с  по нови версии на програмите). Инсталирам го всеки път, когато ми се  налага да правя нова инсталация на моя компютър или на този на приятели.  Това са програми, които съм ползвал дълго време и съм останал доволен  от надеждността им. Всички те са безплатни, някои са и с открит изходен  код. Ще ги изредя в поредица от 4 отделни поста &ndash; надявам се да бъдат  полезни и на теб.</p>
+
+<p>Разделих приложенията условно на следните четири категории (това ще бъдат и постовете по темата):</p>
+
+<ol>
+<li>. <a href="http://buynov.github.io/blog/2010/04/08/initialsetup-system-tools/"><strong>Системни инструменти</strong></a></li>
+<li>. <strong>Интернет/Мрежови приложения</strong> (този пост)</li>
+<li>. <strong>Офис приложения/Инструменти за работа с документи</strong></li>
+<li>. <strong>Приложения за мултимедия</strong></li>
+</ol>
+
+
+<hr />
+
+<h3>Браузъри</h3>
+
+<p>Има поне три браузъра, които са много по добри от <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Internet Explorer</a> по няколко причини. По сигурни са (в смисъла на <strong>Софтуер за сигурност и защита </strong>от <a href="http://buynov.com/2010/04/08/123">предишния пост</a> по темата), по бързи са и предлагат допълнителна функционалност, която IE няма.</p>
+
+<ul>
+<li><p><a href="http://www.mozilla.com"><strong>Firefox</strong></a> &ndash; Основният конкурент на Internet Explorer според <a href="http://en.wikipedia.org/wiki/Usage_share_of_web_browsers">статистиките</a> за ползвани браузъри в интернет. Освен че е доста бърз и надежден, Firefox се слави с това, че най стриктно се придържа към официаните стандарти на интернет (разбирай на <a href="http://www.w3.org/">W3C</a>). Изключително полезен е факта, че Firefox може да бъде &ldquo;надграждан&rdquo; с различни добавки, които да улеснят работата ти в интернет, а и не само. Можеш да си инсталираш, например, иконки на статус бара долу на браузъра, да те уведомяват когато имаш получен имейл (без да се налага всеки път да си влизаш в пощата, за да провериш), да блокираш Flash рекламите от сайтовете, които посещаваш, да си инсталираш допълнителни функции към Gmail и <a href="https://addons.mozilla.org">още една камара</a> такива приложения.</p></li>
+<li><p><a href="http://www.opera.com/"><strong>Opera </strong></a>&ndash; Освен че предлагат най разпространения браузър за мобилни телефони, <a href="http://www.opera.com/mobile/">Opera Mini</a>, Opera от край време предлагат и такъв за десктоп. Много бърз браузър, който на времето за първи път въведе браузването с табове (т.е. вместо за всеки нов сайт да ти се отваря нов браузър прозорец, се отваря нов таб в същия прозорец). В момента това го има във всички модерни браузъри, но Opera бяха първи. Екипът на Opera си остават иноватори, като първи въведоха и т.нар. Speed Dial &ndash; при отваряне на нов празен прозорец/таб, ти дава preview на 9те най посещавани от теб сайтове (или такива, които си си конфигурирал) и ти дава възможност лесно да отидеш на някой от тях. В момента същата функционалност я има и в Google Chrome. Но не забравяй, че Opera бяха първи и в това. Opera също предлагат възможността за добавки (<a href="http://www.opera.com/widgets/">widgets</a>), но изборът е доста по беден, от тези за Firefox.</p></li>
+<li><p><a href="http://www.google.com/chrome"><strong>Google Chrome</strong></a> &ndash; Браузърът на Google бавно (но сигурно) набира скорост и е базиран на същата библиотека с отворен код (<a href="http://webkit.org/">WebKit</a>), на която е базиран и браузъра на Apple, <a href="http://www.apple.com/safari/">Safari</a>. Наскоро също предложи възможност за <a href="https://chrome.google.com/extensions">добавки</a>, което със сигурност ще предизвика още по сериозен интерес. Любопитното при него е, че се актуализира автоматично (без да пита потребителя) и всеки уеб сайт се отваря в отделен процес &ndash; т.е. ако една страница, която си отворил &ldquo;забие&rdquo;, другите си остават &ldquo;непокътнати&rdquo;.</p></li>
+<li><p><a href="http://www.launchy.net/"><strong>Launchy</strong></a> &ndash; Launchy не е точно браузър, но мисля че това е най подходящата категория за него. Преди време <a href="http://buynov.com/2007/08/27/15">бях писал</a> за тази изключително полезна програмка и честно казано от тогава го ползвам доста интензивно. Наистина полезен инструмент за стартиране на приложения, без да се налага да ги търсиш из Start менюто. Натискаш <strong>Alt + Space</strong>, започваш да пишеш името на приложението, което искаш да стартираш и Launchy ще ти предложи програмите, които е намерил. Пробвай го, няма да съжаляваш.</p></li>
+</ul>
+
+
+<!-- More -->
+
+
+<hr />
+
+<h3>Мениджъри за сваляне на файлове / Торенти</h3>
+
+<ul>
+<li><p><strong><a href="http://www.utorrent.com/">uTorrent</a> </strong>&ndash; В днешно време не е нужно да си &ldquo;пират&rdquo;, за да ползваш torrent клиент. Много сайтове предлагат сваляне на софтуер чрез торенти, за да намалят натоварването на сървърите си. uTorrent е уникално малък (инсталационния файл е само 300к!) и бърз клиент, който не натоварва машината ти излишно. В същото време се справя чудесно със свалянето на избраните торенти.</p></li>
+<li><p><a href="http://www.vuze.com/"><strong>Azureus / Vuze</strong></a> &ndash; Много дълго време ползвах Azureus (още преди да го прекръстят на Vuze), преди да попадна на uTorrent. Основната причина да спра да го ползвам, е че е доста по &ldquo;тромав&rdquo; &ndash; зарежда бавно и след това осезаемо &ldquo;товари&rdquo; машината. Въпреки това е един от най добрите торент клиенти и се справя чудесно със свалянето дори когато други клиенти не успяват. Наспоследък във Vuze вкараха доста мултимедийни възможности, които да го превърнат в нещо като Медия Център (а не просто поредния торент клиент).</p></li>
+<li><p><a href="http://www.downthemall.net/"><strong>DownThemAll!</strong></a> &ndash; Добавка за Firefox, която се справя по добре от Download manager-а, който идва вграден във Firefox. Може да сваля файлове по бързо и поддържа продължаване на download-а, ако връзката прекъсне (и сървъра от който сваляш го поддържа). Има и чудесна <strong>dTa OneClick!</strong> функция, която позволява лесно да избереш директория, в която да се свали файла (от последните директории, които си ползвал).</p></li>
+</ul>
+
+
+<hr />
+
+<h3>Клиенти за съобщения</h3>
+
+<ul>
+<li><p><strong><a href="http://www.skype.com">Skype</a> </strong>&ndash; Най популярната програма за разговори през интернет, вследствие на което се превърна и в един от най популярните клиенти за обмяна на съобщения. Характерно за Skype е, че комуникацията е по сигурна. Съобщенията изпратени в Skype не минават през централен сървър и са криптирани, вследствие на което е (почти) невъзможно &ldquo;разговора&rdquo; да бъде подслушан. Недостатък на тази технология е, че ако изпратиш съобщение на някой, който не е онлайн, той ще получи съобщението чак когато и двамата сте онлайн по едно и също време.</p></li>
+<li><p><strong><a href="http://www.miranda-im.org/">Miranda</a> </strong>&ndash; Чудесен, малък клиент за моментни съобщения за Windows. Може да го ползваш за ICQ, MSN Messenger, Yahoo Messenger и не на последно място, Jabber. Малък е, не натоварва компютъра и е доста бърз и надежден. Доскоро основният му проблем беше неугледния потребителски интерфейс, но в последните версии това се подобрява &ndash; вкарват по приятни и изпипани иконки.</p></li>
+</ul>
+
+
+<hr />
+
+<h3>Отдалечен достъп</h3>
+
+<ul>
+<li><p><strong><a href="http://filezilla-project.org/">FileZilla</a> </strong>&ndash; Чудесен FTP клиент с отворен код. Има локализация на български.</p></li>
+<li><p><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/"><strong>Putty</strong></a> &ndash; Ако ти се налага да достъпваш други машини (Linux предимно) през SSH, това е клиентЪТ за Windows. Интерфейсът му е доста остарял и изглежда малко недодялан, но върши чудесна работа и когато го ползваш известно време, спира да ти прави впечатление.</p></li>
+<li><p><strong><a href="http://winscp.net">WinSCP</a> </strong>&ndash; Чудесен клиент за трансфер на файлове през SCP и SFTP. Интерфейсът напомня Norton Commander и помага лесно и безпроблемно да се прехвърлят файлове от и към Linux/Unix машини.</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An interview with Anatoly Karpov]]></title>
+    <link href="http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
+    <updated>2010-07-07T10:00:48+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
+    <content type="html"><![CDATA[<p>Любопитно интервю с Анатолий Карпов, <a href="http://en.wikipedia.org/wiki/World_Chess_Championship#Undisputed_world_champions_1886.E2.80.931993">12-тият</a> световен шампион по шахмат, който в момента води кампания да стане президент на <a href="http://www.fide.com/">ФИДЕ</a> (световната шахматна федерация).</p>
+
+<p>За начина му на игра, кое е важно, за да станеш добър шахматист, за Каспаров, Фишер, Морфи и трябва ли да си луд, за да си световен шампион по шахмат (ако питаш мен, сигурно помага).</p>
+
+<p><a href="http://bigthink.com/ideas/big-think-interview-with-anatoly-karpov">Big Think Interview with Anatoly Karpov</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bianor blog posts: June '10]]></title>
+    <link href="http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10/"/>
+    <updated>2010-07-02T10:00:32+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10</id>
+    <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/06/mobile_app_development.jpg" alt="" /></p>
+
+<h3><a href="http://www.bianor.com/blog/developers-perspective-on-android-blackberry-iphone-symbian/">Developer’s Perspective on Android, BlackBerry, iPhone &amp; Symbian</a></h3>
+
+<p><a href="http://www.bianor.com/blog/author/stefanbuynov/feed/">RSS Feed</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[World Cup 2010]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/21/world-cup-2010/"/>
+    <updated>2010-06-21T09:00:55+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/21/world-cup-2010</id>
+    <content type="html"><![CDATA[<p><a href="http://www.fifa.com"><img src="http://buynov.github.io/images/2010/06/world_cup_2010.jpg" alt="FIFA World Cup 2010" /></a></p>
+
+<p>По различно е някак (в добрия смисъл), когато има Световно Първенство по Футбол. Друго си е да знаеш, че има по три мача на ден, и те всички са с потенциала да сътворят <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061464/index.html">една</a> или <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061482/index.html">друга</a> изненада. По повод на световната купа е и един от най добрите <a href="http://twitter.com/">tweet-ове</a>, на които попаднах наскоро (превода е на автора):</p>
+
+<blockquote><p>Английският отбор по футбол посети сиропиталище в Кейп Таун днес. &ldquo;Сърцераздирателно е да гледаш тъжните им малки личица, без капка надежда в очите&rdquo; каза Джамал, на 6 години.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Steve Jobs at D8: The Full Interview]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/"/>
+    <updated>2010-06-08T08:29:34+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview</id>
+    <content type="html"><![CDATA[<p>Това е пълното интервю на Стив Джобс от тазгодишната <a href="http://allthingsd.com/d/">D8 конференция</a> (организирана от <a href="http://allthingsd.com">All Things Digital</a>), която се проведе миналата седмица.</p>
+
+<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>На същата конференция, преди 3 години (на <a href="http://allthingsd.com/d/gallery/d5/">D5</a>), Бил Гейтс и Стив Джобс дадоха безпрецедентно интервю заедно.</p>
+
+<p>Още интервюта от тазгодишния D8 можеш да намериш <a href="http://d8.allthingsd.com/">тук</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Our Hero]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/05/our-hero/"/>
+    <updated>2010-06-05T10:00:33+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/05/our-hero</id>
+    <content type="html"><![CDATA[<object width="560" height="325"><param name="movie" value="http://en.tackfilm.se/loader.swf?shareID=1263497705613RA20&folder=12634"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://en.tackfilm.se/loader.swf?shareID=1263497705613RA20&folder=12634" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="325"></embed></object>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TED.com - in Bulgarian!]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian/"/>
+    <updated>2010-06-03T08:32:02+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/06/TED-BG.png"><img src="http://buynov.github.io/images/2010/06/TED-BG.png" alt="" /></a></p>
+
+<p>Може и да не е новина, но днес забелязах, че някои от TED презентациите имат субтитри. Включително и на български!</p>
+
+<p>Ето няколко от любимите ми филмчета, за които има субтитри на български (гледай ги, няма да съжаляваш):</p>
+
+<ul>
+<li><a href="http://www.ted.com/index.php/talks/lang/bul/ken_robinson_says_schools_kill_creativity.html">Кен Робинсън казва че училищата убиват творчеството</a></li>
+<li><a href="http://www.ted.com/index.php/talks/lang/bul/david_pogue_says_simplicity_sells.html">Дейвид Поуг казва &ldquo;Простотата продава&rdquo;</a></li>
+<li><a href="http://www.ted.com/index.php/talks/lang/bul/al_gore_on_averting_climate_crisis.html?ga_source=embed">Ал Гор за предотвратяването на климатичните промени</a></li>
+<li><a href="http://www.ted.com/talks/lang/bul/dan_gilbert_asks_why_are_we_happy.html">Дан Гилбърт пита: &ldquo;Защо сме щастливи?&rdquo;</a></li>
+</ul>
+
+
+<p>Ето и още филмчета, преведени на български:</p>
+
+<p><a href="http://www.ted.com/translate/languages/bul">Talks in Bulgarian</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bianor blog posts: May '10]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10/"/>
+    <updated>2010-06-01T08:10:50+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10</id>
+    <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/05/apple_android.jpg" alt="" /></p>
+
+<h3><a href="http://www.bianor.com/blog/open-vs-proprietary-mobile-software-did-apple-learn-the-history-lesson/">Open  vs Proprietary Mobile Software: Did Apple Learn the History Lesson?</a></h3>
+
+<p><a href="http://www.bianor.com/blog/author/stefanbuynov/feed/">RSS Feed</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Conan O'Brien at Google]]></title>
+    <link href="http://buynov.github.io/blog/2010/05/19/conan-obrien-at-google/"/>
+    <updated>2010-05-19T08:37:30+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/05/19/conan-obrien-at-google</id>
+    <content type="html"><![CDATA[<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/u7TwqpWiY5s&hl=en_US&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/u7TwqpWiY5s&hl=en_US&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Triumph of the Nerds]]></title>
+    <link href="http://buynov.github.io/blog/2010/05/13/triumph-of-the-nerds/"/>
+    <updated>2010-05-13T08:36:00+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/05/13/triumph-of-the-nerds</id>
+    <content type="html"><![CDATA[<p>&ldquo;<a href="http://www.imdb.com/title/tt0115398/">Триумфът на нърдовете</a>&rdquo; е доста интересен документален филм за зората на персоналните компютри и хората, които са движели (и са се облагодетелствали от) процеса. Включително Стив Джобс, Бил Гейтс, Стив Уозняк, Пол Алън, Лари Елисън и т.н. Във филма участва дори <a href="http://bg.wikipedia.org/wiki/%D0%94%D1%8A%D0%B3%D0%BB%D0%B0%D1%81_%D0%90%D0%B4%D0%B0%D0%BC%D1%81">Дългас Адамс</a>.</p>
+
+<p>Филмът можеш да гледаш в YouTube, <a href="http://www.youtube.com/watch?v=3jV3JdtaOGc&amp;feature=PlayList&amp;p=4D5CD637F73C24C7&amp;playnext_from=PL&amp;index=0&amp;playnext=1">тук</a>, или да си го свалиш <a href="http://www.tinyurl.com/5t5ruq">оттук</a> (виж коментара към филмчето в YouTube).</p>
+
+<p>Кадри от този филм са използвани в повечето филмчета за Стив Джобс и Бил Гейтс в YouTube, например, включително и в тази 10 минутна биография на Стив Джобс (имай предвид, че филмчето е старо и приключва преди пускането на първия iPhone).</p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="505" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/0MwD-TZ6r9Y&amp;hl=en_US&amp;fs=1&amp;" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="505" src="http://www.youtube.com/v/0MwD-TZ6r9Y&amp;hl=en_US&amp;fs=1&amp;" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Virtual keyboard in Google search]]></title>
+    <link href="http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
+    <updated>2010-04-30T08:01:45+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/04/VirtualKeyboardInGoogle-BG.png"><img src="http://buynov.github.io/images/2010/04/VirtualKeyboardInGoogle-BG.png" alt="" /></a></p>
+]]></content>
+  </entry>
   
 </feed>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Business | Buynov]]></title>
+  <link href="http://buynov.github.io/blog/categories/business/atom.xml" rel="self"/>
+  <link href="http://buynov.github.io/"/>
+  <updated>2013-09-17T16:05:16+03:00</updated>
+  <id>http://buynov.github.io/</id>
+  <author>
+    <name><![CDATA[Stefan Buynov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Motivation]]></title>
+    <link href="http://buynov.github.io/blog/2012/03/20/motivation/"/>
+    <updated>2012-03-20T10:22:45+02:00</updated>
+    <id>http://buynov.github.io/blog/2012/03/20/motivation</id>
+    <content type="html"><![CDATA[<p><a href="/images/2012/02/motivation.jpg"><img src="/images/2012/02/motivation.jpg" alt="" /></a></p>
+
+<p>Една <a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">статия</a> на <a href="http://joelonsoftware.com/items/2012/02/13.html">Джоел Сполски</a> ми напомни за уводния ми курс по мениджмънт в университета. Има (само) една тема, която много добре си спомням от този курс &ndash; теориите за човешката мотивация.
+В общи линии има <a href="http://en.wikipedia.org/wiki/Theory_X_and_theory_Y">две</a> (добре де &ndash; <a href="http://en.wikipedia.org/wiki/Theory_Z">три</a>, ако трябва да сме точни, но третата се отнася основно за Азия). Основната разлика е във възгледа за хората/служителите и подхода им към работата:</p>
+
+<p><strong>Теория X</strong></p>
+
+<p>Тази теория предполага, че служителите са мързеливи, не харесват работата си и биха избягвали да я свършат при всяка възможност. Мениджърите не трябва да вярват на служителите и трябва да ги &ldquo;наглеждат&rdquo; по всяко време, ако искат да се свърши каквото и да е полезно. Служителите ще вършат работа само ако бъдат принудени да го правят, трябва да бъдат обвинявани за всяка грешка и основният им интерес в работата са парите.</p>
+
+<p><strong>Теория Y</strong></p>
+
+<p>Тази теория предполага, че хората са склонни да бъдат инициативни, когато им се даде такава възможност, да бъдат мотивирани и да вършат повече, отколкото се очаква от тях. При подходящите условия, хората ще приемат отговорност, ще бъдат отдадени на работата от само себе си, и ще чувстват нуждата да постигат целите дори само заради удовлетворението от собствените си постижения.</p>
+
+<!-- More -->
+
+
+<p>Има няколко пасажа от статията на Джоел, които ми харесаха &ndash; може би именно заради тяхната провокативност (превода е на автора):</p>
+
+<blockquote><p>Оказва се, че е категорично демотивиращо да работиш за компания, където работата ти е да мълчиш и да приемаш заповеди. В страната на технологичните старт-ъпи, инстинктивно усещаме че трябва да наемаме супер умни хора, но забравяме, че трябва да организираме работната сила така, че хората да използват уменията си 24/7.</p>
+
+<p>&hellip;</p>
+
+<p>&ldquo;Мениджърският екип&rdquo; не е екипът, който &ldquo;взема решенията&rdquo;. Това е поддържаща функция. Трябва да ги наричаме Администрация, вместо Мениджмънт, за да не им позволяваме да надвишат своите правомощия.</p></blockquote>
+
+<p>Администрацията не би трябвало да взима трудните решения. Тя не знае достатъчно. Всички тези супер гениални специалисти по компютърни науки, които трябваше да наемеш от MIT срещу крупно заплащане би трябвало да вземат трудните решения. За това им плащаш&hellip;</p>
+
+<p><a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">Статията</a> си струва &ndash; съветвам те да я прочетеш.</p>
+
+<p>П.П. Донякъде по темата &ndash; <a href="http://buynov.com/2007/09/03/16">разсъжденията ми</a> от преди няколко години.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Andy Rubin at D: Dive Into Mobile]]></title>
+    <link href="http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
+    <updated>2011-01-05T10:06:41+02:00</updated>
+    <id>http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
+    <content type="html"><![CDATA[<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>Това е пълното интервю с <a href="http://en.wikipedia.org/wiki/Andy_Rubin">Анди Рубин</a> от (вече) миналогодишната <a href="http://allthingsd.com/d/dive-into-mobile/">D: Dive Into Mobile</a> конференция (за конференциите на <a href="http://allthingsd.com/">All Things Digital</a> съм писал и <a href="http://buynov.com/2010/06/08/810">преди</a>).</p>
+
+<p>Анди Рубин има два успешни старъпа. Единият (така наречения <a href="http://en.wikipedia.org/wiki/T-Mobile_Sidekick">T-Mobile Sidekick</a>) е продал на Micro$oft, другият (а именно, <a href="http://www.android.com/">Android</a>) -  на Google. Това, само по себе си, би трябвало да ти говори достатъчно.</p>
+
+<p>Интервюто е дълго (около час и половина), но ако питаш мен, си струва. Приятно гледане!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bianor blog posts: June '10]]></title>
+    <link href="http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10/"/>
+    <updated>2010-07-02T10:00:32+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10</id>
+    <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/06/mobile_app_development.jpg" alt="" /></p>
+
+<h3><a href="http://www.bianor.com/blog/developers-perspective-on-android-blackberry-iphone-symbian/">Developer’s Perspective on Android, BlackBerry, iPhone &amp; Symbian</a></h3>
+
+<p><a href="http://www.bianor.com/blog/author/stefanbuynov/feed/">RSS Feed</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Steve Jobs at D8: The Full Interview]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/"/>
+    <updated>2010-06-08T08:29:34+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview</id>
+    <content type="html"><![CDATA[<p>Това е пълното интервю на Стив Джобс от тазгодишната <a href="http://allthingsd.com/d/">D8 конференция</a> (организирана от <a href="http://allthingsd.com">All Things Digital</a>), която се проведе миналата седмица.</p>
+
+<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>На същата конференция, преди 3 години (на <a href="http://allthingsd.com/d/gallery/d5/">D5</a>), Бил Гейтс и Стив Джобс дадоха безпрецедентно интервю заедно.</p>
+
+<p>Още интервюта от тазгодишния D8 можеш да намериш <a href="http://d8.allthingsd.com/">тук</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bianor blog posts: May '10]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10/"/>
+    <updated>2010-06-01T08:10:50+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10</id>
+    <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/05/apple_android.jpg" alt="" /></p>
+
+<h3><a href="http://www.bianor.com/blog/open-vs-proprietary-mobile-software-did-apple-learn-the-history-lesson/">Open  vs Proprietary Mobile Software: Did Apple Learn the History Lesson?</a></h3>
+
+<p><a href="http://www.bianor.com/blog/author/stefanbuynov/feed/">RSS Feed</a></p>
+]]></content>
+  </entry>
+  
+</feed>
