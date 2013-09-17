@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2008-12-22 17:27:32+00:00
 layout: post
@@ -10,8 +10,8 @@ categories:
 - Entertainment
 ---
 
-[![Аlehouse, Sofia](http://buynov.com/wordpress/wp-content/uploads/2008/12/alehouse.jpg)
-](http://buynov.com/wordpress/wp-content/uploads/2008/12/alehouse.jpg)
+[![Аlehouse, Sofia](/images/2008/12/alehouse.jpg)
+](/images/2008/12/alehouse.jpg)
 
 [bulgarian]Днес посетих интересно ново заведение в София - [Alehouse](http://www.programata.bg/?p=75&l=1&c=1&id=5244). Заведението се намира на [улица "Христо Белчев" No 42](http://maps.google.com/maps?f=q&hl=bg&geocode=&q=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F,+%D1%83%D0%BB.+%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE+%D0%91%D0%B5%D0%BB%D1%87%D0%B5%D0%B2+42&sll=37.0625,-95.677068&sspn=51.222969,114.257812&ie=UTF8&z=16&g=%D0%A1%D0%BE%D1%84%D0%B8%D1%8F,+%D1%83%D0%BB.+%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE+%D0%91%D0%B5%D0%BB%D1%87%D0%B5%D0%B2+42&iwloc=addr) и е уникално с това, че можеш сам да си наливаш бирата (виж снимката). Има инсталация, която предоставя кранче за всяка маса, отчитащо изпитото количество бира на грамаж (виж индикатора на снимката, показва 0.55 литра - едва започвахме ;)).
 

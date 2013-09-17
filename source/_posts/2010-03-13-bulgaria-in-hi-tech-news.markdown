@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2010-03-13 10:51:28+00:00
 layout: post
@@ -10,7 +10,7 @@ categories:
 - Gadgets
 ---
 
-[![](http://buynov.com/wordpress/wp-content/uploads/2010/03/engadget.jpg)](http://www.engadget.com/)
+[![](/images/2010/03/engadget.jpg)](http://www.engadget.com/)
 
 [bulgarian]Не се слува често България да влезе в световните Hi-Tech новини - още повече пък с това, че тук за първи път в Европа ще се предлага определен модел мобилен телефон (всъщност новината не е самия телефон, а това че идва с Android 2.1):
 

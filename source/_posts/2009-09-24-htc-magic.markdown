@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2009-09-24 05:23:07+00:00
 layout: post
@@ -10,7 +10,9 @@ categories:
 - Gadgets
 ---
 
-[![HTC Magic](http://buynov.com/wordpress/wp-content/uploads/2009/09/HTC_magic.jpg)](http://globul.bg/bg/promotion.html?id=602)[bulgarian]След доста чудене и четене (на спецификации и ревюта), си купих [HTC Magic](http://www.htc.com/europe/product/magic/overview.html).
+[![HTC Magic](/images/2009/09/HTC_magic.jpg)](http://globul.bg/bg/promotion.html?id=602)
+
+[bulgarian]След доста чудене и четене (на спецификации и ревюта), си купих [HTC Magic](http://www.htc.com/europe/product/magic/overview.html).
 
 По едно време доста се бях навил да си взема [iPhone](http://www.apple.com/iphone) (и ако си следил блога, сигурно си го забелязал). Основната причина беше, че iPhone се предлага от оператора, който ползвам, [Globul](http://globul.bg/), и се предлага с доста добри (като за България) [планове за трансфер на данни](http://globul.bg/bg/iphone_programs.html), което за такъв тип устройства е изключително важно. HTC Magic почти го бях отписал, тъй като той беше обявен като телефон, който ще се разпространява от Vodafone (даже на сайта на HTC все още е листнат като [HTC Magic (Vodafone)](http://www.htc.com/europe/product.aspx)), а партньора на Vodafone в България е [Mtel](http://mtel.net/). За моя голяма изненада обаче (предполагам не само моя), [първи обявиха](http://www.mobilebulgaria.com/news/view.php?id=13076) HTC Magic именно Глобул, десетина дни преди да пуснат iPhone 3GS. Когато обявиха и цените на iPhone 3GS избора стана труден, тъй като бяха доста прилични, като за България. В края на краищата реших, че трябва да поощряваме отворените платформи и си купих HTC Magic.
 

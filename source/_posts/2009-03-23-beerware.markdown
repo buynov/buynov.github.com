@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2009-03-23 19:38:16+00:00
 layout: post
@@ -11,32 +11,22 @@ categories:
 - Software Development
 ---
 
-[![beerware](http://buynov.com/wordpress/wp-content/uploads/2009/03/beerware-300x154.jpg)](http://buynov.com/wordpress/wp-content/uploads/2009/03/beerware.jpg)[bulgarian]Попаднах на една много оргинална идея.
+[![beerware](/images/2009/03/beerware-300x154.jpg)](/images/2009/03/beerware.jpg)
+
+[bulgarian]Попаднах на една много оргинална идея.
 Факт е, че хората не обичат да плащат за нещо, което е безплатно. Затова, какво би могъл да направиш, ако предлагаш нещо безплатно и все пак искаш да те подпомогнат за усилията ти? Накратко:
-
-
-
 	
   * Ако сложиш бутон **Donate** на сайта си, едва ли ще се намерят много потребители да ти дадат пари, просто защото си го сложил там (макар и да си направил нещо полезно, което те да свалят).
-
-	
   * Ако сложиш **Google Ads** на сайта си, потребителите едва ли ще кликат много на линковете там, просто защото твърде добре са се научили да игнорират тези карета (ти също го правиш, нали?).
-
 
 Затова, [защо не те почерпят бира ;)](http://www.flattermann.net/2009/02/flattermannnet-becomes-beer-ware/).
 
 [/bulgarian]
 [english]I read about a really interesting idea.
 The fact is, people don't like to pay for something, that they get for free. Keeping that in mind, what can you do if you offer something free of charge, and would like, nevertheless, to get some support for your efforts? Here are some arguments:
-
-
-
 	
   * If you put a  **Donate** button on your site, there will hardly be many users, willing to give you money just because the button is there (although you did something useful, which they download).
-
-	
   * If you put **Google Ads** on your site, the users would hardly click on the links there, as they just get used to ignoring them (you did too, right?).
-
 
 Therefore, [why don't they buy you a beer ;)](http://www.flattermann.net/2009/02/flattermannnet-becomes-beer-ware/).
 

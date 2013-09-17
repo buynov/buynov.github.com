@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2007-09-02 22:14:23+00:00
 layout: post
@@ -11,13 +11,12 @@ categories:
 ---
 
 [bulgarian]Няма формула за това как да бъдеш назначен на мениджърска позиция, зависи от много неща - фирмата, колегите, висшестоящите и благоприятно стечение на обстоятелствата. Това че си назначен обаче, не значи че си станал такъв, просто шанс. Виждал съм достатъчно случайни хора заемащи високи позиции (сигурен съм че и ти си забелязал поне няколко), за да имам илюзии че става на базата на залуги или способности. Ако все пак ти се случи да заемеш такава позиция и имаш желание да ме послушаш, ето няколко съвета с които да ти бъде малко по-лесно (искренно се надявам, че ще е така). Ето няколко отправни точки:
-
-
-
 	
   * **Делегирай**
 
 Независимо за какъв се мислиш, няма да успееш да свършиш всичко сам. Затова има екип, който да работи с теб и ти да координираш - целта е да свършите задачите заедно. Имай доверие на хората си - повярвай ми, те ще свършат техническите задачи много по-добре от теб, а на теб ще ти остане време да свършиш работата, за която ти се плаща. А именно, да помогнеш на хората, които вършат истинската работа да я правят по-добре.
+
+<!-- More -->
 	
   * **Прави компромиси**
 
@@ -35,12 +34,13 @@ categories:
 
 Regardless of who you think you are, you will not be able to complete everything yourself. That is why your team exists, to work with you, under your coordination - the objective is to complete the tasks together. Trust your team-mates - believe me, they will do the technical tasks much better than you, and you will have the time to do the work for which you are paid for. That is to help the people, doing the actual work, to do it better.
 	
+<!-- More -->
+
   * **Make compromises**
 
 Don't delude yourself, that everything will go as you planned for it and that you won't make mistakes. The manager is a busy man, there are a lot of tasks to be taken care of and in order to complete them, he has to make compromises with the quality. The less they are, the better, but it is imperative. This means that it will be important for you to prioritize your tasks and to appraise which deserve more time than the others. And don't blame yourself too much about the compromises you made - when time goes by you will become more effective and more capable to assess which tasks deserve compromise and which not.
 	
-  * **Be good willing
-**
+  * **Be good willing**
 
 Don't presume that by holding up your nose, swaggering and strutting around the office you will get there. Nowadays it is important to motivate people, not to give orders. If you act as the warden, you risk to end up as the scarecrow, which all the colleagues mock and laugh at, even behind his back. Is this what you want?
 And finally, never forget where you started from - the memories you have as a worker, and the bosses you had, are priceless. They will remind you of what is right and what is not, what you can and what you can not afford to do. Listen to the people you work with - they will share their experience as well, and it will provide you with many useful ideas of how to make the job smoother and more useful as whole. And don't forget - regardless of what you read or heard, the management is a science of how to work with people and they are the biggest asset you will ever have.

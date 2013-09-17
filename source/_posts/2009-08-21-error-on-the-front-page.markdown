@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2009-08-21 15:59:25+00:00
 layout: post
@@ -14,13 +14,13 @@ categories:
 
 _Ъпдейт_: Грешката вече е поправена.
 
-[![Грешка на заглавната страница](http://buynov.com/wordpress/wp-content/uploads/2009/08/front_page_error2.jpg)](http://www.cloudfoundry.com/)
+[![Грешка на заглавната страница](/images/2009/08/front_page_error2.jpg)](http://www.cloudfoundry.com/)
 
 [/bulgarian]
 [english]What would you think of a company, if you see a spelling error on the front page of their website?
 
 _Update_: The error is already fixed.
 
-[![Front page error](http://buynov.com/wordpress/wp-content/uploads/2009/08/front_page_error21.jpg)](http://www.cloudfoundry.com/)
+[![Front page error](/images/2009/08/front_page_error21.jpg)](http://www.cloudfoundry.com/)
 
 [/english]

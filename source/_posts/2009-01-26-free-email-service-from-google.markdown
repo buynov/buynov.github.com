@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2009-01-26 22:46:00+00:00
 layout: post
@@ -10,7 +10,7 @@ categories:
 - Software
 ---
 
-[![Free Gmail account](http://buynov.com/wordpress/wp-content/uploads/2009/01/gmail_googlead_blog2-300x136.jpg)](http://buynov.com/wordpress/wp-content/uploads/2009/01/gmail_googlead_blog2.jpg)
+[![Free Gmail account](/images/2009/01/gmail_googlead_blog2.jpg)](/images/2009/01/gmail_googlead_blog2.jpg)
 
 [bulgarian]
 

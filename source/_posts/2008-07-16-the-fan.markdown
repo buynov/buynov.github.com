@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2008-07-16 17:39:50+00:00
 layout: post
@@ -11,6 +11,8 @@ categories:
 ---
 
 [bulgarian]Може да е само един, но поне е доста колоритен :). [/bulgarian]
-[english]He may be the only one, but he is pretty colorful :).[/english]
+[english]He may be the only one, but at least pretty colorful :).[/english]
 
-[![](http://buynov.com/wordpress/wp-content/uploads/2008/12/lyubo_front.jpg)](http://buynov.com/wordpress/wp-content/uploads/2008/12/lyubo_front.jpg)[![](http://buynov.com/wordpress/wp-content/uploads/2008/12/lyubo_back.jpg)](http://buynov.com/wordpress/wp-content/uploads/2008/12/lyubo_back.jpg)
+[![](/images/2008/12/lyubo_front.jpg)](/images/2008/12/lyubo_front.jpg)
+
+[![](/images/2008/12/lyubo_back.jpg)](/images/2008/12/lyubo_back.jpg)

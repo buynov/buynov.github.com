@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2010-03-18 06:21:42+00:00
 layout: post
@@ -11,26 +11,25 @@ categories:
 - Life
 ---
 
-
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/5LRnq3ooGDc&amp;hl=en_US&amp;fs=1&amp;" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/5LRnq3ooGDc&amp;hl=en_US&amp;fs=1&amp;" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 [bulgarian]
 
 Ей на [ТОВА](https://www.nomatterwhatguarantee.com/main_structure.php?page=home) му викам аз ГАРАНЦИЯ:
 
-
 > **Гаранция за вашето пълно удовлетворение**
 Можете да върнете лаптопа си до 14 календарни дни след датата на покупка. Лаптопът не трябва да е повреден и не трябва да липсва нищо от него. Toshiba ще замени лаптопа ви или ще ви върне парите.
 _(fantastic, whooho, fantastic, fantastic)_
 
-**Застраховка от случайна повреда**
+> **Застраховка от случайна повреда**
 Гаранцията покрива всякакъв вид щети или случайни повреди на лаптопа ви, които пречат на нормалната му работа. Toshiba ще замени или ще ремонтира лаптопа ви.
 _(great, great, yupee)_
 
-**Застраховка срещу кражба**
+> **Застраховка срещу кражба**
 Гаранцията покрива кражба на лаптопа, при условие че сте я регистрирали в полицията. Toshiba ще замени лаптопа ви.
 _(wonderful, yahoo, wonderful, wonderful)_
 
-**Застраховка срещу загуба на работа** _(!!! - това ми е любимото)_
+> **Застраховка срещу загуба на работа** _(!!! - това ми е любимото)_
 От 1ви май 2009 г. Toshiba ви предлага допълнителна застраховка, в случай че останете без работа. **Toshiba ще ви върне парите, а вие ще можете да задържите лаптопа**, в случай че трудовият ви договор бъде прекратен за повече от 3 месеца.
 
 
@@ -51,15 +50,15 @@ Now, [THIS](https://www.nomatterwhatguarantee.com/main_structure.php?page=home) 
 You can return your laptop within 14 calendar days after the date of purchase. The laptop must be undamaged and cannot have any missing items. Toshiba will replace your laptop or give you your money back.
 _(fantastic, whooho, fantastic, fantastic)_
 
-**Accidental damage coverage**
+> **Accidental damage coverage**
 The guarantee covers any type of damage or accidental destruction of your laptop that impacts its functionality. Toshiba will replace or repair your laptop.
 _(great, great,  yupee)_
 
-**Theft coverage**
+> **Theft coverage**
 The guarantee covers theft of the laptop that has been reported to the police. Toshiba will replace your laptop.
 _(wonderful, yahoo, wonderful,  wonderful)_
 
-**Unemployment coverage** (_!!!- my personal favorite_)
+> **Unemployment coverage** (_!!!- my personal favorite_)
 From May 1st 2009 Toshiba additionally covers you in case you get unemployed. **Toshiba will give you your money back and you can keep the laptop** if your contract gets terminated for longer than 3 months.
 
 

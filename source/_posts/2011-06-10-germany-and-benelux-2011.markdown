@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2011-06-10 07:53:45+00:00
 layout: post
@@ -11,7 +11,8 @@ categories:
 - Life
 ---
 
-  
+<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
+
 Вижте [Germany and Benelux](http://maps.google.com/maps/ms?ie=UTF8&hl=bg&msa=0&msid=218035029421801257340.0004a4902f4ec8fd30911&ll=47.609946,13.838865&spn=9.826913,18.97429&source=embed) на по-голяма карта
 
 

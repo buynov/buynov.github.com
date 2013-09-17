@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2010-06-05 07:00:33+00:00
 layout: post
@@ -10,5 +10,6 @@ categories:
 - Entertainment
 ---
 
+<object width="560" height="325"><param name="movie" value="http://en.tackfilm.se/loader.swf?shareID=1263497705613RA20&folder=12634"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://en.tackfilm.se/loader.swf?shareID=1263497705613RA20&folder=12634" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="325"></embed></object>
 
 

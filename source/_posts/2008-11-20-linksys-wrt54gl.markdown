@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2008-11-20 22:11:50+00:00
 layout: post
@@ -10,7 +10,9 @@ categories:
 - Gadgets
 ---
 
-[![](http://buynov.com/wordpress/wp-content/uploads/2008/11/wrt54gl.jpg)](http://buynov.com/wordpress/wp-content/uploads/2008/11/wrt54gl.jpg)[bulgarian]Купих си wireless рутер, [Linksys WRT54GL](http://www.linksys.com/servlet/Satellite?c=L_Product_C2&childpagename=US%2FLayout&cid=1133202177241&pagename=Linksys%2FCommon%2FVisitorWrapper). Разгледах в няколко магазина, питах продавачите, всички ми препоръчаха точно него. Като видях и на кутията секция с надпис "Open Source", се навих :). Малко е по-скъп от другите, но щом го препоръчват хората ...
+[![](/images/2008/11/wrt54gl.jpg)](/images/2008/11/wrt54gl.jpg)
+
+[bulgarian]Купих си wireless рутер, [Linksys WRT54GL](http://www.linksys.com/servlet/Satellite?c=L_Product_C2&childpagename=US%2FLayout&cid=1133202177241&pagename=Linksys%2FCommon%2FVisitorWrapper). Разгледах в няколко магазина, питах продавачите, всички ми препоръчаха точно него. Като видях и на кутията секция с надпис "Open Source", се навих :). Малко е по-скъп от другите, но щом го препоръчват хората ...
 
 С рутера си има диск с помощник за инсталация и _по принцип_ става много лесно - връзваш рутера към мрежата на компютъра, пускаш диска на компютъра, следваш стъпките, въвеждаш необходимите данни и си готов! Казвам по принцип, защото аз имах проблем. След като въведох всички полета и отидох на една от последните стъпки, където трябваше да се запишат настройките върху самото устройство, възникна грешка. И така 4-5 пъти. Настройките не можеха да се запишат на самия рутер! Предполагам, че фърмуеърът на новия ми рутер е бил с проблем, защото след като свалих последната версия [оттук ](http://www.linksys.com/servlet/Satellite?c=L_CASupport_C2&childpagename=US%2FLayout&cid=1166859841350&packedargs=sku%3D1133202177241&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4135046472B03&displaypage=download)и ъпгрейднах устройството (става много лесно, след като се логнеш през уеб интерфейса на 192.168.1.1, без потребителско име и с парола "admin"), всичко мина успешно.
 

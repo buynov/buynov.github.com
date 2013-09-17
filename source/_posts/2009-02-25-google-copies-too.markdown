@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2009-02-25 21:14:09+00:00
 layout: post
@@ -10,7 +10,9 @@ categories:
 - Software
 ---
 
-[![](http://www.google.com/help/hc/images/toolbar_81305_en.gif)](http://www.google.com/help/hc/images/toolbar_81305_en.gif)[bulgarian]Днес попаднах на [интересна новина](http://googleblog.blogspot.com/2009/02/google-toolbar-6-beta-for-internet.html) от официалния блог на Google.
+[![](http://www.google.com/help/hc/images/toolbar_81305_en.gif)](http://www.google.com/help/hc/images/toolbar_81305_en.gif)
+
+[bulgarian]Днес попаднах на [интересна новина](http://googleblog.blogspot.com/2009/02/google-toolbar-6-beta-for-internet.html) от официалния блог на Google.
 
 Лентата с инструменти за Internet Explorer не ме вълнува особено, но като погледнах картинката с новия [Quick Search Box](http://www.google.com/support/toolbar/bin/answer.py?answer=81305) (виж вляво) ме порази приликата с един инструмент, за който [писах преди време](http://buynov.com/2007/08/27/sourceforgenet-update-2007-08-24-edition/) - [Launchy](http://www.launchy.net/).
 

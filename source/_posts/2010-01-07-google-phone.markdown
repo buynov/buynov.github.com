@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2010-01-07 21:29:38+00:00
 layout: post
@@ -10,7 +10,7 @@ categories:
 - Gadgets
 ---
 
-[![NexusOne](http://buynov.com/wordpress/wp-content/uploads/2010/01/NexusOne-156x300.jpg)](http://buynov.com/wordpress/wp-content/uploads/2010/01/NexusOne.jpg)
+[![NexusOne](/images/2010/01/NexusOne-156x300.jpg)](/images/2010/01/NexusOne.jpg)
 
 [bulgarian]
 

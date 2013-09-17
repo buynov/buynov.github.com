@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2009-11-11 20:52:32+00:00
 layout: post
@@ -10,7 +10,7 @@ categories:
 - Entertainment
 ---
 
-[bulgarian][![Beijing](http://buynov.com/wordpress/wp-content/uploads/2009/11/beijing.jpg)](http://buynov.com/wordpress/wp-content/uploads/2009/11/beijing.jpg)[/bulgarian]
+[bulgarian][![Beijing](/images/2009/11/beijing.jpg)](/images/2009/11/beijing.jpg)[/bulgarian]
 
 
 

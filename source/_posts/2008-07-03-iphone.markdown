@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2008-07-03 17:20:00+00:00
 layout: post
@@ -10,32 +10,22 @@ categories:
 - Business
 ---
 
-[![](http://buynov.com/wordpress/wp-content/uploads/2008/07/iphone-178x300.jpg)](http://buynov.com/wordpress/wp-content/uploads/2008/07/iphone.jpg)[bulgarian]Наскоро [отново](http://buynov.com/2007/11/23/divide-et-impera/) имах повод да гледам презентации с участието на Стив Джобс:
+[![](/images/2008/07/iphone-178x300.jpg)](/images/2008/07/iphone.jpg)
 
+[bulgarian]Наскоро [отново](/blog/2007/11/23/divide-et-impera/) имах повод да гледам презентации с участието на Стив Джобс:
 
-
-	
   * [Steve Jobs unveils the iPhone software roadmap](http://www.apple.com/quicktime/qtv/iphoneroadmap/)
-
-	
   * [Steve Jobs unveils iPhone 3G](http://www.apple.com/quicktime/qtv/wwdc08/)
-
 
 Чичко Стив не само демонстрира умение да презентира сам, но и перфектно успява да дирижира дузина лектори. Ако имаш 3 часа и се чудиш как да ги уплътниш, можеш да изгледаш презентациите - най-малко за да се впечатлиш от перфектата синхронизация между лекторите и темите. Ако си мислиш, че е лесно да се презентира и не е нужна предварителна подготовка, виж [това](http://blogs.msdn.com/lokeuei/archive/2007/04/24/how-not-to-present-at-medc.aspx) ;).
 
 Колкото до самия iPhone - имах възможност да си поиграя с един и първоначалните ми впечатления са противоречиви. От една страна бях силно впечатлен от дизайна и лекотата, с която се ползва потребителския интерфейс, но от друга - след само 10-тина минути работа с телефона, отзад (откъм батерията) се усети загряване. Явно слуховете за проблеми с консумацията на енергия са верни. Скоро ще видим дали и с iPhone 3G ще е така, който вече е на хоризонта - можеш даже да видиш [Guided Tour](http://www.apple.com/iphone/guidedtour/) за да се зарибиш съвсем ;).[/bulgarian]
 
-[english]I had an occassion recently to watch Steve Jobs presenting [again](http://buynov.com/2007/11/23/divide-et-impera/):
-
-
-
+[english]I had an occassion recently to watch Steve Jobs presenting [again](/blog/2007/11/23/divide-et-impera/):
 	
   * [Steve Jobs unveils the iPhone software roadmap](http://www.apple.com/quicktime/qtv/iphoneroadmap/)
-
-	
   * [Steve Jobs unveils iPhone 3G](http://www.apple.com/quicktime/qtv/wwdc08/)
-
 
 Uncle Steve demonstrates not only his ability to present by himself, but manages to govern a dozen of lecturers perfectly. If you have around 3 hours of spare time and you are wondering what to do, you can watch them - to see the perfect synchronization between the lecturers and the subjects, at least. And if you think that it is easy to present and preparations in advance are not much needed, see [this](http://blogs.msdn.com/lokeuei/archive/2007/04/24/how-not-to-present-at-medc.aspx) ;).
 
-As far as the iPhone itself - I had the chance to play with it and my first impressions are controversial. I was really impressed by the design and how easy it is to navigate with the user interface, but on the other hand, after just ten minutes of usage I felt heat from battery on the flat of my hand. I guess that the rumors about the power consumption problems with the iPhone are true. We'll be able to see if they addressed this issue in iPhone 3G, which is peeking out of the horizon - see the [Guided Tour](http://www.apple.com/iphone/guidedtour/) to be hooked up completely ;)..[/english]
+As far as the iPhone itself - I had the chance to play with it and my first impressions are controversial. I was really impressed by the design and how easy it is to navigate with the user interface, but on the other hand, after just ten minutes of usage I felt heat from battery on the flat of my hand. I guess that the rumors about the power consumption problems with the iPhone are true. We'll be able to see if they addressed this issue in iPhone 3G, which is peeking out of the horizon - see the [Guided Tour](http://www.apple.com/iphone/guidedtour/) to be hooked up completely ;).[/english]

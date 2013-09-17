@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2010-07-07 07:00:48+00:00
 layout: post
@@ -13,18 +13,9 @@ categories:
 [bulgarian]Любопитно интервю с Анатолий Карпов, [12-тият](http://en.wikipedia.org/wiki/World_Chess_Championship#Undisputed_world_champions_1886.E2.80.931993) световен шампион по шахмат, който в момента води кампания да стане президент на [ФИДЕ](http://www.fide.com/) (световната шахматна федерация).
 
 
-
-
-
 За начина му на игра, кое е важно, за да станеш добър шахматист, за Каспаров, Фишер, Морфи и трябва ли да си луд, за да си световен шампион по шахмат (ако питаш мен, сигурно помага).
 
-
-
-
-
-
-
-
+[Big Think Interview with Anatoly Karpov](http://bigthink.com/ideas/big-think-interview-with-anatoly-karpov)
 
 [/bulgarian]
 
@@ -32,11 +23,6 @@ categories:
 
 For his style of play, what is important, in order to become a good chess played, about Kasparov, Fischer, Morphy and do you have to be crazy in order to become a world chess champion (if you ask me, it probably helps).
 
-
-
-
-
-
-
+[Big Think Interview with Anatoly Karpov](http://bigthink.com/ideas/big-think-interview-with-anatoly-karpov)
 
 [/english]

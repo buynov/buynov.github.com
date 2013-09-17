@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2009-08-13 20:09:07+00:00
 layout: post
@@ -10,7 +10,7 @@ categories:
 - Software Development
 ---
 
-[![The Future of Java Innovation](http://buynov.com/wordpress/wp-content/uploads/2009/08/rod_johnson.jpg)](http://www.infoq.com/presentations/SpringOne-Keynote-Rod-Johnson)
+[![The Future of Java Innovation](/images/2009/08/rod_johnson.jpg)](http://www.infoq.com/presentations/SpringOne-Keynote-Rod-Johnson)
 
 [bulgarian]Във връзка с новината от тази седмица - [VMware купува SpringSource](http://www.infoq.com/news/2009/08/vmware-springsource) - се сетих за [едно видео](http://www.infoq.com/presentations/SpringOne-Keynote-Rod-Johnson) с [Род Джонсън](http://www.springone2gx.com/conference/speaker/rod_johnson), което гледах наскоро. В него той говори за бъдещето на Java иновациите и на Java като цяло, и доколко [сделката между Oracle и SUN](/2009/07/19/342) би повлияла на него. Не се стряскай от продължителността на презентацията, препоръчвам ти първите 25-30 минути (освен ако не си Spring фен и не искаш да видиш демо на отговора на Rails - [Spring Roo](http://www.springsource.org/roo)). Като цяло изложението ми се стори доста смислено и разумно, ще се опитам да го преразкажа накратко, в случай че не ти се гледа презентацията.
 

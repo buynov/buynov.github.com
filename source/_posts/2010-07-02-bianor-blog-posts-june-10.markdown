@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2010-07-02 07:00:32+00:00
 layout: post
@@ -11,26 +11,9 @@ categories:
 ---
 
 
-
-
-
-
-
 ![](http://www.bianor.com/blog/wp-content/uploads/2010/06/mobile_app_development.jpg)
 
-
-
-
-
 ### [Developer’s Perspective on Android, BlackBerry, iPhone & Symbian](http://www.bianor.com/blog/developers-perspective-on-android-blackberry-iphone-symbian/)
-
-
-
-
-
-
-
-
 
 
 [RSS Feed](http://www.bianor.com/blog/author/stefanbuynov/feed/)

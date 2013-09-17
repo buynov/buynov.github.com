@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2010-01-22 07:59:25+00:00
 layout: post
@@ -10,17 +10,13 @@ categories:
 - Business
 ---
 
-[![SunRIP](http://buynov.com/wordpress/wp-content/uploads/2010/01/SunRIP.jpg)](http://buynov.com/wordpress/wp-content/uploads/2010/01/SunRIP.jpg)
+[![SunRIP](/images/2010/01/SunRIP.jpg)](/images/2010/01/SunRIP.jpg)
 
 [bulgarian]
 
 След като американските регулаторни органи одобриха [сделката за закупуването на SUN от Oracle](http://buynov.com/2009/05/11/229) oще миналото лято, това стори и Европейската комисия, около 9 месеца след обявяването на сделката:
 
-
-
-	
   * [European Commission Unconditionally Approves Oracle’s Acquisition of Sun](http://www.oracle.com/us/corporate/press/043873)
-
 	
   * [EU backs Oracle's takeover of Sun](http://news.bbc.co.uk/2/hi/business/8473136.stm)
 
@@ -34,11 +30,8 @@ categories:
 
 After the American regulatory institutions approved the [deal for Oracle to aquire SUN](http://buynov.com/2009/05/11/229) last summer, the European commission did the same, about 9 months after the deal was announced:
 
-
-
 	
   * [European Commission Unconditionally Approves Oracle’s Acquisition of Sun](http://www.oracle.com/us/corporate/press/043873)
-
 	
   * [EU backs Oracle's takeover of Sun](http://news.bbc.co.uk/2/hi/business/8473136.stm)
 

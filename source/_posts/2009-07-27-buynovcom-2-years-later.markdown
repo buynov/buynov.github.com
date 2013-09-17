@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2009-07-27 19:53:29+00:00
 layout: post
@@ -10,150 +10,77 @@ categories:
 - General
 ---
 
-[bulgarian]Днес, 27 Юли, стават точно две години от [първия ми пост](/2007/07/27/3) в този блог. Реших, че по този повод си залужава да публикувам малко статистика за сайта.
+[bulgarian]Днес, 27 Юли, стават точно две години от [първия ми пост](/blog/2007/07/27/get-the-party-started-/) в този блог. Реших, че по този повод си залужава да публикувам малко статистика за сайта.
 
 За две години съм публикувал **41 отделни поста** (този е 42) и две страници. В блога има **115 коментара**. Ето и най четените публикации според [официалния плъгин на Wordpress.com](http://wordpress.org/extend/plugins/stats/):
 
-
-
-
-
-
-
-No
-Title
-Views
-
-
-
-
-
-1
-
-
-[Linksys WRT54GL](http://buynov.com/2008/11/21/89)
-
-
-349
-
-
-
-
-
-
-2
-
-
-[Фонетична кирилица за Windows Vista](http://buynov.com/2008/12/05/107)
-
-
-281
-
-
-
-
-
-
-3
-
-
-[СУРВА](http://buynov.com/2008/01/29/29)
-
-
-141
-
-
-
-
-
-
-4
-
-
-[Divide et impera](http://buynov.com/2007/11/23/27)
-
-
-137
-
-
-
-
-
-
-5
-
-
-[За Васко](http://buynov.com/2007/08/12/9)
-
-
-125
-
-
-
-
-
-
-6
-
-
-[Как да станеш мениджър.](http://buynov.com/2007/09/03/16)
-
-
-117
-
-
-
-
-
-
-7
-
-
-[Alehouse](http://buynov.com/2008/12/22/142)
-
-
-82
-
-
-
-
-
-
-8
-
-
-[Филми, I-ва част](http://buynov.com/2008/02/17/40)
-
-
-72
-
-
-
-
-
-
-9
-
-
-[Нещо за пиене?](http://buynov.com/2007/09/15/17)
-
-
-62
-
-
-
-
-
-
-10
-
-
-[Фенът](http://buynov.com/2008/07/16/58)
-
-
-54
-
-
+<table>
+    <tr>
+        <th width="10%"><strong>No</strong></th>
+        <th width="50%"><strong>Title</strong></th>
+        <th width="10%"><strong>Views</strong></th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td><a href="/blog/2008/11/21/linksys-wrt54gl/">Linksys WRT54GL </td>
+        <td style="text-align:right;">349</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td><a href="/blog/2008/12/05/phonetic-keyboard-layout-for-windows-vista/">Фонетична кирилица за Windows Vista</td>
+        <td style="text-align:right;">281</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td><a href="/blog/2008/01/29/surva/">СУРВА</td>
+        <td style="text-align:right;">141</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td><a href="/blog/2007/11/23/divide-et-impera/">Divide et impera</td>
+        <td style="text-align:right;">137</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td><a href="http://buynov.com/2007/08/12/9">За Васко</td>
+        <td style="text-align:right;">125</td>
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td><a href="/blog/2007/09/03/how-to-become-a-manager/">Как да станеш мениджър.</td>
+        <td style="text-align:right;">117</td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td><a href="/blog/2008/12/22/alehouse/">Alehouse</td>
+        <td style="text-align:right;">82</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td><a href="/blog/2008/02/17/movies-part-i/">Филми, I-ва част</td>
+        <td style="text-align:right;">72</td>
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td><a href="/blog/2007/09/15/something-to-drink/">Нещо за пиене?</td>
+        <td style="text-align:right;">62</td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td><a href="/blog/2008/07/16/the-fan/">Фенът</td>
+        <td style="text-align:right;">54</td>
+    </tr>
+</table>
 
 [/bulgarian]
 [english]
@@ -162,145 +89,73 @@ Today, Jul 27th, is exactly two years away from [my first post](/2007/07/27/3) o
 
 For two years I published **41 different posts** (this one is number 42) and two pages. There are **115 comments** to those posts. Here are the most popular articles according to [the official Wordpress.com plugin](http://wordpress.org/extend/plugins/stats/):
 
-
-
-
-
-
-
-No
-Title
-Views
-
-
-
-
-
-1
-
-
-[Linksys WRT54GL](http://buynov.com/2008/11/21/89)
-
-
-349
-
-
-
-
-
-
-2
-
-
-[Phonetic keyboard layout for Windows Vista](http://buynov.com/2008/12/05/107)
-
-
-281
-
-
-
-
-
-
-3
-
-
-[SURVA](http://buynov.com/2008/01/29/29)
-
-
-141
-
-
-
-
-
-
-4
-
-
-[Divide et impera](http://buynov.com/2007/11/23/27)
-
-
-137
-
-
-
-
-
-
-5
-
-
-[For Vasko](http://buynov.com/2007/08/12/9)
-
-
-125
-
-
-
-
-
-
-6
-
-
-[How to become a manager.](http://buynov.com/2007/09/03/16)
-
-
-117
-
-
-
-
-
-
-7
-
-
-[Alehouse](http://buynov.com/2008/12/22/142)
-
-
-82
-
-
-
-
-
-
-8
-
-
-[Movies, part I](http://buynov.com/2008/02/17/40)
-
-
-72
-
-
-
-
-
-
-9
-
-
-[Something to drink?](http://buynov.com/2007/09/15/17)
-
-
-62
-
-
-
-
-
-
-10
-
-
-[The Fan](http://buynov.com/2008/07/16/58)
-
-
-54
-
+<table>
+    <tr>
+        <th width="10%"><strong>No</strong></th>
+        <th width="50%"><strong>Title</strong></th>
+        <th width="10%"><strong>Views</strong></th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td><a href="/blog/2008/11/21/linksys-wrt54gl/">Linksys WRT54GL </td>
+        <td style="text-align:right;">349</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td><a href="/blog/2008/12/05/phonetic-keyboard-layout-for-windows-vista/">Phonetic keyboard layout for Windows Vista</td>
+        <td style="text-align:right;">281</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td><a href="/blog/2008/01/29/surva/">SURVA</td>
+        <td style="text-align:right;">141</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td><a href="/blog/2007/11/23/divide-et-impera/">Divide et impera</td>
+        <td style="text-align:right;">137</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td><a href="http://buynov.com/2007/08/12/9">For Vasko</td>
+        <td style="text-align:right;">125</td>
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td><a href="/blog/2007/09/03/how-to-become-a-manager/">How to become a manager.</td>
+        <td style="text-align:right;">117</td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td><a href="/blog/2008/12/22/alehouse/">Alehouse</td>
+        <td style="text-align:right;">82</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td><a href="/blog/2008/02/17/movies-part-i/">Movies, part I</td>
+        <td style="text-align:right;">72</td>
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td><a href="/blog/2007/09/15/something-to-drink/">Something to drink?</td>
+        <td style="text-align:right;">62</td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td><a href="/blog/2008/07/16/the-fan/">The Fan</td>
+        <td style="text-align:right;">54</td>
+    </tr>
+</table>
 
 
 [/english]

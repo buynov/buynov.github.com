@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: true
 date: 2010-04-30 05:01:45+00:00
 layout: post
@@ -10,18 +10,9 @@ categories:
 - Software
 ---
 
-[bulgarian][![](http://buynov.com/wordpress/wp-content/uploads/2010/04/VirtualKeyboardInGoogle-BG.png)](http://buynov.com/wordpress/wp-content/uploads/2010/04/VirtualKeyboardInGoogle-BG.png)
-
-
-
-
+[bulgarian][![](/images/2010/04/VirtualKeyboardInGoogle-BG.png)](/images/2010/04/VirtualKeyboardInGoogle-BG.png)
 
 [/bulgarian]  
-
- [english][![](http://buynov.com/wordpress/wp-content/uploads/2010/04/VirtualKeyboardInGoogle-EN.png)](http://buynov.com/wordpress/wp-content/uploads/2010/04/VirtualKeyboardInGoogle-EN.png)
-
-
-
-
+ [english][![](/images/2010/04/VirtualKeyboardInGoogle-EN.png)](/images/2010/04/VirtualKeyboardInGoogle-EN.png)
 
 [/english]
