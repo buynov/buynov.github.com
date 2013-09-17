@@ -12,7 +12,7 @@ categories:
 
 [![HTC Magic](/images/2009/09/HTC_magic.jpg)](http://globul.bg/bg/promotion.html?id=602)
 
-[bulgarian]След доста чудене и четене (на спецификации и ревюта), си купих [HTC Magic](http://www.htc.com/europe/product/magic/overview.html).
+След доста чудене и четене (на спецификации и ревюта), си купих [HTC Magic](http://www.htc.com/europe/product/magic/overview.html).
 
 По едно време доста се бях навил да си взема [iPhone](http://www.apple.com/iphone) (и ако си следил блога, сигурно си го забелязал). Основната причина беше, че iPhone се предлага от оператора, който ползвам, [Globul](http://globul.bg/), и се предлага с доста добри (като за България) [планове за трансфер на данни](http://globul.bg/bg/iphone_programs.html), което за такъв тип устройства е изключително важно. HTC Magic почти го бях отписал, тъй като той беше обявен като телефон, който ще се разпространява от Vodafone (даже на сайта на HTC все още е листнат като [HTC Magic (Vodafone)](http://www.htc.com/europe/product.aspx)), а партньора на Vodafone в България е [Mtel](http://mtel.net/). За моя голяма изненада обаче (предполагам не само моя), [първи обявиха](http://www.mobilebulgaria.com/news/view.php?id=13076) HTC Magic именно Глобул, десетина дни преди да пуснат iPhone 3GS. Когато обявиха и цените на iPhone 3GS избора стана труден, тъй като бяха доста прилични, като за България. В края на краищата реших, че трябва да поощряваме отворените платформи и си купих HTC Magic.
 
@@ -62,56 +62,3 @@ Touch екрана е със същата технология като на iPh
 [DroidAppz](http://droidappz.org/) - Сайт с доста информация за Android, включително за приложения, някои от които не съвсем легални.
 [xda-developers.com](http://xda-developers.com/) - Сайт, където можеш да намериш много информация за HTC телефони, включително неофициални [ROM пакети](http://en.wikipedia.org/wiki/ROM_image) за твоя телефон.
 
-[/bulgarian]
-
-[english]After some puzzling around and reading (specifications and reviews), I bought an [HTC Magic](http://www.htc.com/europe/product/magic/overview.html).
-
-At some point I was quite keen on buying an [iPhone](http://www.apple.com/iphone) (and if you followed the blog, you probably noticed it). The main reason was, that the iPhone was offered by the mobile provider, which I am a customer of, [Globul](http://globul.bg/), and it was offered with pretty decent (for Bulgaria) [data plans](http://globul.bg/bg/iphone_programs.html), which for such a device is extremely important. I had almost given up on the HTC Magic, since it was announced as a device to be distributed by Vodafone (even now, it is still listed as [HTC Magic (Vodafone)](http://www.htc.com/europe/product.aspx) on the HTC website), and the Vodafone partner in Bulgaria is [Mtel](http://mtel.net/). To my great surprise, however (and not only mine, I guess), Globul were [the first company to announce](http://www.mobilebulgaria.com/news/view.php?id=13076) HTC Magic in Bulgaria, about ten days before they were to offer the new iPhone 3GS. When they announced the prices for the iPhone 3GS the choice became even harder, as they were pretty decent (for Bulgaria). At the end, I decided that we should all support open platforms and I bought the Magic.
-
-I am using the phone for more than a month already, here are my first impressions:
-
-**Internet connectivity**
-
-This device (like the iPhone) demands connectivity. If you decided to buy it, think about a good data plan, as well. I personally believe that it is required. I took a 750 MB per month package and I can say, that this is much more than you would need, especially since the phone provides a WiFi at your disposal. For the first month I had used only 35 MB, and I suspect that the second month would not be much different. So a data plan of about 150-200 MB (just in case) should be more than enough, even if you don't use the WiFi (which reduces the battery life).
-
-**Hardware**
-
-The hardware design of the phone is quite good - clean and comfortable. The device is smaller than the iPhone (in width and length) and is lighter. It feels good in the hand and I don't feel like I will drop it by mistake.
-
-I find the buttons to be a little bit too many (6 in total), but I got used to it. The Menu and the Back buttons, in combination with the trackball,  are probably supposed to attract [BlackBerry](http://www.blackberry.com/) users - those are present on each BlackBerry device. If I have to be honest, however, I am pretty disappointed with the trackball. I fully support the idea for a trackball, but the one on the Magic is too "slow" - you have to spin it pretty intensively in order to get a decent scroll. I couldn't find a way to speed it up.
-
-**Telephony**
-
-The phone calls are with excellent quality - as expected from a company like HTC, that manufactures mobile handsets for quite some time already.
-
-**Battery**
-
-<!-- more -->
-
-The battery is good - I was able to use the phone for three full days, with 3G and WiFi constantly turned on, and I was even able to play with GPS and Bluetooth for a bit. Keep in mind, that the batteries nowadays are not like the ones before - you don't have to exhaust the battery fully and to charge it for at least 24 hours after that. On the contrary - you should fully charge it once you get the phone (this is also what the manual says) and you should charge it for long periods of time in the beginning (during the night, for example).
-
-One of the problems with Android, however, is that you can't tell when you closed the application you were using. Most applications don't have an Exit button, and if you press the Home button, they won't close. I came across applications, which if not closed properly, can exhaust your battery for a few hours. So you must install a task manager - I am using [this one](http://www.androlib.com/android.application.com-wingtseng123-systemmemorymonitor-qFC.aspx), but there are more in the [Market](http://www.android.com/market/).
-
-**Screen**
-
-The touch screen is similar to the one used by the iPhone ([capacitive](http://en.wikipedia.org/wiki/Capacitive_sensing)) and is very good. I personally think that it is almost as good as the one on the Apple's device. And it is much better than the screens on WinMo HTC models (like Touch HD and Touch Pro, for example), which have [resistive](http://en.wikipedia.org/wiki/Resistive_touchscreen) screens and if you don't use the stylus, it may be quite a challenge to navigate around with your fingers.
-
-**Software**
-
-[Android](http://www.android.com/) looks like a pretty good platform. The interface is not as smooth as the one on the iPhone, but it is good enough for me (if the smooth interface is a must for you, you might take a look at [HTC Hero](http://www.htc.com/europe/product/hero/overview.html), which comes with [Sense UI](http://www.intomobile.com/2009/06/24/htc-sense-ui-taking-android-to-the-next-level.html)). It happens the phone to lag sometimes, but I wouldn't say this is a critical issue. You can experience the same on an iPhone.
-
-There are a lot of applications. They are not as many as for the iPhone, but I think they are of the same magnitude as the number of applications for much more mature platforms like [Symbian](http://symbian.org/) and [Windows Mobile](http://www.microsoft.com/windowsmobile), for example. If you look for an application, the first place to look for it is the Android Market, for which there is a dedicated application installed on the device. Keep in mind, that for users from certain countries (like Bulgaria) the paid applications are not listed. To be able to see them, you need [Market Enabler](http://code.google.com/p/market-enabler/).
-
-Well, the platform is not very mature, and at certain moments it is obvious. For the first time in a cellphone I see the red handset button to lock the phone/turn off the screen and I am not sure that this is a good idea. Most people, who had another smartphone before, would expect this button to be used to close the active application or to go to the home screen. But not in Android. If this button was simply closing applications, this would resolve the problem with closing the applications, which I mentioned in the battery section.
-
-**Links**
-
-There are several sites, which you can use to find more information for the HTC Magic and other Android phones, as well as applications for them.
-
-[AndroidBG.com](http://www.androidbg.com) - Bulgarian website for Android with very active forum. There are several very well grounded people in the forum, who can help you if you experience problems or if you need information.
-[AndroLib.com](http://www.androlib.com/) - Catalog with applications for Android. If you have an application like [Barcode Scanner](http://www.androlib.com/android.application.com-google-zxing-client-android-xzA.aspx), you can get a direct link to the Android Market if you scan the QR Code from your PC screen (very impressive).
-[Cyrket](http://www.cyrket.com/) - Similar to the above. This one provides QR Codes as well.
-[DroidAppz](http://droidappz.org/) - Site with information about Android, including applications, some of which are not quite legal.
-[xda-developers.com](http://xda-developers.com/) - Website, where you can find a lot of information about HTC handsets, including unofficial [ROM images](http://en.wikipedia.org/wiki/ROM_image) for your phone.
-
-[/english]

@@ -10,8 +10,7 @@ categories:
 - General
 ---
 
-[bulgarian]Може да е само един, но поне е доста колоритен :). [/bulgarian]
-[english]He may be the only one, but at least pretty colorful :).[/english]
+Може да е само един, но поне е доста колоритен :).
 
 [![](/images/2008/12/lyubo_front.jpg)](/images/2008/12/lyubo_front.jpg)
 

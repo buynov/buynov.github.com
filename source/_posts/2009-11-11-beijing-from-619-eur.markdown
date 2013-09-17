@@ -10,9 +10,4 @@ categories:
 - Entertainment
 ---
 
-[bulgarian][![Beijing](/images/2009/11/beijing.jpg)](/images/2009/11/beijing.jpg)[/bulgarian]
-
-
-
-
-[english]English version is not available.[/english]
+[![Beijing](/images/2009/11/beijing.jpg)](/images/2009/11/beijing.jpg)

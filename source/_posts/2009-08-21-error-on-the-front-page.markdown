@@ -10,17 +10,9 @@ categories:
 - Life
 ---
 
-[bulgarian]Какво би си помислил за фирма, на чийто сайт има правописна грешка на заглавната страница?
+Какво би си помислил за фирма, на чийто сайт има правописна грешка на заглавната страница?
 
 _Ъпдейт_: Грешката вече е поправена.
 
 [![Грешка на заглавната страница](/images/2009/08/front_page_error2.jpg)](http://www.cloudfoundry.com/)
 
-[/bulgarian]
-[english]What would you think of a company, if you see a spelling error on the front page of their website?
-
-_Update_: The error is already fixed.
-
-[![Front page error](/images/2009/08/front_page_error21.jpg)](http://www.cloudfoundry.com/)
-
-[/english]

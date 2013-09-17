@@ -11,9 +11,6 @@ categories:
 - Life
 ---
 
-[bulgarian]Никога не забравяй, че **И ТИ** си резултат на [милиарди години еволюция](http://www.pbs.org/wgbh/evolution/change/deeptime/index.html).
+Никога не забравяй, че **И ТИ** си резултат на [милиарди години еволюция](http://www.pbs.org/wgbh/evolution/change/deeptime/index.html).
 
-Това задължава - представяш ли си всичко да е било напразно?![/bulgarian]
-[english]Don't you ever forget that **YOU TOO** are a result of [billions of years of evolution](http://www.pbs.org/wgbh/evolution/change/deeptime/index.html).
-
-This is an obligation - can you imagine if it was all just a waste of time?![/english]
+Това задължава - представяш ли си всичко да е било напразно?!

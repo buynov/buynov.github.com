@@ -12,8 +12,6 @@ categories:
 
 [![NexusOne](/images/2010/01/NexusOne-156x300.jpg)](/images/2010/01/NexusOne.jpg)
 
-[bulgarian]
-
 Слуховете за Google телефон се оказаха верни. Google пуснаха [официално съобщение](http://googlemobile.blogspot.com/2010/01/introducing-nexus-one.html) и специално предназначен сайт, [http://www.google.com/phone](http://www.google.com/phone).
 
 Телефонът всъщност не се произвежда от Google, а от HTC (като първия Андроид телефон, [G1](http://www.t-mobileg1.com/)), идва с пълният пакет приложения на Google (като първия Андроид телефон, [G1](http://www.t-mobileg1.com/)) и в началото ще се предлага с договор към американския оператор T-Mobile (като първия Андроид телефон, [G1](http://www.t-mobileg1.com/)). Та редно е да се запиташ, какво аджеба му е различното на Nexus One ?!
@@ -24,17 +22,3 @@ categories:
 
 Интересното в случая е как Google, покрай шумотевицата за "Google телефона" успяха да привлекът вниманието към премиерата на нещо съвсем различно от нов тип мобилен телефон. Почти както Apple го прави.
 
-[/bulgarian]
-[english]
-
-The rumors about the Google phone turned out to be true. Google released [official announcement](http://googlemobile.blogspot.com/2010/01/introducing-nexus-one.html) and a dedicated site, [http://www.google.com/phone](http://www.google.com/phone).
-
-Actually the device is not manufactured by Google, but by HTC (just like the first Android phone, the [G1](http://www.t-mobileg1.com/)), comes with the full set of Google applications (just like the first Android phone, the [G1](http://www.t-mobileg1.com/)) and initially will be offered with a T-Mobile contract (just like the first Android phone, the [G1](http://www.t-mobileg1.com/)). The question is obvious - what the heck is different about the Nexus One ?!
-
-It is very likely that the answer resides in [this announcement](http://googleblog.blogspot.com/2010/01/our-new-approach-to-buying-mobile-phone.html), from the official Google blog. Google are actually trying to create a distribution channel for Google-branded phones over the internet - with or without contract. And it sounds reasonable - several companies (including Vodafone) that announced to produce/distribute Android cell-phones shared concerns about the strong presence of Google applications in Android, and some even created their own interface (like the HTC's Sense UI).
-
-Through this channel Google actually protect the Android as a platform to access their services from mobile devices. Besides, the [App Store](http://www.apple.com/iphone/iphone-3gs/app-store.html)'s success proved, that such a marketing channel can generate solid revenue - if they attract user's attention, of course.
-
-The interesting thing in this case is, how along the "Google phone" buzz, Google managed to attract a lot of attention for the premier of something quite different than a new type of mobile phone. Almost like Apple are doing it.
-
-[/english]

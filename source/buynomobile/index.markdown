@@ -1,5 +1,5 @@
 ---
-author: stefan.buynov
+author: Stefan Buynov
 comments: false
 date: 2007-08-06 21:02:05+00:00
 layout: page
@@ -8,30 +8,11 @@ title: Buynomobile
 wordpress_id: 7
 ---
 
-[bulgarian]Моят личен Опел Сигнум 2.2 DTI :)[/bulgarian]
-
-
-
-
-[english] My personal Opel Signum 2.2 DTI :)[/english]
-
-
-
+Моят личен Опел Сигнум 2.2 DTI :)
 
 [gallery=1]
 
-
-
-
-[bulgarian]И още малко снимки от уеба:[/bulgarian]
-
-
-
-
-[english]And some more pictures from the web:[/english]
-
-
-
+И още малко снимки от уеба:
 
 [gallery=2]
 

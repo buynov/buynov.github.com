@@ -13,7 +13,7 @@ categories:
 
 [![beerware](/images/2009/03/beerware-300x154.jpg)](/images/2009/03/beerware.jpg)
 
-[bulgarian]Попаднах на една много оргинална идея.
+Попаднах на една много оргинална идея.
 Факт е, че хората не обичат да плащат за нещо, което е безплатно. Затова, какво би могъл да направиш, ако предлагаш нещо безплатно и все пак искаш да те подпомогнат за усилията ти? Накратко:
 	
   * Ако сложиш бутон **Donate** на сайта си, едва ли ще се намерят много потребители да ти дадат пари, просто защото си го сложил там (макар и да си направил нещо полезно, което те да свалят).
@@ -21,13 +21,3 @@ categories:
 
 Затова, [защо не те почерпят бира ;)](http://www.flattermann.net/2009/02/flattermannnet-becomes-beer-ware/).
 
-[/bulgarian]
-[english]I read about a really interesting idea.
-The fact is, people don't like to pay for something, that they get for free. Keeping that in mind, what can you do if you offer something free of charge, and would like, nevertheless, to get some support for your efforts? Here are some arguments:
-	
-  * If you put a  **Donate** button on your site, there will hardly be many users, willing to give you money just because the button is there (although you did something useful, which they download).
-  * If you put **Google Ads** on your site, the users would hardly click on the links there, as they just get used to ignoring them (you did too, right?).
-
-Therefore, [why don't they buy you a beer ;)](http://www.flattermann.net/2009/02/flattermannnet-becomes-beer-ware/).
-
-[/english]

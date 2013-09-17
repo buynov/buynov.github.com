@@ -10,9 +10,5 @@ categories:
 - Software
 ---
 
-[bulgarian][![](/images/2010/04/VirtualKeyboardInGoogle-BG.png)](/images/2010/04/VirtualKeyboardInGoogle-BG.png)
+[![](/images/2010/04/VirtualKeyboardInGoogle-BG.png)](/images/2010/04/VirtualKeyboardInGoogle-BG.png)
 
-[/bulgarian]  
- [english][![](/images/2010/04/VirtualKeyboardInGoogle-EN.png)](/images/2010/04/VirtualKeyboardInGoogle-EN.png)
-
-[/english]

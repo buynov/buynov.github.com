@@ -12,7 +12,7 @@ categories:
 
 [![Happy Bar & Grill](/images/2007/09/happy_bar_and_grill.jpg)](/images/2007/09/happy_bar_and_grill.jpg)
 
-[bulgarian]Късогледството на българските мениджъри в заведенията за хранене ме изумява. Тия хора мислят ли или си чешат ... Целта е изключително проста - по-голям оборот, съответно печалба. А оптимизации могат да се направят в почти всяко заведение, и то лесно. Ето няколко идеи от преките ми наблюдения:
+Късогледството на българските мениджъри в заведенията за хранене ме изумява. Тия хора мислят ли или си чешат ... Целта е изключително проста - по-голям оборот, съответно печалба. А оптимизации могат да се направят в почти всяко заведение, и то лесно. Ето няколко идеи от преките ми наблюдения:
 	
   * **"Нещо за пиене?"**
 
@@ -31,27 +31,3 @@ categories:
 Идеята за този пост ми дойде докато бях в [Happy Bar & Grill](http://www.happy.bg/), където всичко това е приложено и работи като по часовник. Обслужването е много добро, можеш за 40-50 минути да се нахраниш и да изпиеш една-две бири без да бързаш и без да се ядосваш ;). Дори да няма места, можеш да изчакаш 5-10 минути, и ще се освободи маса - това е ефекта от бързото обслужване. Единствения недостатък, който намерих е, че все още нямат функциониращ сайт, а това в днешно време е несериозно.
 
 Други добри заведения, които отгоравят на тези изисквания са [пицарии Виктория](http://www.pizza-victoria.com/). И двете вериги заведения са сравнително скъпи, на фона на останалите, но пък има защо.
-
-[/bulgarian]
-[english]The short-sightedness of the Bulgarian managers in the restaurants astounds me. Are these guys thinking or scratching their ... The goal is extremely simple - bigger turnover, which leads to bigger profit. And optimizations are doable in almost any restaurant, and they can easily be applied. Here are some ideas from my direct observations:
-	
-  * **"Something to drink?"**
-
-This, in my opinion, is the most ridiculous thing in Bulgaria - there are just a few places where they do it. Besides that the menu should be brought fast, it is absolutely natural to order a drink for a start, so that you won't be sitting on an empty table. In most cases, the customer knows what he wants to drink before he chooses a meal - "Something to drink?" with the menu would significantly increase the consumption of all alcoholic and non-alcoholic drinks. If you go in the US, this is like a God's commandment - the question "Can I get you something to drink?" always accompanies the menu, simple and effective.
-	
-  * **Prompt servicing**
-
-
-First, you wait 20 minutes for the menu, then 20 minutes to order. Until you get what you've ordered and consume it, every desire to come back is gone. When the customer wants to order, he should be able to do it fast and easy, and not to wait for the waiter to come around indefinite amount of time. After all, the more orders are served, the bigger the turnover - respectively the bigger the profit. Not to mention that if you force your customers to wait, they will get nervous and might leave - you loose all the orders they could have made. Additionally, every restaurant has limited **capacity **- number of tables for customers. The faster the servicing, the earlier the customers will finish their meal and will vacate the table for the next customers.
-
-<!-- More -->
-	
-  * **Attitude**
-
-It all depends on the number of tables a waiter is serving, and how motivated he is. It doesn't seem right to have one waiter per 10-15 tables - in such situation there is no way you can get a prompt servicing, not to mention that the waiter will be overloaded with work and would most likely get nervous. Hence, he would not be able to provide good servicing, would not increase the turnover (because he would not be able to react to all orders promptly), the customers would not be happy about it and the tip would be small (is any at all). If the waiter serves just a few tables and is able to respond adequately to the desires of the customers, there will be an improvement in all directions. Plus, if the customer is satisfied, he would come back.
-
-The idea for this post occurred to me while I was in [Happy Bar & Grill](http://www.happy.bg/), where all of the above are applied and work by the clock. The servicing is very good, you can get a good meal and a couple of beers for 40-50 minutes, with no hurry and no redundant worries ;). Even if there are no vacancies, you can wait for 5-10 minutes and a table will be available - this is the effect of the prompt servicing. The only flaw I found is that they don't have a functional website yet, which nowadays is not serious.
-
-Other good restaurants are the [pizzerias Victoria](http://www.pizza-victoria.com/). Both chains are relatively expensive compared to the others, but for a reason.
-
-[/english]

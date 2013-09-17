@@ -10,5 +10,4 @@ categories:
 - Entertainment
 ---
 
-[bulgarian][Интересен линк](http://googleblog.blogspot.com/2009/05/congratulations-eric-yang-winner-of.html) от официалния блог на Google - познай кой е отговора на втория въпрос ;)[/bulgarian]
-[english][An interesting link](http://googleblog.blogspot.com/2009/05/congratulations-eric-yang-winner-of.html) from the official Google blog - guess what is the answer to the question number 2 ;)[/english]
+[Интересен линк](http://googleblog.blogspot.com/2009/05/congratulations-eric-yang-winner-of.html) от официалния блог на Google - познай кой е отговора на втория въпрос ;)

@@ -13,7 +13,7 @@ categories:
 
 [![](/images/2012/02/motivation.jpg)](/images/2012/02/motivation.jpg)
 
-[bulgarian] Една [статия](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) на [Джоел Сполски](http://joelonsoftware.com/items/2012/02/13.html) ми напомни за уводния ми курс по мениджмънт в университета. Има (само) една тема, която много добре си спомням от този курс - теориите за човешката мотивация.
+Една [статия](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) на [Джоел Сполски](http://joelonsoftware.com/items/2012/02/13.html) ми напомни за уводния ми курс по мениджмънт в университета. Има (само) една тема, която много добре си спомням от този курс - теориите за човешката мотивация.
 В общи линии има [две](http://en.wikipedia.org/wiki/Theory_X_and_theory_Y) (добре де - [три](http://en.wikipedia.org/wiki/Theory_Z), ако трябва да сме точни, но третата се отнася основно за Азия). Основната разлика е във възгледа за хората/служителите и подхода им към работата:
 
 **Теория X**
@@ -43,36 +43,4 @@ categories:
 
 
 П.П. Донякъде по темата - [разсъжденията ми](http://buynov.com/2007/09/03/16) от преди няколко години.
-[/bulgarian]
 
-
-[english]An [article](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) by [Joel Spolsky](http://joelonsoftware.com/items/2012/02/13.html) reminded me of my introductory management class at the University. There is (only) one topic I vividly remember from this class - theories of human motivation.
-Basically, there are [two](http://en.wikipedia.org/wiki/Theory_X_and_theory_Y) (well, [three](http://en.wikipedia.org/wiki/Theory_Z) if we have to be exact, but the third one applies mainly for Asia). The difference is mainly in the assumptions about people/employees:
-
-**Theory X**
-
-This theory assumes that employees are lazy, dislike work and would avoid it at any opportunity. Managers should not trust employees and micro-manage them at all times, to make sure they actually do something useful. Employees are going to work only when forced to do so, they should be blamed for any misstep, and their only interest in the job is money.
-__
-
-**Theory Y**
-
-This theory assumes that people are willing to take initiative, when given the chance to do so, be self-motivated and do more than is expected from them. Under appropriate conditions, people would acknowledge responsibility and commitment for themselves, feel the need to achieve goals for the sole purpose of feeling satisfied by their own achievements.
-
-<!-- More -->
-
-There are several parts of Joel's article that I liked - probably because of their defiant statements:
-
-
-> Turns out, it’s positively de-motivating to work for a company where your job is just to shut up and take orders. In tech startup land, we all understand instinctively that we have to hire super smart people, but we forget that we then have to organize the workforce so that those people can use their brains 24/7.
-> 
-> ...
-> 
-> The “management team” isn’t the “decision making” team. It’s a support function. You may want to call them administration instead of management, which will keep them from getting too big for their britches.
-
-Administrators aren’t supposed to make the hard decisions. They don’t know enough. All those super genius computer scientists that you had to recruit from MIT at great expense are supposed to make the hard decisions. That’s why you’re paying them...
-
-
-[The article](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) is worth it - I would advise you to read it.
-
-P.S. Somewhat related to this topic - [my thoughts](http://buynov.com/2007/09/03/16) from several years back.
-[/english]

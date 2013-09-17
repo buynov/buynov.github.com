@@ -1,5 +1,5 @@
 ---
-author: administrator
+author: Stefan Buynov
 comments: false
 date: 2007-07-25 19:04:42+00:00
 layout: page
@@ -8,12 +8,4 @@ title: About
 wordpress_id: 2
 ---
 
-[bulgarian]Това е персоналния сайт на Стефан Буйнов.[/bulgarian]
-
-
-
-
-[english]This is the personal website of Stefan Buynov.[/english]
-
-
-
+Това е персоналния сайт на Стефан Буйнов.
