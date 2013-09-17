@@ -4,7 +4,7 @@ comments: true
 date: 2009-01-19 21:54:17+00:00
 layout: post
 slug: '%d1%81%d1%82%d0%b8%d0%b2-%d0%b4%d0%b6%d0%be%d0%b1%d1%81-%d0%b8-macworld-expo'
-title: Steve Jobs on Macworld Expo.
+title: Стив Джобс на Macworld Expo
 wordpress_id: 169
 categories:
 - Business

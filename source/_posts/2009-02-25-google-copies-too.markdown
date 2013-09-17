@@ -4,7 +4,7 @@ comments: true
 date: 2009-02-25 21:14:09+00:00
 layout: post
 slug: google-%d1%81%d1%8a%d1%89%d0%be-%d0%ba%d0%be%d0%bf%d0%b8%d1%80%d0%b0
-title: Google copies too.
+title: Google също копира
 wordpress_id: 194
 categories:
 - Software

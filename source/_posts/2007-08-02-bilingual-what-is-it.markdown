@@ -4,7 +4,7 @@ comments: true
 date: 2007-08-02 21:57:47+00:00
 layout: post
 slug: '%d0%b1%d0%b8%d0%bb%d0%b8%d0%bd%d0%b3%d0%b2%d0%b0-%d1%89%d0%be-%d0%b5-%d1%82%d0%be'
-title: Bilingual - what is it?
+title: Билингва – що е то?
 wordpress_id: 4
 categories:
 - General

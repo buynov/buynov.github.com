@@ -4,7 +4,7 @@ comments: true
 date: 2010-03-13 10:51:28+00:00
 layout: post
 slug: '%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d0%b8%d1%8f-%d0%b2-hi-tech-%d0%bd%d0%be%d0%b2%d0%b8%d0%bd%d0%b0'
-title: Bulgaria in Hi-Tech news
+title: България в Hi-Tech новина
 wordpress_id: 547
 categories:
 - Gadgets

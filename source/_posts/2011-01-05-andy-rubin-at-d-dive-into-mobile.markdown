@@ -4,7 +4,7 @@ comments: true
 date: 2011-01-05 08:06:41+00:00
 layout: post
 slug: '%d0%b0%d0%bd%d0%b4%d0%b8-%d1%80%d1%83%d0%b1%d0%b8%d0%bd-%d0%bd%d0%b0-d-dive-into-mobile'
-title: 'Andy Rubin at D: Dive Into Mobile'
+title: 'Анди Рубин на D: Dive Into Mobile'
 wordpress_id: 960
 categories:
 - Business

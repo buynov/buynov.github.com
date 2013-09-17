@@ -4,7 +4,7 @@ comments: true
 date: 2007-09-15 17:33:39+00:00
 layout: post
 slug: '%d0%bd%d0%b5%d1%89%d0%be-%d0%b7%d0%b0-%d0%bf%d0%b8%d0%b5%d0%bd%d0%b5'
-title: Something to drink?
+title: Нещо за пиене?
 wordpress_id: 17
 categories:
 - Business

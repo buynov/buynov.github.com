@@ -4,7 +4,7 @@ comments: true
 date: 2007-09-20 20:12:32+00:00
 layout: post
 slug: '%d1%88%d0%b0%d1%85%d0%bc%d0%b0%d1%82%d0%b8%d1%81%d1%82%d0%b8'
-title: Chess players
+title: Шахматисти
 wordpress_id: 20
 categories:
 - Business

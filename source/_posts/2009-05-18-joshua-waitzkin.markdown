@@ -4,7 +4,7 @@ comments: true
 date: 2009-05-18 19:28:21+00:00
 layout: post
 slug: '%d0%b4%d0%b6%d0%be%d1%88%d1%83%d0%b0-%d1%83%d0%b5%d0%b9%d1%86%d0%ba%d0%b8%d0%bd'
-title: Joshua Waitzkin.
+title: Джошуа Уейцкин
 wordpress_id: 209
 categories:
 - Life

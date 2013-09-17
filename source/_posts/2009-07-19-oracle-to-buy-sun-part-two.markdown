@@ -4,7 +4,7 @@ comments: true
 date: 2009-07-19 16:13:47+00:00
 layout: post
 slug: oracle-%d0%ba%d1%83%d0%bf%d1%83%d0%b2%d0%b0-sun-%d0%b2%d1%82%d0%be%d1%80%d0%b0-%d1%87%d0%b0%d1%81%d1%82
-title: Oracle to buy SUN, part two
+title: Oracle купува SUN, втора част
 wordpress_id: 342
 categories:
 - Business

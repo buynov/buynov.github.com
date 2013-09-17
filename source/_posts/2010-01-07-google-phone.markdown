@@ -4,7 +4,7 @@ comments: true
 date: 2010-01-07 21:29:38+00:00
 layout: post
 slug: google-%d1%82%d0%b5%d0%bb%d0%b5%d1%84%d0%be%d0%bd
-title: Google Phone
+title: Google телефон
 wordpress_id: 490
 categories:
 - Gadgets

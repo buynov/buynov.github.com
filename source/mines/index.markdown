@@ -4,7 +4,7 @@ comments: true
 date: 2010-12-01 21:23:56+00:00
 layout: page
 slug: mines
-title: Mines
+title: Мини
 wordpress_id: 942
 ---
 

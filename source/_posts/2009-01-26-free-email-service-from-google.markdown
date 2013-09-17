@@ -4,7 +4,7 @@ comments: true
 date: 2009-01-26 22:46:00+00:00
 layout: post
 slug: '%d0%b1%d0%b5%d0%b7%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%b0-%d0%b8%d0%bc%d0%b5%d0%b9%d0%bb-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b0-%d0%be%d1%82-google'
-title: Free email service from Google.
+title: Безплатна имейл услуга от Google
 wordpress_id: 170
 categories:
 - Software

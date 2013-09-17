@@ -4,7 +4,7 @@ comments: true
 date: 2009-08-13 20:09:07+00:00
 layout: post
 slug: '%d1%80%d0%be%d0%b4-%d0%b4%d0%b6%d0%be%d0%bd%d1%81%d1%8a%d0%bd-%d0%b7%d0%b0-%d0%b1%d1%8a%d0%b4%d0%b5%d1%89%d0%b5%d1%82%d0%be-%d0%bd%d0%b0-java'
-title: Rod Johnson on the future of Java
+title: Род Джонсън за бъдещето на Java
 wordpress_id: 400
 categories:
 - Software Development

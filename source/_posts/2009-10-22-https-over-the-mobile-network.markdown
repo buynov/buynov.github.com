@@ -4,7 +4,7 @@ comments: true
 date: 2009-10-22 18:11:13+00:00
 layout: post
 slug: https-%d0%bf%d1%80%d0%b5%d0%b7-%d0%bc%d0%be%d0%b1%d0%b8%d0%bb%d0%bd%d0%b0%d1%82%d0%b0-%d0%bc%d1%80%d0%b5%d0%b6%d0%b0
-title: HTTPS over the mobile network
+title: HTTPS през мобилната мрежа
 wordpress_id: 459
 categories:
 - Gadgets

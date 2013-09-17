@@ -4,7 +4,7 @@ comments: true
 date: 2010-11-16 07:43:05+00:00
 layout: post
 slug: '%d1%82%d0%b5%d0%bb%d0%b5%d1%84%d0%be%d0%bd%d1%8a%d1%82-%d0%bd%d0%b0-%d0%b4%d0%b6%d0%be%d0%bd'
-title: John's Phone
+title: Телефонът на Джон
 wordpress_id: 921
 categories:
 - Gadgets

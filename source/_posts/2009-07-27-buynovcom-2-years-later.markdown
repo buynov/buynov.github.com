@@ -4,7 +4,7 @@ comments: true
 date: 2009-07-27 19:53:29+00:00
 layout: post
 slug: buynov-com-2-%d0%b3%d0%be%d0%b4%d0%b8%d0%bd%d0%b8-%d0%bf%d0%be-%d0%ba%d1%8a%d1%81%d0%bd%d0%be
-title: Buynov.com - 2 years later
+title: Buynov.com – 2 години по-късно
 wordpress_id: 351
 categories:
 - General

@@ -4,7 +4,7 @@ comments: true
 date: 2008-02-17 20:00:44+00:00
 layout: post
 slug: '%d1%84%d0%b8%d0%bb%d0%bc%d0%b8-i-%d0%b2%d0%b0-%d1%87%d0%b0%d1%81%d1%82'
-title: Movies, part I
+title: Филми, I-ва част
 wordpress_id: 40
 categories:
 - Entertainment

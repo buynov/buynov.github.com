@@ -4,7 +4,7 @@ comments: true
 date: 2009-08-02 15:13:10+00:00
 layout: post
 slug: java-%d1%81%d0%b8%d0%bb%d0%bd%d0%be-%d0%bf%d0%be%d0%b2%d0%bb%d0%b8%d1%8f%d0%bd-%d0%be%d1%82-objective-c
-title: Java - strongly influenced by Objective-C
+title: Java – силно повлиян от Objective-C
 wordpress_id: 392
 categories:
 - Software Development

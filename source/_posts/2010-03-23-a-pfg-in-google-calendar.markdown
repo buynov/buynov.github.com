@@ -4,7 +4,7 @@ comments: true
 date: 2010-03-23 06:02:34+00:00
 layout: post
 slug: '%d0%b0-%d0%bf%d1%84%d0%b3-%d0%b2-google-calendar'
-title: '"A" PFG in Google Calendar'
+title: '“А” ПФГ в Google Calendar'
 wordpress_id: 578
 categories:
 - Entertainment

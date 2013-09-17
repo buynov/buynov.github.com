@@ -4,7 +4,7 @@ comments: true
 date: 2010-06-03 05:32:02+00:00
 layout: post
 slug: ted-%d0%bd%d0%b0-%d0%b1%d1%8a%d0%bb%d0%b3%d0%b0%d1%80%d1%81%d0%ba%d0%b8
-title: TED.com - in Bulgarian!
+title: TED.com – на Български!
 wordpress_id: 783
 categories:
 - Life

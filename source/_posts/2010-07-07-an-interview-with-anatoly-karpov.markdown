@@ -4,7 +4,7 @@ comments: true
 date: 2010-07-07 07:00:48+00:00
 layout: post
 slug: '%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b2%d1%8e-%d1%81-%d0%b0%d0%bd%d0%b0%d1%82%d0%be%d0%bb%d0%b8%d0%b9-%d0%ba%d0%b0%d1%80%d0%bf%d0%be%d0%b2'
-title: An interview with Anatoly Karpov
+title: Интервю с Анатолий Карпов
 wordpress_id: 840
 categories:
 - Entertainment

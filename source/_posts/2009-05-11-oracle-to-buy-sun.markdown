@@ -4,7 +4,7 @@ comments: true
 date: 2009-05-11 16:55:27+00:00
 layout: post
 slug: oracle-%d0%ba%d1%83%d0%bf%d1%83%d0%b2%d0%b0-sun
-title: Oracle to buy SUN
+title: Oracle купува SUN
 wordpress_id: 229
 categories:
 - Business

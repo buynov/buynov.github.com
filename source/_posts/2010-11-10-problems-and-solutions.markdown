@@ -4,7 +4,7 @@ comments: true
 date: 2010-11-10 19:12:53+00:00
 layout: post
 slug: '%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d0%b8-%d0%b8-%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d1%8f'
-title: Problems and Solutions
+title: Проблеми и Решения
 wordpress_id: 909
 categories:
 - Life

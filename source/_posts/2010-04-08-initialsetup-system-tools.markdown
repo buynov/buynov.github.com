@@ -4,7 +4,7 @@ comments: true
 date: 2010-04-08 05:38:18+00:00
 layout: post
 slug: initial-setup-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d0%b8-%d0%b8%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d0%b8
-title: InitialSetup - System tools
+title: InitialSetup – Системни инструменти
 wordpress_id: 123
 categories:
 - Software

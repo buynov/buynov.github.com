@@ -4,7 +4,7 @@ comments: true
 date: 2010-03-12 05:47:45+00:00
 layout: post
 slug: oracle-%d0%ba%d1%83%d0%bf%d1%83%d0%b2%d0%b0-sun-post-mortem
-title: Oracle to buy SUN, post mortem
+title: Oracle купува SUN, post mortem
 wordpress_id: 523
 categories:
 - Business

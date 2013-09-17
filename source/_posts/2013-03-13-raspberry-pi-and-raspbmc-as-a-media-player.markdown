@@ -4,7 +4,7 @@ comments: true
 date: 2013-03-13 08:36:17+00:00
 layout: post
 slug: raspberry-pi-%d0%ba%d0%b0%d1%82%d0%be-%d0%bc%d0%b5%d0%b4%d0%b8%d1%8f-%d0%bf%d0%bb%d0%b5%d0%b9%d1%8a%d1%80
-title: Raspberry Pi and RaspBMC as a Media Player
+title: Raspberry Pi и RaspBMC като Медия Плейър
 wordpress_id: 1076
 categories:
 - Entertainment

@@ -4,7 +4,7 @@ comments: true
 date: 2008-07-16 17:39:50+00:00
 layout: post
 slug: '%d1%84%d0%b5%d0%bd%d1%8a%d1%82'
-title: The Fan
+title: Фенът
 wordpress_id: 58
 categories:
 - General

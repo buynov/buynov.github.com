@@ -4,7 +4,7 @@ comments: true
 date: 2009-05-25 19:54:11+00:00
 layout: post
 slug: '%d0%b8%d0%b3%d1%80%d0%b0%d1%82%d0%b0-%d0%bd%d0%b0-%d0%b4%d0%b6%d0%b5%d1%80%d0%b8'
-title: Geri's Game
+title: Играта на Джери
 wordpress_id: 272
 categories:
 - Entertainment

@@ -4,7 +4,7 @@ comments: true
 date: 2012-03-20 08:22:45+00:00
 layout: post
 slug: '%d1%83%d0%b6%d0%b0%d1%81-%d0%b8-%d0%b1%d0%b5%d0%b7%d1%83%d0%bc%d0%b8%d0%b5'
-title: Motivation
+title: Мотивация
 wordpress_id: 1018
 categories:
 - Business

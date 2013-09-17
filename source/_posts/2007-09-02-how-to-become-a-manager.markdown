@@ -4,7 +4,7 @@ comments: true
 date: 2007-09-02 22:14:23+00:00
 layout: post
 slug: '%d0%ba%d0%b0%d0%ba-%d0%b4%d0%b0-%d1%81%d1%82%d0%b0%d0%bd%d0%b5%d1%88-%d0%bc%d0%b5%d0%bd%d0%b8%d0%b4%d0%b6%d1%8a%d1%80'
-title: How to become a manager.
+title: Как да станеш мениджър
 wordpress_id: 16
 categories:
 - Business

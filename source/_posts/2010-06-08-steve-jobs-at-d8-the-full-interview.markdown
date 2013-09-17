@@ -4,7 +4,7 @@ comments: true
 date: 2010-06-08 05:29:34+00:00
 layout: post
 slug: new-title-in-bulgarian
-title: 'Steve Jobs at D8: The Full Interview'
+title: 'Стив Джобс на D8: Пълното Интервю'
 wordpress_id: 810
 categories:
 - Business

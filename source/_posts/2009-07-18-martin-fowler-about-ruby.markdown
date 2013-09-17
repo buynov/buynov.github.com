@@ -4,7 +4,7 @@ comments: true
 date: 2009-07-18 09:13:15+00:00
 layout: post
 slug: '%d0%bc%d0%b0%d1%80%d1%82%d0%b8%d0%bd-%d1%84%d0%b0%d1%83%d0%bb%d1%8a%d1%80-%d0%b7%d0%b0-ruby'
-title: Martin Fowler about Ruby
+title: Мартин Фаулър за Ruby
 wordpress_id: 326
 categories:
 - Software Development

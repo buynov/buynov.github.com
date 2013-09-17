@@ -4,7 +4,7 @@ comments: true
 date: 2011-06-10 07:53:45+00:00
 layout: post
 slug: '%d0%b3%d0%b5%d1%80%d0%bc%d0%b0%d0%bd%d0%b8%d1%8f-%d0%b8-%d0%b1%d0%b5%d0%bd%d0%b5%d0%bb%d1%8e%d0%ba%d1%81-2011'
-title: Germany and Benelux 2011
+title: Германия и Бенелюкс 2011
 wordpress_id: 991
 categories:
 - Entertainment

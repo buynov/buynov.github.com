@@ -4,7 +4,7 @@ comments: false
 date: 2007-07-25 19:04:42+00:00
 layout: page
 slug: about
-title: About
+title: За сайта
 wordpress_id: 2
 ---
 

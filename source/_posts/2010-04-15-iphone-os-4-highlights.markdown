@@ -4,7 +4,7 @@ comments: true
 date: 2010-04-15 06:01:18+00:00
 layout: post
 slug: iphone-os-4-%d1%81-%d0%bc%d0%bd%d0%be%d0%b3%d0%be%d0%b7%d0%b0%d0%b4%d0%b0%d1%87%d0%bd%d0%be%d1%81%d1%82
-title: 'iPhone OS 4: Highlights'
+title: 'iPhone OS 4: Акценти'
 wordpress_id: 645
 categories:
 - Business

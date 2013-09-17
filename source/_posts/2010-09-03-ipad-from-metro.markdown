@@ -4,7 +4,7 @@ comments: true
 date: 2010-09-03 08:04:55+00:00
 layout: post
 slug: ipad-%d0%b2-%d0%bc%d0%b5%d1%82%d1%80%d0%be
-title: iPad from Metro
+title: iPad в Метро
 wordpress_id: 892
 categories:
 - Gadgets
