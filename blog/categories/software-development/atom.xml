@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software Development | Buynov]]></title>
   <link href="http://buynov.github.io/blog/categories/software-development/atom.xml" rel="self"/>
   <link href="http://buynov.github.io/"/>
-  <updated>2013-09-17T16:05:16+03:00</updated>
+  <updated>2013-09-17T23:21:27+03:00</updated>
   <id>http://buynov.github.io/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Motivation]]></title>
+    <title type="html"><![CDATA[Мотивация]]></title>
     <link href="http://buynov.github.io/blog/2012/03/20/motivation/"/>
     <updated>2012-03-20T10:22:45+02:00</updated>
     <id>http://buynov.github.io/blog/2012/03/20/motivation</id>
@@ -51,7 +51,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[REST Explained]]></title>
+    <title type="html"><![CDATA[REST обяснен]]></title>
     <link href="http://buynov.github.io/blog/2010/03/25/rest-explained/"/>
     <updated>2010-03-25T07:53:12+02:00</updated>
     <id>http://buynov.github.io/blog/2010/03/25/rest-explained</id>
@@ -62,7 +62,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Rod Johnson on the future of Java]]></title>
+    <title type="html"><![CDATA[Род Джонсън за бъдещето на Java]]></title>
     <link href="http://buynov.github.io/blog/2009/08/13/rod-johnson-on-the-future-of-java/"/>
     <updated>2009-08-13T23:09:07+03:00</updated>
     <id>http://buynov.github.io/blog/2009/08/13/rod-johnson-on-the-future-of-java</id>
@@ -79,7 +79,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Java - strongly influenced by Objective-C]]></title>
+    <title type="html"><![CDATA[Java – силно повлиян от Objective-C]]></title>
     <link href="http://buynov.github.io/blog/2009/08/02/java-strongly-influenced-by-objective-c/"/>
     <updated>2009-08-02T18:13:10+03:00</updated>
     <id>http://buynov.github.io/blog/2009/08/02/java-strongly-influenced-by-objective-c</id>
@@ -90,7 +90,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Martin Fowler about Ruby]]></title>
+    <title type="html"><![CDATA[Мартин Фаулър за Ruby]]></title>
     <link href="http://buynov.github.io/blog/2009/07/18/martin-fowler-about-ruby/"/>
     <updated>2009-07-18T12:13:15+03:00</updated>
     <id>http://buynov.github.io/blog/2009/07/18/martin-fowler-about-ruby</id>
