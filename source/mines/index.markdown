@@ -8,7 +8,7 @@ title: Мини
 wordpress_id: 942
 ---
 
-<p align="center">	<applet code="com.buynov.MinesApplet" codebase="." archive="ines.jar" width="100" height="95">You need Java to play Mines!</applet></p>
+<p align="center">	<applet code="com.buynov.MinesApplet" codebase="." archive="/mines/mines.jar" width="100" height="95">You need Java to play Mines!</applet></p>
 <p>
 
 Избери големината на таблото и натисни **Play** за да играеш **Мини**.
