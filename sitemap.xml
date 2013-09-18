@@ -52,7 +52,7 @@
     </url>
     <url>
         <loc>http://buynov.github.io/blog/2008/04/02/clipboard-tool/</loc>
-        <lastmod>2013-09-17T15:18:18+03:00</lastmod>
+        <lastmod>2013-09-17T15:22:12+03:00</lastmod>
     </url>
     <url>
         <loc>http://buynov.github.io/blog/2008/07/03/iphone/</loc>
@@ -284,30 +284,30 @@
         <loc>
             http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/
         </loc>
-        <lastmod>2013-09-17T22:38:33+03:00</lastmod>
+        <lastmod>2013-09-18T00:03:51+03:00</lastmod>
     </url>
     <url>
-        <loc>http://buynov.github.io/about/</loc>
-        <lastmod>2013-09-17T23:19:35+03:00</lastmod>
-    </url>
-    <url>
-        <loc>http://buynov.github.io/blog/archives/</loc>
-        <lastmod>2013-09-17T23:14:30+03:00</lastmod>
-    </url>
-    <url>
-        <loc>http://buynov.github.io/buynomobile/</loc>
-        <lastmod>2013-09-17T23:20:00+03:00</lastmod>
-    </url>
-    <url>
-        <loc>http://buynov.github.io/</loc>
-        <lastmod>2013-09-17T23:14:30+03:00</lastmod>
+        <loc>http://buynov.github.io/robots.txt</loc>
+        <lastmod>2013-09-14T15:17:42+03:00</lastmod>
     </url>
     <url>
         <loc>http://buynov.github.io/mines/</loc>
         <lastmod>2013-09-17T23:30:30+03:00</lastmod>
     </url>
     <url>
-        <loc>http://buynov.github.io/robots.txt</loc>
-        <lastmod>2013-09-14T15:17:42+03:00</lastmod>
+        <loc>http://buynov.github.io/buynomobile/</loc>
+        <lastmod>2013-09-17T23:20:00+03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://buynov.github.io/about/</loc>
+        <lastmod>2013-09-17T23:19:35+03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://buynov.github.io/</loc>
+        <lastmod>2013-09-18T00:03:51+03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://buynov.github.io/blog/archives/</loc>
+        <lastmod>2013-09-18T00:03:51+03:00</lastmod>
     </url>
 </urlset>
