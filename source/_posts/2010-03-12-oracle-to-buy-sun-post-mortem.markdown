@@ -10,25 +10,8 @@ categories:
 - Business
 ---
 
-[bulgarian]По добре късно, отколкото никога ...
-С около два месеца закъснение, реших най накрая да напиша и пусна този пост. Струва ми се редно, след като съм започнал темата ([1](/2009/05/11/229), [2](/2009/07/19/342), [3](/2010/01/22/511)), да я приключа.
-
-Сделката по придобиването на SUN от Oracle приключи на **27 Януари** 2010. Ето официалното прес съобщение:
-
-[Oracle приключва придобиването на SUN](http://www.oracle.com/us/corporate/press/044428)
-
-Сайтът, на който има повече информация около самата сделка, е [този](http://www.oracle.com/sun/). Струва си да се отбележи, че Oracle организираха специално събитие по случая, за да представят идеите и стратегията си за продуктите, придобити от SUN. Има запис на различните презентации от събитието тук:
-
-[Oracle + SUN: Трансформирайки ИТ индустрията](http://www.oracle.com/us/sun/044498)
-
-Ако не ти се гледат 5 часа презентации, ето два линка, които да ти помогнат да наваксаш без да губиш много време:
-
-[Обобщението на InfoQ](http://www.infoq.com/news/2010/01/sunset)
-[Впечатленията на бивш служител на SUN](http://blogs.sun.com/bartm/entry/this_is_it_sun_merger)
-
-[/bulgarian]
-[english]Better later, than never ...
-After a delay of about two months, I decided finally to write and publish this post. I find it appropriate to conclude the topic, since I started it ([1](/2009/05/11/229),  [2](/2009/07/19/342),  [3](/2010/01/22/511)).
+Better later, than never ...
+After a delay of about two months, I decided finally to write and publish this post. I find it appropriate to conclude the topic, since I started it ([1](/blog/2009/05/11/oracle-to-buy-sun/),  [2](/blog/2009/07/19/oracle-to-buy-sun-part-two/),  [3](/blog/2010/01/22/oracle-to-buy-sun-part-three/)).
 
 Oracle finalized the acquisition of SUN on **January 27**, 2010. Here's the official press release:
 
@@ -42,5 +25,3 @@ If you don't feel like watching 5 hours of webcasts, here are two links to help 
 
 [Summary on the event from InfoQ](http://www.infoq.com/news/2010/01/sunset)
 [Thoughts from an ex-employee of SUN](http://blogs.sun.com/bartm/entry/this_is_it_sun_merger)
-
-[/english]

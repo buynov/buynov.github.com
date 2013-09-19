@@ -11,39 +11,7 @@ categories:
 - Life
 ---
 
-[bulgarian]Има няколко филма, които не са много популярни, но аз много харесвам. Надявам се да ти харесат и на теб.
-	
-[![Rozencrantz and Guildenstern](/images/2008/02/rozencrantz_and_guildenstern.jpg)](http://imdb.com/title/tt0100519/)
-
-[**Розенкранц и Гилденщерн са Мъртви**](http://imdb.com/title/tt0100519/)
-
-Не е задължително да си запознат със сюжета на "Хамлет", но помага в някаква степен. Филмът разказва историята на двамата приятели на Хамлет - Розенкранц и Гилденщерн, които бегло се споменават в оргиналното произведение. Младите [Тим Рот](http://imdb.com/name/nm0000619/) и [Гари Олдман](http://imdb.com/name/nm0000198/) се представят отлично, но едно от най-силните присъствия във филма за мен е на [Ричард Драйфус](http://imdb.com/name/nm0000377/). Макар глуповати и смешни, на пръв поглед, главните герои те карат да се замислиш доста след като филма е свършил. Това най-много харесвам в такива творби.
-	
-[![Big Kahuna](/images/2008/02/big_kahuna.jpg)](http://imdb.com/title/tt0189584/)
-
-[**Голямата Риба**](http://imdb.com/title/tt0189584/)
-
-[Дани де Вито](http://imdb.com/name/nm0000362/) и [Кевин Спейси](http://imdb.com/name/nm0000228/) като представители на американска компания за моторно масло, в нещо като телевизионен театър. Култовата реплика в случая се полага на Дани де Вито:
-
-> _... вече си направил много неща в живота си, за които трябва да съжаляваш - просто още не знаеш кои са._
-
-[![Glengarry Glen Ross](/images/2008/02/glengarry_glen_ross.jpg)](http://imdb.com/title/tt0104348/)
-
-[**Гленгари Глен Рос**](http://imdb.com/title/tt0104348/)
-
-Съзвездие от големи актьори - [Ал Пачино](http://imdb.com/name/nm0000199/), [Алек Болдуин](http://imdb.com/name/nm0000285/), [Джак Лемън](http://imdb.com/name/nm0000493/), [Кевин Спейси](http://imdb.com/name/nm0000228/), [Ед Харис](http://imdb.com/name/nm0000438/), в друг запомнящ се телевизионен театър. Действието се развива в по-голямата си част в офиса на компания за недвижими имоти, където брокерите се опитват да си изкарват прехраната.
-
-Според мен този филм е доста показателен за живота в Щатите, където (без да има пряка връзка със сюжета на филма), ако убиеш човек може и да ти се размине, но ако укриеш данъци, едва ли.
-	
-[![Big Trouble](/images/2008/02/big_trouble.jpg)](http://imdb.com/title/tt0246464/)
-  
-[**Големи Неприятности**](http://imdb.com/title/tt0246464/)
-
-Попаднах на филма случайно и много ми хареса. Ако искаш да гледаш един разтоварващ, неангажиращ и изключително забавен филм, горещо ти препоръчвам "Големи неприятности".
-
-Не особено впечатляващ, но успешен актьорски състав - [Тим Алън](http://imdb.com/name/nm0000741/) и [Рене Русо](http://imdb.com/name/nm0000623/) са в главните роли, а [Денис Фарина](http://imdb.com/name/nm0001199/) и [Том Сайзмор](http://imdb.com/name/nm0001744/) блестят, макар и на заден план.
-[/bulgarian]
-[english]There are a few movies, which are not very popular, but I like a lot. I hope you will enjoy them, too.
+There are a few movies, which are not very popular, but I like a lot. I hope you will enjoy them, too.
 
 	
 [![Rozencrantz and Guildenstern](/images/2008/02/rozencrantz_and_guildenstern.jpg)](http://imdb.com/title/tt0100519/)
@@ -79,4 +47,3 @@ To me, this movie is very indicative for the way of life in the States, where (n
 I came across this film accidentally and I liked it a lot. If you want to see a relaxing and very funny movie, I warmly recommend "Big Trouble".
 
 Not very impressing, but successful cast - [Tim Allen](http://imdb.com/name/nm0000741/) and [Rene Russo](http://imdb.com/name/nm0000623/) are leading the show, [Dennis Farina](http://imdb.com/name/nm0001199/) and [Tom Sizemore](http://imdb.com/name/nm0001744/) shine in their supporting roles.
-[/english]

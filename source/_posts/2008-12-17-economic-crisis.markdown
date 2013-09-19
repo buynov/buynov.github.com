@@ -10,9 +10,6 @@ categories:
 - Life
 ---
 
-[bulgarian]Не си бях давал сметка, но има много прост начин на разпознаеш, че икономиката е в криза. Сигурен признак е, че банките рекламират основно **депозити**.
+I never thought about this, but there is a very simple symptom to make you realize that the economy is in crisis. You can be certain that it is a fact, when the banks begin to advertise mainly **deposits**.
 
-Аналогично, ако банките рекламират **кредити**, значи икономиката е във възход. Гениално просто :).[/bulgarian]
-[english]I never thought about this, but there is a very simple symptom to make you realize that the economy is in crisis. You can be certain that it is a fact, when the banks begin to advertise mainly **deposits**.
-
-Accordingly, if the banks are advertising **credits**, this means that the economy is progressing. Plain and simple :).[/english]
+Accordingly, if the banks are advertising **credits**, this means that the economy is progressing. Plain and simple :).

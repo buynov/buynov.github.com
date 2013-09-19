@@ -13,40 +13,7 @@ categories:
 
 [![](/images/2012/02/motivation.jpg)](/images/2012/02/motivation.jpg)
 
-[bulgarian] Една [статия](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) на [Джоел Сполски](http://joelonsoftware.com/items/2012/02/13.html) ми напомни за уводния ми курс по мениджмънт в университета. Има (само) една тема, която много добре си спомням от този курс - теориите за човешката мотивация.
-В общи линии има [две](http://en.wikipedia.org/wiki/Theory_X_and_theory_Y) (добре де - [три](http://en.wikipedia.org/wiki/Theory_Z), ако трябва да сме точни, но третата се отнася основно за Азия). Основната разлика е във възгледа за хората/служителите и подхода им към работата:
-
-**Теория X**
-
-Тази теория предполага, че служителите са мързеливи, не харесват работата си и биха избягвали да я свършат при всяка възможност. Мениджърите не трябва да вярват на служителите и трябва да ги "наглеждат" по всяко време, ако искат да се свърши каквото и да е полезно. Служителите ще вършат работа само ако бъдат принудени да го правят, трябва да бъдат обвинявани за всяка грешка и основният им интерес в работата са парите.
-
-
-**Теория Y**
-
-Тази теория предполага, че хората са склонни да бъдат инициативни, когато им се даде такава възможност, да бъдат мотивирани и да вършат повече, отколкото се очаква от тях. При подходящите условия, хората ще приемат отговорност, ще бъдат отдадени на работата от само себе си, и ще чувстват нуждата да постигат целите дори само заради удовлетворението от собствените си постижения.
-
-<!-- More -->
-
-Има няколко пасажа от статията на Джоел, които ми харесаха - може би именно заради тяхната провокативност (превода е на автора):
-
-
-> Оказва се, че е категорично демотивиращо да работиш за компания, където работата ти е да мълчиш и да приемаш заповеди. В страната на технологичните старт-ъпи, инстинктивно усещаме че трябва да наемаме супер умни хора, но забравяме, че трябва да организираме работната сила така, че хората да използват уменията си 24/7.
-> 
-> ...
-> 
-> "Мениджърският екип" не е екипът, който "взема решенията". Това е поддържаща функция. Трябва да ги наричаме Администрация, вместо Мениджмънт, за да не им позволяваме да надвишат своите правомощия.
-
-Администрацията не би трябвало да взима трудните решения. Тя не знае достатъчно. Всички тези супер гениални специалисти по компютърни науки, които трябваше да наемеш от MIT срещу крупно заплащане би трябвало да вземат трудните решения. За това им плащаш...
-
-
-[Статията](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) си струва - съветвам те да я прочетеш.
-
-
-П.П. Донякъде по темата - [разсъжденията ми](http://buynov.com/2007/09/03/16) от преди няколко години.
-[/bulgarian]
-
-
-[english]An [article](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) by [Joel Spolsky](http://joelonsoftware.com/items/2012/02/13.html) reminded me of my introductory management class at the University. There is (only) one topic I vividly remember from this class - theories of human motivation.
+An [article](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) by [Joel Spolsky](http://joelonsoftware.com/items/2012/02/13.html) reminded me of my introductory management class at the University. There is (only) one topic I vividly remember from this class - theories of human motivation.
 Basically, there are [two](http://en.wikipedia.org/wiki/Theory_X_and_theory_Y) (well, [three](http://en.wikipedia.org/wiki/Theory_Z) if we have to be exact, but the third one applies mainly for Asia). The difference is mainly in the assumptions about people/employees:
 
 **Theory X**
@@ -75,4 +42,3 @@ Administrators aren’t supposed to make the hard decisions. They don’t know e
 [The article](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) is worth it - I would advise you to read it.
 
 P.S. Somewhat related to this topic - [my thoughts](http://buynov.com/2007/09/03/16) from several years back.
-[/english]

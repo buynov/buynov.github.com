@@ -12,23 +12,7 @@ categories:
 
 [![](/images/2010/06/TED-BG.png)](/images/2010/06/TED-BG.png)
 
-[bulgarian]Може и да не е новина, но днес забелязах, че някои от TED презентациите имат субтитри. Включително и на български!
-
-Ето няколко от любимите ми филмчета, за които има субтитри на български (гледай ги, няма да съжаляваш):
-	
-  * [Кен Робинсън казва че училищата убиват творчеството](http://www.ted.com/index.php/talks/lang/bul/ken_robinson_says_schools_kill_creativity.html)
-  * [Дейвид Поуг казва "Простотата продава"](http://www.ted.com/index.php/talks/lang/bul/david_pogue_says_simplicity_sells.html)
-  * [Ал Гор за предотвратяването на климатичните промени](http://www.ted.com/index.php/talks/lang/bul/al_gore_on_averting_climate_crisis.html?ga_source=embed)
-  * [Дан Гилбърт пита: "Защо сме щастливи?"](http://www.ted.com/talks/lang/bul/dan_gilbert_asks_why_are_we_happy.html)
-
-
-Ето и още филмчета, преведени на български:
-
-[Talks in Bulgarian](http://www.ted.com/translate/languages/bul)
-
-[/bulgarian]  
-
- [english]It might not be news, but just today I realized, that some of the TED presentations have subtitles. Including my mother tongue, Bulgarian!
+It might not be news, but just today I realized, that some of the TED presentations have subtitles. Including my mother tongue, Bulgarian!
 
 
 Here are a few of my favorite videos, translated in Bulgarian (watch them, you won't regret it):
@@ -42,5 +26,3 @@ Here are a few of my favorite videos, translated in Bulgarian (watch them, you w
 Here you can search TED videos by the subtitle languages, available for them:
 
 [TED Talks](http://www.ted.com/talks/list)
-
-[/english]

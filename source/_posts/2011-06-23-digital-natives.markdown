@@ -10,6 +10,5 @@ categories:
 - Life
 ---
 
-[bulgarian]**Предупреждение**: Клипчето е реклама. Но си струва :)[/bulgarian]
-[english]**Warning**: This is an advertisement. But worth watching :)[/english]
+**Warning**: This is an advertisement. But worth watching :)
 <iframe width="560" height="349" src="http://www.youtube.com/embed/_eq3Sj1GGs8?rel=0" frameborder="0" allowfullscreen></iframe>

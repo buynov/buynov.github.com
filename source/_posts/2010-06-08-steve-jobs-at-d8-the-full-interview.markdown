@@ -10,18 +10,7 @@ categories:
 - Business
 ---
 
-[bulgarian]Това е пълното интервю на Стив Джобс от тазгодишната [D8 конференция](http://allthingsd.com/d/) (организирана от [All Things Digital](http://allthingsd.com)), която се проведе миналата седмица.
-
-<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-
-На същата конференция, преди 3 години (на [D5](http://allthingsd.com/d/gallery/d5/)), Бил Гейтс и Стив Джобс дадоха безпрецедентно интервю заедно.
-
-Още интервюта от тазгодишния D8 можеш да намериш [тук](http://d8.allthingsd.com/).
-
-[/bulgarian]
-
-
-[english]This is the full interview with Steve Jobs from this year's [D8  conference](http://allthingsd.com/d/) (organized by [All Things Digital](http://allthingsd.com/)), which was held last week.
+This is the full interview with Steve Jobs from this year's [D8  conference](http://allthingsd.com/d/) (organized by [All Things Digital](http://allthingsd.com/)), which was held last week.
 
 <object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
@@ -29,6 +18,3 @@ On the same conference, three years ago (at [D5](http://allthingsd.com/d/gallery
 
 
 More interviews from this year's D8 you can find [here](http://d8.allthingsd.com/).
-
-
-[/english]

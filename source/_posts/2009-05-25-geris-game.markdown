@@ -13,25 +13,6 @@ categories:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/9IYRC7g2ICg" frameborder="0" allowfullscreen></iframe>
 
-[bulgarian]
-Днес се сетих за "[Играта на Джери](http://www.youtube.com/watch?v=9IYRC7g2ICg)", 5-минутното филмче на Pixar, което спечели [Oscar за късометражен анимационен филм](http://en.wikipedia.org/wiki/Geri%27s_Game) през 1998. Ако си пропуснал да го гледаш, възползвай се ;).
-
-Като го изгледах и се сетих за нещо друго. Обърни внимание как в края на партията, Джери бута царя си, с което би следвало да покаже, че се предава. Същото нещо можеш да го видиш и тук, в две сцени от "[Невинни ходове (Searching for Bobby Fischer)](http://www.imdb.com/title/tt0108065/)" (както и в една камара холивудски филми):
-	
-  * [Младият Джошуа играе шах с младия Монк ;)](http://www.youtube.com/watch?v=nDZSqnzXQJc)
-  * [Финалната сцена от филма](http://www.youtube.com/watch?v=ujQdE_2tBqk)
-
-От мен да знаеш, че шаха е джентълменска игра. Ако някога играеш шах с някой друг (не като Джери, сам ;)) и се случи да загубиш, протегни ръка и бъди първия, който да поздрави съперника с победата. Защото за да се научиш да печелиш, първо трябва да се научиш да губиш достойно. Ръкостискането преди и след партията е толкова важно, че е залегнало в правилата на [ФИДЕ](http://www.fide.com/) - спомни си за [скандала с Иван Чепаринов](http://www.dnevnik.bg/sport/2008/01/20/449938_slujebna_zaguba_na_ivan_cheparinov_na_shah_turnira_v/) миналата година:
-
-> Отказът за ръкостискане с опонента преди началото на партията се счита за нарушение на етичния кодекс на Международната шахматна федерация (ФИДЕ).
-
-Всъщност статията не е вярна, партията се преигра (където Чепаринов пак загуби), но не това е важното в случая.
-
-А това с бутането на царя го забрави - холивудски простотии.
-
-[/bulgarian]
-[english]
-
 I recalled "[Geri's Game](http://www.youtube.com/watch?v=9IYRC7g2ICg)" today, the 5-minute Pixar movie, which won [an Oscar for Best Short Animated Film](http://en.wikipedia.org/wiki/Geri%27s_Game) in 1998. If you missed to watch it, take this chance to do it ;).
 
 When I watched it i recalled something else. Notice how at the end of the game, Geri knocks down his King, which comes to tell, that he resigns. The same action can be observed in the following two scenes from "[Searching for Bobby Fischer](http://www.imdb.com/title/tt0108065/)" (as well as in a bunch of other Holywood movies):
@@ -46,5 +27,3 @@ Remember this from me - chess is a game for gentlemen. If you ever play chess wi
 In fact, the game was replayed, but this is not important for what I am trying to say.
 
 As with knocking your king down, forget it - it's a Holywood bullsh*t.
-
-[/english]
