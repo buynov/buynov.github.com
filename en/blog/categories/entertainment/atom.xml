@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Entertainment | Buynov]]></title>
+  <link href="http://buynov.github.io/blog/categories/entertainment/atom.xml" rel="self"/>
+  <link href="http://buynov.github.io/"/>
+  <updated>2013-09-21T16:33:51+03:00</updated>
+  <id>http://buynov.github.io/</id>
+  <author>
+    <name><![CDATA[Stefan Buynov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi and RaspBMC as a Media Player]]></title>
+    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <updated>2013-03-13T10:36:17+02:00</updated>
+    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <content type="html"><![CDATA[<h3>A Bit of Background</h3>
+
+<p>I bought a TV set in the autumn (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). It is a LED TV, with 3D (not that this matters), built-in WiFi, Smart TV, etc. The specs looked great and the price was quite acceptable. The picture, as a matter of fact, is very good &ndash; and thank God, because this is probably the most important thing about a TV. The software, however, is bad. Really bad. It appears as if it supports some standards, it appears to have some programmes and channels , but everything is so slow, clunky and poorly designed, that it doesn&rsquo;t seem to be worth the effort. Without getting into too much details (and I am not familiar with them, simply because I lost interest pretty quickly), I&rsquo;ll just say that the media player built into the TV was not satisfying for me (it doesn&rsquo;t support any kind of subtitles in Cyrillic, for example) and I decided to get an external one. I quickly started leaning towards <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, probably the best choice if you compare price and capabilities. It didn&rsquo;t take long to decide and order it. Whether because it was around Christmas or for some other reason, it turned out that this model is not available anywhere. And no deliveries were expected shortly. Pretty amazing how you can order something online, from Amazon UK, for example, but you cannot get it from a local Sofia store, most likely because the local distributor is too lazy to make an order. Anyway.</p>
+
+<p><a href="/images/2013/03/RPi_front_small.jpg"><img src="/images/2013/03/RPi_front_small.jpg" alt="" /></a>Looking for an alternative, I decided to try the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (or RPi for short) of a colleague. I took it for a weekend, installed <a href="http://www.raspbmc.com/">RaspBMC</a>, connected it to a TV via HDMI cable and voila! It was working pretty well &ndash; several movies, pictures, everything was flawless. In exchange for 35 Euros (plus a couple of other things, see below) without VAT (if you heard the rumor of a $35 RPi, it is Europe after all ;)), I could assemble a media player, and a pretty good one. Additionally, Raspberry Pi (or RPi for short) is a fully functional computer, which you can use as a server &ndash; I read that some people host their Wordpress blog on it. Most RPi images are Debian-based (including the official <a href="http://www.raspbian.org/">Raspbian</a> and <a href="http://www.raspbmc.com/">RaspBMC</a>, which I prefer), so you have a bunch of packages ready to install.</p>
+
+<!-- More -->
+
+
+<h3>A Bit of Information About Raspberry Pi</h3>
+
+<p>In case you don&rsquo;t know, <a href="http://www.raspberrypi.org/">Raspberry Pi</a> is a cheap mini computer, developed by an independent foundation, initially targeted at children, who were supposed to play with them and grow an interest in the computer science as a whole. It turned out, however, that RPi became popular mainly among kids of 20-30 years of age, and its popularity contributed to having a couple of versions of the hardware already, and a huge potential to grow and be further developed in the upcoming years.</p>
+
+<p>Keep in mind, though, that this is not a fully functional computer out of the box &ndash; the RPi itself is just a mainboard and in order to use it, you will need a micro USB charging cable, SD flash card (it helps if you consult <a href="http://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards">this list</a> first) and an HDMI cable in order to connect it to a monitor or a TV set. You can also get additional accessories like a box, keyboard, mouse, WiFi adapter, etc. But before start extending the RPi, notice that some of those are highly overpriced &ndash; apparently some people / companies are trying to make easy money out of the popularity of the product, and its low price. Overall you should look at RPi as a construction computer kit, which requires &ldquo;do-it-yourself&rdquo; approach. If this sounds disturbing to you and you prefer everything to work out of the box, RPi is not for you.</p>
+
+<h3><a href="/images/2013/03/RPi_sideways_small.jpg"><img src="/images/2013/03/RPi_sideways_small.jpg" alt="" /></a>A Bit of Restrictions</h3>
+
+<p>RPi has an ARM processor, which means that at this stage, you cannot install Windows on it. Microsoft already have an ARM based version of Windows (<a href="http://en.wikipedia.org/wiki/Windows_RT">Windows RT</a>), but I haven&rsquo;t seen anyone to get it going on a RPi, yet. And having in mind the serious requirements (for <a href="http://www.tomshardware.com/news/Surface-Windows-RT-Microsoft-windows-8,18536.html">disk space</a>, for example), this might never happen.</p>
+
+<h3>A Bit of Logistics</h3>
+
+<p>The RPi foundation granted exclusive right to only two official distributors world-wide &ndash; <a href="http://www.farnell.com/">Farnell</a> and <a href="http://www.rs-components.com">RS Components</a>. Lucky enough, one of those has an official representative in Bulgaria &ndash; namely, <a href="http://www.comet.bg/">Comet</a>. You can order an RPi from sites outside Bulgaria, (like Amazon DE/UK, for example), but it is not very likely that you will get it cheaper. I got my RPi from Comet, and I don&rsquo;t regret it. Their sales reps are very responsive &ndash; I had all the communication conducted over email and every time they responded within hours. They answered to all my questions and provided a final price before I place the order. Apart from the RPi itself, you can also order <a href="http://store.comet.bg/bg/CatalogueFarnell/Search/?keywords=raspberry#eyJpcHAiOiIxMCIsImsiOiJyYXNwYmVycnkifQ%3D%3D">all the accessories</a> that Farnell offers (keep in mind that Comet&rsquo;s search engine is a bit weird, and takes some time to provide results, without indicating that there is something going on in the background). If you order, you can have your items delivered by Speedy or Econt Express &ndash; about 10 leva for Sofia. for example. You can also pick-up your order from their office &ndash; they have one downtown Sofia. I also had a <a href="http://bg.farnell.com/multicomp/mc-rp001-clr/enclosure-raspberry-pi-clear/dp/2113799#">transparent box</a> delivered, which seems quite nice.</p>
+
+<h3><a href="/images/2013/03/xbmc_theater.jpg"><img src="/images/2013/03/xbmc_theater.jpg" alt="" /></a>A Little Media Player</h3>
+
+<p>When you hear the word computer, usually you imagine basic peripherals like keyboard and mouse. In general, you can hook those up to the RPi, but with RaspBMC this is not required. RaspBMC is at its core a Debian with <a href="http://xbmc.org/">XBMC</a> as a user interface. The name of XBMC comes from XBox Media Center or to put it another way, a media player which resembles the interface of XBox. The software is quite mature and developed, the last version is 12, and it has been around for awhile. XBMC is open source software, and there are quite a few plugins and extensions for it. The best part of it is, that an XBMC instance can be controlled remotely in many different ways, including a web control panel (on RaspBMC it is enabled by default), smartphone applications (I use <a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree">this one</a>, which is very good), and because it supports <a href="http://en.wikipedia.org/wiki/Digital_Living_Network_Alliance">DLNA</a> you can use any DLNA enabled remote controller, like <a href="http://www.imediashare.tv/">iMediaShare</a>, for example. In short, take the SD flash card from the RPi, install RaspBMC on a computer, put the SD card back in the RPi and power it up. Everything works great. Again, if installation, configuration and similar terms bother you, RPi is probably not for you. Check WD Live, it might already be available ;)</p>
+
+<h3>A Bit of Extras</h3>
+
+<p>With RaspBMC you get an important, although not very popular, library &ndash; <a href="http://libcec.pulse-eight.com/">libCEC</a>. It implements a standard protocol, called <a href="http://en.wikipedia.org/wiki/HDMI#CEC">CEC</a>, which I had no idea existed &ndash; a colleague of mine told me about it. This protocol allows you to control your XBMC with the standard remote control of your TV set, through the HDMI cable! And this works &hellip; to some extend. My colleague, for example, has a Sony TV set and this works without problems. You just switch the HDMI source from the TV menu, and you can control your XBMC with the TV remote, you don&rsquo;t need any other device. On my Philips TV, however, it&rsquo;s a different story. It only works from time to time. I think it is somewhat related to the fact, that I have another device on another HDMI port (the set-top box for the TV). The relation is not clear, though &ndash; sometimes the remote works when the TV box is turned on, other times &ndash; when turned off. So, if I want to &ldquo;wake&rdquo; the connection, I switch to the HDMI source of the RPi and start turning the TV box on and off &ndash; sometimes it works, sometimes not. If you have another TV model, however (like Sony, for example), it may work without problem.</p>
+
+<p>Another great advantage of this configuration is that there are a lot of plugins for XBMC. You can find plugins available for a variety of services (including IPTV), and if you miss something, you can make it by yourself :)</p>
+
+<p>If this is not enough for you, you have a fully-functional Linux box at your disposal, including SSH access (user: pi, password: raspberry &ndash; wise, right) with apt-get. With all the packages available for Debian, you can try to run anything you feel like.</p>
+
+<h3>Summary</h3>
+
+<p>Raspberry Pi with RaspBMC make for an excellent media player. The device is small, the software is stable and is being constantly developed. A colleague even managed to put the RPi on the back of his TV set and power it from the USB port of the TV, so that it wouldn&rsquo;t fool around. Additionally, after the success of the first two generations of RPi among the general public, you can expect the software to become better and better. Who knows, one day you might not even need your cable TV provider anymore ;).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Germany and Benelux 2011]]></title>
+    <link href="http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011/"/>
+    <updated>2011-06-10T10:53:45+03:00</updated>
+    <id>http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011</id>
+    <content type="html"><![CDATA[<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
+
+
+<p>View <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;source=embed">Germany and Benelux</a> on a larger map</p>
+
+<p><strong>Nine days</strong> (21 May 04:30 &ndash; 29 May 22:00), <strong>5300 kilometers</strong> (see the map), <strong>6 European capitals</strong> (Berlin, Amsterdam, Brussels, Luxembourg, Ljubljana, Zagreb), <strong>2 beer capitals</strong> (Radeberg/Radeberger, Freising/Weihenstephan), <strong>6 more European cities</strong> (Dresden, Leipzig, Mainz, Stuttgart, Munich, Bled),  Mazda CX7, three friends &ndash; priceless!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bears, downtown Sofia]]></title>
+    <link href="http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia/"/>
+    <updated>2011-04-12T10:33:39+03:00</updated>
+    <id>http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia</id>
+    <content type="html"><![CDATA[<p>More than 120 bears are traveling around the world since 2003. More information, <a href="http://www.buddy-baer.com/united-buddy-bears/world-tour/sofija-2011.html">here</a>.
+The good news is that the bears are in Sofia until May, on the <a href="http://www.google.bg/url?sa=t&amp;source=web&amp;cd=4&amp;ved=0CDoQoAIwAw&amp;url=http%3A%2F%2Fmaps.google.bg%2Fmaps%2Fplace%3Fhl%3Dbg%26client%3Dfirefox-a%26hs%3DYW3%26rls%3Dorg.mozilla%3Aen-US%3Aofficial%26channel%3Ds%26um%3D1%26ie%3DUTF-8%26q%3D%25D1%2581%25D0%25B2%25D0%25B5%25D1%2582%25D0%25B0%2B%25D0%25BD%25D0%25B5%25D0%25B4%25D0%25B5%25D0%25BB%25D1%258F%26fb%3D1%26gl%3Dbg%26hq%3D%25D1%2581%25D0%25B2%25D0%25B5%25D1%2582%25D0%25B0%2B%25D0%25BD%25D0%25B5%25D0%25B4%25D0%25B5%25D0%25BB%25D1%258F%26hnear%3D%25D0%25A1%25D0%25BE%25D1%2584%25D0%25B8%25D1%258F%26cid%3D14300161323953423416&amp;rct=j&amp;q=%D1%81%D0%B2%D0%B5%D1%82%D0%B0%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F&amp;ei=gV6jTemOMoPesgbH0oTfAw&amp;usg=AFQjCNEl26M3dYVMCooe4tkgbV5DiMj-ZQ&amp;cad=rja">Sveta Nedelya</a> square, next to the church.</p>
+
+<p>And as seen from the photographic material below, the Cuban bear is the best friend of the Bulgarian bear ;)</p>
+
+<p><a href="/gallery/sofia-bears/dsc02629.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02630.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02646.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02647.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02648.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02649.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02655.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02662.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02667.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02679.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02691.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02694.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02695.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02698.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg" alt="" /></a>
+<a href="/gallery/sofia-bears/dsc02699.jpg"><img src="/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg" alt="" /></a></p>
+
+<p>Well, take a hike and enjoy it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An interview with Anatoly Karpov]]></title>
+    <link href="http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
+    <updated>2010-07-07T10:00:48+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
+    <content type="html"><![CDATA[<p>An interesting interview with Anatoly Karpov, <a href="http://en.wikipedia.org/wiki/World_Chess_Championship#Undisputed_world_champions_1886.E2.80.931993">12-th</a> world chess champion, who is having an election campaign for the <a href="http://www.fide.com/">FIDE</a> (the world chess federation) presidency.</p>
+
+<p>For his style of play, what is important, in order to become a good chess played, about Kasparov, Fischer, Morphy and do you have to be crazy in order to become a world chess champion (if you ask me, it probably helps).</p>
+
+<p><a href="http://bigthink.com/ideas/big-think-interview-with-anatoly-karpov">Big Think Interview with Anatoly Karpov</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[World Cup 2010]]></title>
+    <link href="http://buynov.github.io/blog/2010/06/21/world-cup-2010/"/>
+    <updated>2010-06-21T09:00:55+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/06/21/world-cup-2010</id>
+    <content type="html"><![CDATA[<p><a href="http://www.fifa.com"><img src="/images/2010/06/world_cup_2010.jpg" alt="FIFA World Cup 2010" /></a></p>
+
+<p>It is different, in a way (a positive way) when there is a FIFA World Cup going on. It is good to know that there are three games each day, each of them having the potential to become <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061464/index.html">one</a> or <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061482/index.html">another</a> sensation. In regard to the World Cup is one of the best <a href="http://twitter.com/">tweets</a> I came across lately:</p>
+
+<blockquote><p>The England team visited  an orphanage in Cape Town today. &ldquo;It&rsquo;s heartbreaking to see their sad  little faces with no hope&rdquo; said Jamal aged 6.</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

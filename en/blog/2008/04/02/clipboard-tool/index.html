@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Clipboard Tool - Buynov</title>
+  <meta name="author" content="Stefan Buynov">
+
+  
+  <meta name="description" content="I created my first Open Source project &ndash; Clipboard Tool. Finally, I gave something to the world myself &ndash; hopefully it will turn out to &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://buynov.github.io/blog/2008/04/02/clipboard-tool/">
+  <link href="/en/favicon.png" rel="icon">
+  <link href="/en/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/en/javascripts/modernizr-2.0.js"></script>
+  <script src="/en/javascripts/ender.js"></script>
+  <script src="/en/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Buynov" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9025872-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:buynov.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+    <li><a href="/en/">
+        <span class="blue_light">
+            Buynov
+        </span>
+       
+           <span class="blue_dark">
+             Memento Mori
+           </span>
+       
+    </a></li>
+  <li><a href="/en/blog/archives">All Posts</a></li>
+  <li><a href="/en/mines">Mines</a></li>
+  <li><a href="/en/buynomobile">Buynomobile</a></li>
+  <li><a href="/en/about">About me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Clipboard Tool</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-04-02T22:29:08+03:00" pubdate data-updated="true">02 Apr 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><a href="/en/images/2008/04/ct_conver_cyrillic_to_latin_menu.png"><img src="/en/images/2008/04/ct_conver_cyrillic_to_latin_menu.png" alt="ct_conver_cyrillic_to_latin_menu.png" /></a></p>
+
+<p>I created my first Open Source project &ndash; <a href="http://clipboard-tool.sourceforge.net">Clipboard Tool</a>. Finally, I gave something to the world myself &ndash; hopefully it will turn out to be useful ;). The main page is in Bulgarian right now, but I hope to be able to translate it soon. Briefly, this is a tool to convert <a href="http://en.wikipedia.org/wiki/Cyrillic_alphabet">Cyrillic</a> into <a href="http://en.wikipedia.org/wiki/Latin">Latin</a> letters, process known as <a href="http://en.wikipedia.org/wiki/Transliteration">transliteration</a>, into the clipboard itself. Additionally, it provides a function to remove formatting from the text you copied into the clipboard.</p>
+
+<p><a href="http://sourceforge.net/projects/clipboard-tool">I host the project on Sourceforge</a>, which provides useful instruments for that purpose, including both CVS and SVN, shell access (SSH, SCP, SFTP). You can use a sub-domain for the project web page &ndash; <strong><name of the project>.sourceforge.net. </strong>There are also software release management system (upload is a bit strange, through an anonymous FTP), statistics, etc.</p>
+
+<p>I also configured a <a href="http://www.mediawiki.org">MediaWiki</a> page for the project which is not available in English yet &ndash; <a href="http://clipboard-tool.sourceforge.net">http://clipboard-tool.sourceforge.net</a>. MediaWiki installation on Sourceforge is not a trivial task, however. Keep in mind that Sourceforge hosting provides only PHP 4 at your disposal &ndash; PHP 5 is not supported. That is why you should use<a href="http://download.wikimedia.org/mediawiki/1.6/mediawiki-1.6.10.tar.gz"> MediaWiki version 1.6.10</a>, next releases require PHP 5. There are additional restrictions for directory access, which makes the installation even more difficult. There are two very useful sites, which will help you install and configure your wiki:</p>
+
+<ul>
+<li><a href="http://monda.hu/blog/2006/03/03/mediawiki-on-sourceforge-the-howto/">MediaWiki on SourceForge &ndash; The HOWTO</a> &ndash; a big thank you to Laszlo, who made the effort to write this article</li>
+<li><a href="http://baoilleach.blogspot.com/2007/06/installing-mediawiki-on-sourceforge.html">Installing Mediawiki on Sourceforge</a> &ndash; this site contains a few helpful corrections to the HOWTO above</li>
+</ul>
+
+
+<p>That&rsquo;s it &ndash; stop wandering around and get to work ;)</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Stefan Buynov</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-04-02T22:29:08+03:00" pubdate data-updated="true">02 Apr 2008</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/en/blog/categories/software/'>Software</a>, <a class='category' href='/en/blog/categories/software-development/'>Software Development</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://buynov.github.io/blog/2008/04/02/clipboard-tool/" data-via="buynov" data-counturl="http://buynov.github.io/blog/2008/04/02/clipboard-tool/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/en/blog/2008/03/16/increased-relative-value/" title="Previous Post: Increased Relative Value">&laquo; Increased Relative Value</a>
+      
+      
+        <a class="basic-alignment right" href="/en/blog/2008/07/03/iphone/" title="Next Post: iPhone">iPhone &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+    <a href="http://buynov.com/"><img alt="bulgarian" src="/en/images/bg.png" border="0" /></a>&nbsp;
+    <a href="http://buynov.com/en/"><img alt="english" src="/en/images/en.png" border="0" /></a>&nbsp;
+</section>
+
+<section>
+<a class="twitter-timeline"  href="https://twitter.com/buynov" data-widget-id="263722348220391424">Tweets by @buynov</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/en/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/">Raspberry Pi and RaspBMC as a Media Player</a>
+      </li>
+    
+      <li class="post">
+        <a href="/en/blog/2012/03/20/motivation/">Motivation</a>
+      </li>
+    
+      <li class="post">
+        <a href="/en/blog/2011/06/23/digital-natives/">Digital Natives</a>
+      </li>
+    
+      <li class="post">
+        <a href="/en/blog/2011/06/10/germany-and-benelux-2011/">Germany and Benelux 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/en/blog/2011/04/12/bears-downtown-sofia/">Bears, downtown Sofia</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/buynov">@buynov</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'buynov',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/en/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/105419545613893436649?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Stefan Buynov -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

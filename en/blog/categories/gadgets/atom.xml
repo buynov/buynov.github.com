@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gadgets | Buynov]]></title>
+  <link href="http://buynov.github.io/blog/categories/gadgets/atom.xml" rel="self"/>
+  <link href="http://buynov.github.io/"/>
+  <updated>2013-09-21T16:33:51+03:00</updated>
+  <id>http://buynov.github.io/</id>
+  <author>
+    <name><![CDATA[Stefan Buynov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi and RaspBMC as a Media Player]]></title>
+    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <updated>2013-03-13T10:36:17+02:00</updated>
+    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <content type="html"><![CDATA[<h3>A Bit of Background</h3>
+
+<p>I bought a TV set in the autumn (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). It is a LED TV, with 3D (not that this matters), built-in WiFi, Smart TV, etc. The specs looked great and the price was quite acceptable. The picture, as a matter of fact, is very good &ndash; and thank God, because this is probably the most important thing about a TV. The software, however, is bad. Really bad. It appears as if it supports some standards, it appears to have some programmes and channels , but everything is so slow, clunky and poorly designed, that it doesn&rsquo;t seem to be worth the effort. Without getting into too much details (and I am not familiar with them, simply because I lost interest pretty quickly), I&rsquo;ll just say that the media player built into the TV was not satisfying for me (it doesn&rsquo;t support any kind of subtitles in Cyrillic, for example) and I decided to get an external one. I quickly started leaning towards <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, probably the best choice if you compare price and capabilities. It didn&rsquo;t take long to decide and order it. Whether because it was around Christmas or for some other reason, it turned out that this model is not available anywhere. And no deliveries were expected shortly. Pretty amazing how you can order something online, from Amazon UK, for example, but you cannot get it from a local Sofia store, most likely because the local distributor is too lazy to make an order. Anyway.</p>
+
+<p><a href="/images/2013/03/RPi_front_small.jpg"><img src="/images/2013/03/RPi_front_small.jpg" alt="" /></a>Looking for an alternative, I decided to try the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (or RPi for short) of a colleague. I took it for a weekend, installed <a href="http://www.raspbmc.com/">RaspBMC</a>, connected it to a TV via HDMI cable and voila! It was working pretty well &ndash; several movies, pictures, everything was flawless. In exchange for 35 Euros (plus a couple of other things, see below) without VAT (if you heard the rumor of a $35 RPi, it is Europe after all ;)), I could assemble a media player, and a pretty good one. Additionally, Raspberry Pi (or RPi for short) is a fully functional computer, which you can use as a server &ndash; I read that some people host their Wordpress blog on it. Most RPi images are Debian-based (including the official <a href="http://www.raspbian.org/">Raspbian</a> and <a href="http://www.raspbmc.com/">RaspBMC</a>, which I prefer), so you have a bunch of packages ready to install.</p>
+
+<!-- More -->
+
+
+<h3>A Bit of Information About Raspberry Pi</h3>
+
+<p>In case you don&rsquo;t know, <a href="http://www.raspberrypi.org/">Raspberry Pi</a> is a cheap mini computer, developed by an independent foundation, initially targeted at children, who were supposed to play with them and grow an interest in the computer science as a whole. It turned out, however, that RPi became popular mainly among kids of 20-30 years of age, and its popularity contributed to having a couple of versions of the hardware already, and a huge potential to grow and be further developed in the upcoming years.</p>
+
+<p>Keep in mind, though, that this is not a fully functional computer out of the box &ndash; the RPi itself is just a mainboard and in order to use it, you will need a micro USB charging cable, SD flash card (it helps if you consult <a href="http://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards">this list</a> first) and an HDMI cable in order to connect it to a monitor or a TV set. You can also get additional accessories like a box, keyboard, mouse, WiFi adapter, etc. But before start extending the RPi, notice that some of those are highly overpriced &ndash; apparently some people / companies are trying to make easy money out of the popularity of the product, and its low price. Overall you should look at RPi as a construction computer kit, which requires &ldquo;do-it-yourself&rdquo; approach. If this sounds disturbing to you and you prefer everything to work out of the box, RPi is not for you.</p>
+
+<h3><a href="/images/2013/03/RPi_sideways_small.jpg"><img src="/images/2013/03/RPi_sideways_small.jpg" alt="" /></a>A Bit of Restrictions</h3>
+
+<p>RPi has an ARM processor, which means that at this stage, you cannot install Windows on it. Microsoft already have an ARM based version of Windows (<a href="http://en.wikipedia.org/wiki/Windows_RT">Windows RT</a>), but I haven&rsquo;t seen anyone to get it going on a RPi, yet. And having in mind the serious requirements (for <a href="http://www.tomshardware.com/news/Surface-Windows-RT-Microsoft-windows-8,18536.html">disk space</a>, for example), this might never happen.</p>
+
+<h3>A Bit of Logistics</h3>
+
+<p>The RPi foundation granted exclusive right to only two official distributors world-wide &ndash; <a href="http://www.farnell.com/">Farnell</a> and <a href="http://www.rs-components.com">RS Components</a>. Lucky enough, one of those has an official representative in Bulgaria &ndash; namely, <a href="http://www.comet.bg/">Comet</a>. You can order an RPi from sites outside Bulgaria, (like Amazon DE/UK, for example), but it is not very likely that you will get it cheaper. I got my RPi from Comet, and I don&rsquo;t regret it. Their sales reps are very responsive &ndash; I had all the communication conducted over email and every time they responded within hours. They answered to all my questions and provided a final price before I place the order. Apart from the RPi itself, you can also order <a href="http://store.comet.bg/bg/CatalogueFarnell/Search/?keywords=raspberry#eyJpcHAiOiIxMCIsImsiOiJyYXNwYmVycnkifQ%3D%3D">all the accessories</a> that Farnell offers (keep in mind that Comet&rsquo;s search engine is a bit weird, and takes some time to provide results, without indicating that there is something going on in the background). If you order, you can have your items delivered by Speedy or Econt Express &ndash; about 10 leva for Sofia. for example. You can also pick-up your order from their office &ndash; they have one downtown Sofia. I also had a <a href="http://bg.farnell.com/multicomp/mc-rp001-clr/enclosure-raspberry-pi-clear/dp/2113799#">transparent box</a> delivered, which seems quite nice.</p>
+
+<h3><a href="/images/2013/03/xbmc_theater.jpg"><img src="/images/2013/03/xbmc_theater.jpg" alt="" /></a>A Little Media Player</h3>
+
+<p>When you hear the word computer, usually you imagine basic peripherals like keyboard and mouse. In general, you can hook those up to the RPi, but with RaspBMC this is not required. RaspBMC is at its core a Debian with <a href="http://xbmc.org/">XBMC</a> as a user interface. The name of XBMC comes from XBox Media Center or to put it another way, a media player which resembles the interface of XBox. The software is quite mature and developed, the last version is 12, and it has been around for awhile. XBMC is open source software, and there are quite a few plugins and extensions for it. The best part of it is, that an XBMC instance can be controlled remotely in many different ways, including a web control panel (on RaspBMC it is enabled by default), smartphone applications (I use <a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree">this one</a>, which is very good), and because it supports <a href="http://en.wikipedia.org/wiki/Digital_Living_Network_Alliance">DLNA</a> you can use any DLNA enabled remote controller, like <a href="http://www.imediashare.tv/">iMediaShare</a>, for example. In short, take the SD flash card from the RPi, install RaspBMC on a computer, put the SD card back in the RPi and power it up. Everything works great. Again, if installation, configuration and similar terms bother you, RPi is probably not for you. Check WD Live, it might already be available ;)</p>
+
+<h3>A Bit of Extras</h3>
+
+<p>With RaspBMC you get an important, although not very popular, library &ndash; <a href="http://libcec.pulse-eight.com/">libCEC</a>. It implements a standard protocol, called <a href="http://en.wikipedia.org/wiki/HDMI#CEC">CEC</a>, which I had no idea existed &ndash; a colleague of mine told me about it. This protocol allows you to control your XBMC with the standard remote control of your TV set, through the HDMI cable! And this works &hellip; to some extend. My colleague, for example, has a Sony TV set and this works without problems. You just switch the HDMI source from the TV menu, and you can control your XBMC with the TV remote, you don&rsquo;t need any other device. On my Philips TV, however, it&rsquo;s a different story. It only works from time to time. I think it is somewhat related to the fact, that I have another device on another HDMI port (the set-top box for the TV). The relation is not clear, though &ndash; sometimes the remote works when the TV box is turned on, other times &ndash; when turned off. So, if I want to &ldquo;wake&rdquo; the connection, I switch to the HDMI source of the RPi and start turning the TV box on and off &ndash; sometimes it works, sometimes not. If you have another TV model, however (like Sony, for example), it may work without problem.</p>
+
+<p>Another great advantage of this configuration is that there are a lot of plugins for XBMC. You can find plugins available for a variety of services (including IPTV), and if you miss something, you can make it by yourself :)</p>
+
+<p>If this is not enough for you, you have a fully-functional Linux box at your disposal, including SSH access (user: pi, password: raspberry &ndash; wise, right) with apt-get. With all the packages available for Debian, you can try to run anything you feel like.</p>
+
+<h3>Summary</h3>
+
+<p>Raspberry Pi with RaspBMC make for an excellent media player. The device is small, the software is stable and is being constantly developed. A colleague even managed to put the RPi on the back of his TV set and power it from the USB port of the TV, so that it wouldn&rsquo;t fool around. Additionally, after the success of the first two generations of RPi among the general public, you can expect the software to become better and better. Who knows, one day you might not even need your cable TV provider anymore ;).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Andy Rubin at D: Dive Into Mobile]]></title>
+    <link href="http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
+    <updated>2011-01-05T10:06:41+02:00</updated>
+    <id>http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
+    <content type="html"><![CDATA[<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>This is the full interview with <a href="http://en.wikipedia.org/wiki/Andy_Rubin">Andy Rubin</a> from (already) last year&rsquo;s <a href="http://allthingsd.com/d/dive-into-mobile/">D: Dive Into Mobile</a> conference (I&rsquo;ve mentioned the <a href="http://allthingsd.com/">All Things Digital</a>&rsquo;s conferences <a href="/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/">before</a>).</p>
+
+<p>Andy Rubin has two successful start-ups behind his back. One (the so called <a href="http://en.wikipedia.org/wiki/T-Mobile_Sidekick">T-Mobile Sidekick</a>) he sold to Micro$soft, and the other (precisely, <a href="http://www.android.com/">Android</a>) &ndash; to Google. This information, by itself, should tell enough.</p>
+
+<p>The interview is long (about an hour and a half), but if you ask me, it&rsquo;s worthed. Enjoy!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[John's Phone]]></title>
+    <link href="http://buynov.github.io/blog/2010/11/16/johns-phone/"/>
+    <updated>2010-11-16T09:43:05+02:00</updated>
+    <id>http://buynov.github.io/blog/2010/11/16/johns-phone</id>
+    <content type="html"><![CDATA[<p>This is THE simplest cell-phone ever. It&rsquo;s address book ROCKS &hellip;</p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"> </embed></object>
+
+
+<p>The most interesting part is, that this thing is real &ndash; you can order it from <a href="http://www.johnsphones.com">here</a>. The price does not seem very real, but on the other hand the idea is quite innovative. iPhone does not seem that ingenious any more, does it <strong>;)</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPad from Metro]]></title>
+    <link href="http://buynov.github.io/blog/2010/09/03/ipad-from-metro/"/>
+    <updated>2010-09-03T11:04:55+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/09/03/ipad-from-metro</id>
+    <content type="html"><![CDATA[<p><a href="/images/2010/09/iPad_v_Metro.png"><img src="/images/2010/09/iPad_v_Metro-242x300.png" alt="" /></a></p>
+
+<p>Unbelievable and yet, true &ndash; they are selling <a href="http://www.apple.com/ipad/">iPads</a> in <a href="http://www.metro.bg">Metro</a>! If you don&rsquo;t believe it, check their <a href="http://metro.bg/pages/1102.aspx?0&amp;mm=10180&amp;cd=2&amp;kd=1&amp;pg=6">online catalogue</a> (you need a Metro card to be able to do so).</p>
+
+<p> The price is not that impressive (keeping in mind that the same model of iPad sells for $499 in the US), but it is better than what <a href="http://laptopi-apple-i-pad-ot-notebook-bg.apple.laptopi.notebook.bg/laptop-apple-i-pad-16-gb-wi-fi/">others</a> are offering in Bulgaria. What impresses me most is that there is an Apple product on sale in a wholesale store like Metro.</p>
+
+<p>If you like the offer, hurry up &ndash; it expires on Sep 8th. I suspect that the price will be higher after this date.</p>
+
+<p>In this context, Apple announced the new <a href="http://www.apple.com/appletv/">Apple TV</a> the other day. You can see the recording of the keynote <a href="http://www.apple.com/apple-events/september-2010/">here</a>. Even if you don&rsquo;t own any Apple product (like myself), Steve Jobs' presentations are always worth watching.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mobile Biography]]></title>
+    <link href="http://buynov.github.io/blog/2010/04/22/mobile-biography/"/>
+    <updated>2010-04-22T09:48:25+03:00</updated>
+    <id>http://buynov.github.io/blog/2010/04/22/mobile-biography</id>
+    <content type="html"><![CDATA[<p><a href="/images/2010/04/01_Ericsson_GA628.gif"><img src="/images/2010/04/01_Ericsson_GA628.gif" alt="" /></a></p>
+
+<p>Model: <strong><a href="http://www.gsmarena.com/ericsson_ga_628-105.php">Ericsson GA-628</a></strong></p>
+
+<p>Year: <strong>1998</strong></p>
+
+<p>I got it with a pre-paid SIM card from <a href="http://online.vodafone.co.uk/">Vodafone UK</a>. Not that I could afford it, but I just couldn&rsquo;t resist. Ericsson were among the leaders in mobile phone manufacturers at the time, and the GA-628 had the stunning <strong>two-row</strong> display (no one was considering pixels at that time).</p>
+
+<p>I used the phone for about a month and after I got back to Bulgaria, I tried to sell it. I realized then, that cell-phones could be locked, and in order to work with networks different than the network of the operator you got it from, you must find someone to unlock it. In exchange for a &ldquo;reasonable&rdquo; charge, of course. This adventure cost me dearly, at the end, but it was really cool to have a cell-phone at that time.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/02_Motorola_T2288.gif"><img src="/images/2010/04/02_Motorola_T2288.gif" alt="" /></a></p>
+
+<p>Model: <strong><a href="http://www.gsmarena.com/motorola_talkabout_t2288-82.php">Motorola T2288</a></strong></p>
+
+<p>Year: <strong>2000</strong></p>
+
+<p>A friend of mine brought it to me from Germany. I was well aware of the unlocking, already, and this time is cost me only 15 leva (about 7.5 EURO). I clearly remember, that when I got the phone, I stood in line for half a day to get a SIM card from the only mobile carrier in Bulgaria at the time, <a href="http://mtel.net">Mobiltel</a>. The phone was not something special, but it was good enough.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/03_Nokia_7110.jpg"><img src="/images/2010/04/03_Nokia_7110.jpg" alt="" /></a></p>
+
+<p>Model: <strong><a href="http://www.gsmarena.com/nokia_7110-15.php">Nokia 7110</a></strong></p>
+
+<p>Year: <strong>2002</strong></p>
+
+<p>I got it second hand &ndash; I simply didn&rsquo;t have the money to get it brand new. Additionally, the model was kind of dated already &ndash; it had been two-three years since it was released (in 1999). The guy who sold it to me had just gotten a brand new <a href="http://www.gsmarena.com/nokia_6310-240.php">Nokia  6310</a> and therefore wanted to sell the 7110. I nobly envied him, for being able to afford it.</p>
+
+<p>Otherwise the 7110 by itself was a pretty good phone. A lot of people think, that this model was featured in the phenomenal first part of &ldquo;<a href="http://www.imdb.com/title/tt0133093/">The Matrix</a>&rdquo; (you remember, the package Neo got while being in the office, with a cell-phone inside it) &ndash; this is not true. They used a <a href="http://www.gsmarena.com/nokia_8110-11.php">8110</a> there.</p>
+
+<p>I remember that this was the first phone, that I could upload ring-tones to. There were also internet sites, you could send a ring-tone through &ndash; some of them were even free.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/04_SonyEricsson_P800.jpg"><img src="/images/2010/04/04_SonyEricsson_P800.jpg" alt="" /></a></p>
+
+<p>Model: <strong><a href="http://www.gsmarena.com/sony_ericsson_p800-326.php">Sony Ericsson P800</a></strong></p>
+
+<p>Year: <strong>2004</strong></p>
+
+<p>An extraordinary phone, one of the first true smart-phones.As a matter of fact, I went to the store determined to buy the new <a href="http://www.gsmarena.com/nokia_6600-454.php">Nokia  6600</a>, but when I saw the P800, I just couldn&rsquo;t help it. The presentation of the device included an advertising video, played on the phone itself. And after you play a bit with the touch screen, you are hooked &ndash; and several hundred leva poorer. In fact, the video playback was not a trick &ndash; I&rsquo;ve had full length movies that I could watch on the device without a problem.</p>
+
+<p>A truly unique device, for its time. I had a whole DVD stuffed with software for the P800 I found on the net &ndash; there was a SEGA emulator (so that you could play SEGA games directly on your device), VNC client (true, you could only see about 5% of the desktop, but still &hellip;), SSH client and so forth, and so on. Amazing device.</p>
+
+<p>Almost forgot &ndash; this is one of the first Symbian phones on the market. Just to remind you &ndash; Nokia released their first ever Symbian touch-screen phone in 2008, while P800 was released in 2002.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/05_SonyEricsson_K750i.jpg"><img src="/images/2010/04/05_SonyEricsson_K750i.jpg" alt="" /></a></p>
+
+<p>Model: <strong><a href="http://www.gsmarena.com/sony_ericsson_k750-1090.php">Sony Ericsson K750i</a></strong></p>
+
+<p>Year: <strong>2006</strong></p>
+
+<p>Another magnificent specimen from Sony Ericsson&rsquo;s shelf. Not that &ldquo;smart&rdquo; this time, but a wonderful phone nevertheless. What astounded me is how easy I got used to the phone and how much I liked the well designed user interface. Sony Ericsson had the metaphore of notification bar already at the time, which currently exists in Android &ndash; when you press the button right on top of the joystick, a screen showed up with all events, alarms, calls, etc. you missed.</p>
+
+<p>This is the first phone I tried <a href="http://www.opera.com/mobile/">Opera Mini</a> on, and it worked perfectly. Excellent phone.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/06_Nokia_E66.jpg"><img src="/images/2010/04/06_Nokia_E66.jpg" alt="" /></a></p>
+
+<p>Model: <strong><a href="http://www.gsmarena.com/nokia_e66-2426.php">Nokia E66</a></strong></p>
+
+<p>Year: <strong>2008</strong></p>
+
+<p>Huge disappointment. I was unable to get it &ndash; how did Nokia expect that someone would buy a smart-phone from their enterprise series (Exx) and will be pleased with it, when the battery drains each and every day. I couldn&rsquo;t determine the reason, but even if I only speak 2-3 times per day and do almost nothing else with the phone, the battery was dead after a day and a half tops. And believe me, I tried &ndash; fully charge the phone, run a task manager and kill all the tasks that don&rsquo;t seem useful and nevertheless, the phone was dead in a day or so. The battery was fully discharged. Ridiculous. Add the ancient S60 interface on top of that and there you go &ndash; enormous disappointment.</p>
+
+<p>Having said all that, the phone&rsquo;s build quality was not bad at all &ndash; the device was solid and it was obvious, that it is of high build quality. I dropper it several times (on asphalt, pavement, etc.) &ndash; it didn&rsquo;t even had a scratch. The sliding mechanism was also excellent. The web browser was not bad, as well.</p>
+
+<hr />
+
+<p><a href="/images/2010/04/07_HTC_Magic.jpg"><img src="/images/2010/04/07_HTC_Magic.jpg" alt="" /></a></p>
+
+<p>Model: <strong><a href="http://www.gsmarena.com/htc_magic-2714.php">HTC  Magic</a></strong></p>
+
+<p>Year: <strong>2009</strong></p>
+
+<p>There is a lot to be desired from the HTC Magic, but keep in mind that this is just about the second Android phone out there. At one time I was really mad at HTC, because the original software was really slow and was annoying me day after day, but then I decided to experiment with the custom made ROMs from <a href="http://forum.xda-developers.com/forumdisplay.php?f=493">XDA  Developers</a> and I am really glad I did so. <a href="http://en.wikipedia.org/wiki/HTC_Sense">HTC Sense</a> really changes your phone and breathes it a new life. If you have an Android device, make sure you get Sense on it &ndash; it is extremely good.</p>
+
+<p>I <a href="/2009/09/24/440">wrote about the Magic</a> before, so I won&rsquo;t get into details here.</p>
+
+<p>Stop wondering. Prepare your own mobile biography and post the link as a comment.</p>
+
+<p>P.S. I &ldquo;stole&rdquo; the idea from <a href="http://www.paxmodept.com/telesto/blogitem.htm?id=809">here</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
