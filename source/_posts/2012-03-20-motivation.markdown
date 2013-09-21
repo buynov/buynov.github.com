@@ -41,4 +41,4 @@ Administrators aren’t supposed to make the hard decisions. They don’t know e
 
 [The article](http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html) is worth it - I would advise you to read it.
 
-P.S. Somewhat related to this topic - [my thoughts](http://buynov.com/2007/09/03/16) from several years back.
+P.S. Somewhat related to this topic - [my thoughts](/blog/2007/09/03/how-to-become-a-manager/) from several years back.
