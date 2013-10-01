@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Life | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/life/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:00:47+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:43:55+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Цифрови Туземци]]></title>
-    <link href="http://buynov.github.io/blog/2011/06/23/digital-natives/"/>
+    <link href="http://buynov.com/blog/2011/06/23/digital-natives/"/>
     <updated>2011-06-23T11:10:15+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/06/23/digital-natives</id>
+    <id>http://buynov.com/blog/2011/06/23/digital-natives</id>
     <content type="html"><![CDATA[<p><strong>Предупреждение</strong>: Клипчето е реклама. Но си струва :)</p>
 
 <iframe width="560" height="349" src="http://www.youtube.com/embed/_eq3Sj1GGs8?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -27,9 +27,9 @@
   
   <entry>
     <title type="html"><![CDATA[Германия и Бенелюкс 2011]]></title>
-    <link href="http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011/"/>
+    <link href="http://buynov.com/blog/2011/06/10/germany-and-benelux-2011/"/>
     <updated>2011-06-10T10:53:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011</id>
+    <id>http://buynov.com/blog/2011/06/10/germany-and-benelux-2011</id>
     <content type="html"><![CDATA[<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
 
 
@@ -41,9 +41,9 @@
   
   <entry>
     <title type="html"><![CDATA[Проблеми и Решения]]></title>
-    <link href="http://buynov.github.io/blog/2010/11/10/problems-and-solutions/"/>
+    <link href="http://buynov.com/blog/2010/11/10/problems-and-solutions/"/>
     <updated>2010-11-10T21:12:53+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/11/10/problems-and-solutions</id>
+    <id>http://buynov.com/blog/2010/11/10/problems-and-solutions</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/11/community.jpg"><img src="/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
 
 <p>Вчера отидох на сайта на <a href="http://eclipse.org/">Eclipse</a>, да сваля последната версия (JEE edition, ако трябва да уточнявам). Отидох на <a href="http://eclipse.org/home/categories/index.php?category=enterprise">Enterprise Java</a> &ndash;> <strong>Eclipse IDE for Java EE Developers</strong> и download-а тръгна, но ми направи впечатление че версията, която започна да се сваля, е стара (не е от последния, Helios release). Слава богу, версията я има в името на файла. Отидох на <a href="http://www.eclipse.org/downloads/">Downloads</a> и там успях да си сваля актуалната, последна версия.</p>
@@ -58,9 +58,9 @@
   
   <entry>
     <title type="html"><![CDATA[TED.com – на Български!]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian/"/>
+    <link href="http://buynov.com/blog/2010/06/03/tedcom-in-bulgarian/"/>
     <updated>2010-06-03T08:32:02+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian</id>
+    <id>http://buynov.com/blog/2010/06/03/tedcom-in-bulgarian</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/06/TED-BG.png"><img src="/images/2010/06/TED-BG.png" alt="" /></a></p>
 
 <p>Може и да не е новина, но днес забелязах, че някои от TED презентациите имат субтитри. Включително и на български!</p>
@@ -83,9 +83,9 @@
   
   <entry>
     <title type="html"><![CDATA[“No Matter What” гаранция]]></title>
-    <link href="http://buynov.github.io/blog/2010/03/18/no-matter-what-guarantee/"/>
+    <link href="http://buynov.com/blog/2010/03/18/no-matter-what-guarantee/"/>
     <updated>2010-03-18T08:21:42+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/03/18/no-matter-what-guarantee</id>
+    <id>http://buynov.com/blog/2010/03/18/no-matter-what-guarantee</id>
     <content type="html"><![CDATA[<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/5LRnq3ooGDc&amp;hl=en_US&amp;fs=1&amp;" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/5LRnq3ooGDc&amp;hl=en_US&amp;fs=1&amp;" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 

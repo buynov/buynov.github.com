@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://buynov.github.io/sitemap.xml 
+Sitemap: http://buynov.com/sitemap.xml 

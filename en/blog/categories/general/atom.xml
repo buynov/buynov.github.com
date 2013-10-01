@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: General | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/general/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:02:20+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:47:39+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Buynov.com - 2 years later]]></title>
-    <link href="http://buynov.github.io/blog/2009/07/27/buynovcom-2-years-later/"/>
+    <link href="http://buynov.com/blog/2009/07/27/buynovcom-2-years-later/"/>
     <updated>2009-07-27T22:53:29+03:00</updated>
-    <id>http://buynov.github.io/blog/2009/07/27/buynovcom-2-years-later</id>
+    <id>http://buynov.com/blog/2009/07/27/buynovcom-2-years-later</id>
     <content type="html"><![CDATA[<p>Today, Jul 27th, is exactly two years away from <a href="/blog/2007/07/27/get-the-party-started-/">my first post</a> on this blog. I decided that this occasion deserves to be noted with a bit of statistics about the site.</p>
 
 <p>For two years I published <strong>41 different posts</strong> (this one is number 42) and two pages. There are <strong>115 comments</strong> to those posts. Here are the most popular articles according to <a href="http://wordpress.org/extend/plugins/stats/">the official Wordpress.com plugin</a>:</p>
@@ -31,25 +31,25 @@
 
     <tr>
         <td>1</td>
-        <td><a href="http://buynov.github.io/blog/2008/11/21/linksys-wrt54gl/">Linksys WRT54GL </td>
+        <td><a href="http://buynov.com/blog/2008/11/21/linksys-wrt54gl/">Linksys WRT54GL </td>
         <td style="text-align:right;">349</td>
     </tr>
 
     <tr>
         <td>2</td>
-        <td><a href="http://buynov.github.io/blog/2008/12/05/phonetic-keyboard-layout-for-windows-vista/">Phonetic keyboard layout for Windows Vista</td>
+        <td><a href="http://buynov.com/blog/2008/12/05/phonetic-keyboard-layout-for-windows-vista/">Phonetic keyboard layout for Windows Vista</td>
         <td style="text-align:right;">281</td>
     </tr>
 
     <tr>
         <td>3</td>
-        <td><a href="http://buynov.github.io/blog/2008/01/29/surva/">SURVA</td>
+        <td><a href="http://buynov.com/blog/2008/01/29/surva/">SURVA</td>
         <td style="text-align:right;">141</td>
     </tr>
 
     <tr>
         <td>4</td>
-        <td><a href="http://buynov.github.io/blog/2007/11/23/divide-et-impera/">Divide et impera</td>
+        <td><a href="http://buynov.com/blog/2007/11/23/divide-et-impera/">Divide et impera</td>
         <td style="text-align:right;">137</td>
     </tr>
 
@@ -61,31 +61,31 @@
 
     <tr>
         <td>6</td>
-        <td><a href="http://buynov.github.io/blog/2007/09/03/how-to-become-a-manager/">How to become a manager.</td>
+        <td><a href="http://buynov.com/blog/2007/09/03/how-to-become-a-manager/">How to become a manager.</td>
         <td style="text-align:right;">117</td>
     </tr>
 
     <tr>
         <td>7</td>
-        <td><a href="http://buynov.github.io/blog/2008/12/22/alehouse/">Alehouse</td>
+        <td><a href="http://buynov.com/blog/2008/12/22/alehouse/">Alehouse</td>
         <td style="text-align:right;">82</td>
     </tr>
 
     <tr>
         <td>8</td>
-        <td><a href="http://buynov.github.io/blog/2008/02/17/movies-part-i/">Movies, part I</td>
+        <td><a href="http://buynov.com/blog/2008/02/17/movies-part-i/">Movies, part I</td>
         <td style="text-align:right;">72</td>
     </tr>
 
     <tr>
         <td>9</td>
-        <td><a href="http://buynov.github.io/blog/2007/09/15/something-to-drink/">Something to drink?</td>
+        <td><a href="http://buynov.com/blog/2007/09/15/something-to-drink/">Something to drink?</td>
         <td style="text-align:right;">62</td>
     </tr>
 
     <tr>
         <td>10</td>
-        <td><a href="http://buynov.github.io/blog/2008/07/16/the-fan/">The Fan</td>
+        <td><a href="http://buynov.com/blog/2008/07/16/the-fan/">The Fan</td>
         <td style="text-align:right;">54</td>
     </tr>
 </table>
@@ -95,9 +95,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Fan]]></title>
-    <link href="http://buynov.github.io/blog/2008/07/16/the-fan/"/>
+    <link href="http://buynov.com/blog/2008/07/16/the-fan/"/>
     <updated>2008-07-16T20:39:50+03:00</updated>
-    <id>http://buynov.github.io/blog/2008/07/16/the-fan</id>
+    <id>http://buynov.com/blog/2008/07/16/the-fan</id>
     <content type="html"><![CDATA[<p>He may be the only one, but at least pretty colorful :).</p>
 
 <p><a href="/images/2008/12/lyubo_front.jpg"><img src="/images/2008/12/lyubo_front.jpg" alt="" /></a></p>
@@ -108,9 +108,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Reminder!]]></title>
-    <link href="http://buynov.github.io/blog/2007/10/12/a-reminder/"/>
+    <link href="http://buynov.com/blog/2007/10/12/a-reminder/"/>
     <updated>2007-10-12T21:38:03+03:00</updated>
-    <id>http://buynov.github.io/blog/2007/10/12/a-reminder</id>
+    <id>http://buynov.com/blog/2007/10/12/a-reminder</id>
     <content type="html"><![CDATA[<p>Don&rsquo;t you ever forget that <strong>YOU TOO</strong> are a result of <a href="http://www.pbs.org/wgbh/evolution/change/deeptime/index.html">billions of years of evolution</a>.</p>
 
 <p>This is an obligation &ndash; can you imagine if it was all just a waste of time?!</p>
@@ -119,9 +119,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bilingual - what is it?]]></title>
-    <link href="http://buynov.github.io/blog/2007/08/03/bilingual-what-is-it/"/>
+    <link href="http://buynov.com/blog/2007/08/03/bilingual-what-is-it/"/>
     <updated>2007-08-03T00:57:47+03:00</updated>
-    <id>http://buynov.github.io/blog/2007/08/03/bilingual-what-is-it</id>
+    <id>http://buynov.com/blog/2007/08/03/bilingual-what-is-it</id>
     <content type="html"><![CDATA[<p>I am trying to setup this blog to be bilingual for several days already &ndash; i.e. to be able to write in both Bulgarian and English, and be able to switch posts easily. I tried several <a href="http://wordpress.org/">WordPress</a> plug-ins, including <a href="http://www.fredfred.net/skriker/index.php/polyglot">Polyglot</a> and <a href="http://poplarware.com/languageplugin.html">Language Switcher</a>, but for one reason or another it was not happening. Now I believe I got it, however &ndash; I downloaded<strong> <a href="http://jakobj.dk/blog/archives/38">jLanguage</a></strong> and it seems to work fine.</p>
 
 <p>Feel free to try it yourself, by clicking on the flags at the bottom of this post ;).</p>
@@ -130,9 +130,9 @@
   
   <entry>
     <title type="html"><![CDATA[Get the party started ;)]]></title>
-    <link href="http://buynov.github.io/blog/2007/07/27/get-the-party-started-/"/>
+    <link href="http://buynov.com/blog/2007/07/27/get-the-party-started-/"/>
     <updated>2007-07-27T00:01:29+03:00</updated>
-    <id>http://buynov.github.io/blog/2007/07/27/get-the-party-started-</id>
+    <id>http://buynov.com/blog/2007/07/27/get-the-party-started-</id>
     <content type="html"><![CDATA[<p>Every IT professional must take his place in the internet. A matter of prestige.</p>
 
 <p>Register your domain name, buy a hosting service and then &ndash; whatever you feel comfortable with. If you want my advice, look for a hosting with CPanel &ndash; very good tool. Not to mention that it contains everything you would need, including CMS, Blog, Image Gallery, etc.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Buynov]]></title>
-  <link href="http://buynov.github.io/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:00:47+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:43:55+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,14 +15,14 @@
   
   <entry>
     <title type="html"><![CDATA[Raspberry Pi и RaspBMC като Медия Плейър]]></title>
-    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <link href="http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
     <updated>2013-03-13T10:36:17+02:00</updated>
-    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <id>http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
     <content type="html"><![CDATA[<h3>Малко Предистория</h3>
 
 <p>Есента си купих телевизор (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). Телевизорът е LED, има 3D (не че това има значение), вграден WiFi, Smart TV и т.н. На хартия изглеждаше супер, а и цената беше приемлива. Картината, в интерес на истината, е доста добра &ndash; и слава богу, защото това в един телевизор е може би основното. Софтуерът, обаче, е зле. Много зле. Поддържат се уж някакви стандарти, има уж някакви канали и програми, но всичко е толкова бавно, недодялано и нeдомислено, че общо взето не си струва човек да се занимава. Без да изпадам в подробности (а с подробностите не съм и много запознат, защото бързо загубих интерес), ще кажа че медия плейъра на телевизора не ме удовлетвори (меко казано, не поддържа никакви субтитри на кирилица) и реших да си взема външен. Ориентирах се към <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, който е може би най добрия вариант като сравниш цената и качеството. Бързо се навих и го поръчах. Беше около Коледа и дали заради това, или заради друго, но се оказа че този модел в момента го няма в България. Никъде. Нямало внос. Това само по нашите географски ширини може да се случи &ndash; да можеш да поръчаш нещо от Амазон във Великобритания, например, но местния доставчик да го мързи да се напъне да направи доставка. Както и да е.</p>
 
-<h3><a href="http://buynov.github.io/images/2013/03/RPi_front_small.jpg"><img src="http://buynov.github.io/images/2013/03/RPi_front_small.jpg" alt="" /></a></h3>
+<h3><a href="http://buynov.com/images/2013/03/RPi_front_small.jpg"><img src="http://buynov.com/images/2013/03/RPi_front_small.jpg" alt="" /></a></h3>
 
 <p>В търсене на алтернатива, се заиграх с <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (или RPi накратко) на един колега. Взех го за един уикенд, инсталирах <a href="http://www.raspbmc.com/">RaspBMC</a>, вързах го за телевизора с HDMI и всичко тръгна! Няколко филма, снимки, всичко вървеше без проблем. Срещу 35 евро (плюс няколко други неща, виж по долу) без ДДС (ако си гледал новини за $35, тук все пак е Европа ;)), можех да си &ldquo;сглобя&rdquo; медия плейър, и то доста добър. При това, Raspberry Pi (или RPi накратко) си е компютър, който можеш да ползваш и за сървър &ndash; четох че някои хора си хостват и Wordpress блога на него. Повечето имиджи за RPi са Debian базирани (включително официалния <a href="http://www.raspbian.org/">Raspbian</a> и <a href="http://www.raspbmc.com/">RaspBMC</a>, който аз предпочитам), така че имаш доста пакети готови за инсталация.</p>
 
@@ -37,7 +37,7 @@
 
 <p>Имай предвид, че това не е готов компютър &ndash; самото RPi е една &ldquo;гола&rdquo; платка и за да го ползваш, ще ти трябват още микро USB захранващ кабел, SD флаш карта (не е зле да се консултираш първо с <a href="http://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards">този списък</a> ) и HDMI кабел за връзка с монитор или телевизор. Можеш да си вземеш и други аксесоари, като кутийка, клавиатура, мишка, WiFi адаптер и т.н., но имай предвид че някои са безсмислено скъпи (изглежда някои хора се опитват да изкарат лесни пари от популярността на продукта). Най общо казано, RPi е като конструктор и изисква &ldquo;направи си сам&rdquo; подход &ndash; ако това те притеснява и предпочиташ всичко да работи на готово, RPi не е за теб.</p>
 
-<h3><a href="http://buynov.github.io/images/2013/03/RPi_sideways_small.jpg"><img src="http://buynov.github.io/images/2013/03/RPi_sideways_small.jpg" alt="" /></a></h3>
+<h3><a href="http://buynov.com/images/2013/03/RPi_sideways_small.jpg"><img src="http://buynov.com/images/2013/03/RPi_sideways_small.jpg" alt="" /></a></h3>
 
 <h3>Малко Ограничения</h3>
 
@@ -47,7 +47,7 @@
 
 <p>RPi има само два официални дистрибутора в света &ndash; <a href="http://www.farnell.com/">Farnell</a> и <a href="http://www.rs-components.com">RS Components</a>. За щастие, единият от тези, Farnell, има официален представител в България &ndash; а именно, <a href="http://www.comet.bg/">Комет</a>. Можеш да си поръчаш RPi и от сайтове извън България (Амазон, например), но едва ли ще ти излезе по евтино. Аз си взех моето от Комет и не съжалявам. Хората да доста отзивчиви &ndash; цялата комуникация протече по мейла, като почти винаги получавах отговор до няколко часа. Отговориха на всичките ми въпроси и ми дадоха актуална цена преди да поръчам. Освен самото RPi, от Комет можеш да поръчаш и <a href="http://store.comet.bg/bg/CatalogueFarnell/Search/?keywords=raspberry#eyJpcHAiOiIxMCIsImsiOiJyYXNwYmVycnkifQ%3D%3D">всички аксесоари</a>, които Farnell предлагат (имай предвид че търсачката на Комет е малко странна и отнема време докато зареди резултатите, без да има индикация за това). При поръчка, Комет доставят през Speedy или Еконт &ndash; около 10 лева в рамките на София, например. Можеш да си вземеш нещата и от техен офис &ndash; има един някъде около попа. Аз си взех и <a href="http://bg.farnell.com/multicomp/mc-rp001-clr/enclosure-raspberry-pi-clear/dp/2113799#">прозрачна кутийка</a>, която е доста симпатична.</p>
 
-<h3><a href="http://buynov.github.io/images/2013/03/xbmc_theater.jpg"><img src="http://buynov.github.io/images/2013/03/xbmc_theater.jpg" alt="" /></a></h3>
+<h3><a href="http://buynov.com/images/2013/03/xbmc_theater.jpg"><img src="http://buynov.com/images/2013/03/xbmc_theater.jpg" alt="" /></a></h3>
 
 <h3>Малък Медия Плейър</h3>
 
@@ -69,10 +69,10 @@
   
   <entry>
     <title type="html"><![CDATA[Мотивация]]></title>
-    <link href="http://buynov.github.io/blog/2012/03/20/motivation/"/>
+    <link href="http://buynov.com/blog/2012/03/20/motivation/"/>
     <updated>2012-03-20T10:22:45+02:00</updated>
-    <id>http://buynov.github.io/blog/2012/03/20/motivation</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2012/02/motivation.jpg"><img src="http://buynov.github.io/images/2012/02/motivation.jpg" alt="" /></a></p>
+    <id>http://buynov.com/blog/2012/03/20/motivation</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2012/02/motivation.jpg"><img src="http://buynov.com/images/2012/02/motivation.jpg" alt="" /></a></p>
 
 <p>Една <a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">статия</a> на <a href="http://joelonsoftware.com/items/2012/02/13.html">Джоел Сполски</a> ми напомни за уводния ми курс по мениджмънт в университета. Има (само) една тема, която много добре си спомням от този курс &ndash; теориите за човешката мотивация.
 В общи линии има <a href="http://en.wikipedia.org/wiki/Theory_X_and_theory_Y">две</a> (добре де &ndash; <a href="http://en.wikipedia.org/wiki/Theory_Z">три</a>, ако трябва да сме точни, но третата се отнася основно за Азия). Основната разлика е във възгледа за хората/служителите и подхода им към работата:</p>
@@ -106,9 +106,9 @@
   
   <entry>
     <title type="html"><![CDATA[Цифрови Туземци]]></title>
-    <link href="http://buynov.github.io/blog/2011/06/23/digital-natives/"/>
+    <link href="http://buynov.com/blog/2011/06/23/digital-natives/"/>
     <updated>2011-06-23T11:10:15+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/06/23/digital-natives</id>
+    <id>http://buynov.com/blog/2011/06/23/digital-natives</id>
     <content type="html"><![CDATA[<p><strong>Предупреждение</strong>: Клипчето е реклама. Но си струва :)</p>
 
 <iframe width="560" height="349" src="http://www.youtube.com/embed/_eq3Sj1GGs8?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -118,9 +118,9 @@
   
   <entry>
     <title type="html"><![CDATA[Германия и Бенелюкс 2011]]></title>
-    <link href="http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011/"/>
+    <link href="http://buynov.com/blog/2011/06/10/germany-and-benelux-2011/"/>
     <updated>2011-06-10T10:53:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011</id>
+    <id>http://buynov.com/blog/2011/06/10/germany-and-benelux-2011</id>
     <content type="html"><![CDATA[<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
 
 
@@ -132,29 +132,29 @@
   
   <entry>
     <title type="html"><![CDATA[Мечки, в центъра на София]]></title>
-    <link href="http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia/"/>
+    <link href="http://buynov.com/blog/2011/04/12/bears-downtown-sofia/"/>
     <updated>2011-04-12T10:33:39+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia</id>
+    <id>http://buynov.com/blog/2011/04/12/bears-downtown-sofia</id>
     <content type="html"><![CDATA[<p>Повече от 120 мечки обикалят света от 2003 година насам. Повече информация, <a href="http://www.buddy-baer.com/united-buddy-bears/world-tour/sofija-2011.html">тук</a>.
 Добрата новина е, че мечките са в София до началото на Май месец, на <a href="http://bg360.net/pano/sofia/sveta-nedelya.php">площад Света Неделя</a> до едноименната църква.</p>
 
 <p>И както можеш да се увериш от фото материала по долу, Кубинската мечка е най-добрия приятел на Българската мечка ;)</p>
 
-<p><a href="http://buynov.github.io/gallery/sofia-bears/dsc02629.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02630.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02646.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02647.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02648.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02649.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02655.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02662.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02667.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02679.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02691.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02694.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02695.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02698.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02699.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/gallery/sofia-bears/dsc02629.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02630.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02646.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02647.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02648.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02649.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02655.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02662.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02667.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02679.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02691.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02694.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02695.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02698.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02699.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg" alt="" /></a></p>
 
 <p>Ами освен да се разходиш и да ги разгледаш?</p>
 ]]></content>
@@ -162,9 +162,9 @@
   
   <entry>
     <title type="html"><![CDATA[Анди Рубин на D: Dive Into Mobile]]></title>
-    <link href="http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
+    <link href="http://buynov.com/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
     <updated>2011-01-05T10:06:41+02:00</updated>
-    <id>http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
+    <id>http://buynov.com/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
     <content type="html"><![CDATA[<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 
@@ -178,9 +178,9 @@
   
   <entry>
     <title type="html"><![CDATA[Телефонът на Джон]]></title>
-    <link href="http://buynov.github.io/blog/2010/11/16/johns-phone/"/>
+    <link href="http://buynov.com/blog/2010/11/16/johns-phone/"/>
     <updated>2010-11-16T09:43:05+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/11/16/johns-phone</id>
+    <id>http://buynov.com/blog/2010/11/16/johns-phone</id>
     <content type="html"><![CDATA[<p>Това е НАЙ елементарният мобилен телефон. Списъкът с контактите направо цепи мрака &hellip;</p>
 
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"> </embed></object>
@@ -192,10 +192,10 @@
   
   <entry>
     <title type="html"><![CDATA[Проблеми и Решения]]></title>
-    <link href="http://buynov.github.io/blog/2010/11/10/problems-and-solutions/"/>
+    <link href="http://buynov.com/blog/2010/11/10/problems-and-solutions/"/>
     <updated>2010-11-10T21:12:53+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/11/10/problems-and-solutions</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/11/community.jpg"><img src="http://buynov.github.io/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
+    <id>http://buynov.com/blog/2010/11/10/problems-and-solutions</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/11/community.jpg"><img src="http://buynov.com/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
 
 <p>Вчера отидох на сайта на <a href="http://eclipse.org/">Eclipse</a>, да сваля последната версия (JEE edition, ако трябва да уточнявам). Отидох на <a href="http://eclipse.org/home/categories/index.php?category=enterprise">Enterprise Java</a> &ndash;> <strong>Eclipse IDE for Java EE Developers</strong> и download-а тръгна, но ми направи впечатление че версията, която започна да се сваля, е стара (не е от последния, Helios release). Слава богу, версията я има в името на файла. Отидох на <a href="http://www.eclipse.org/downloads/">Downloads</a> и там успях да си сваля актуалната, последна версия.</p>
 
@@ -209,10 +209,10 @@
   
   <entry>
     <title type="html"><![CDATA[iPad в Метро]]></title>
-    <link href="http://buynov.github.io/blog/2010/09/03/ipad-from-metro/"/>
+    <link href="http://buynov.com/blog/2010/09/03/ipad-from-metro/"/>
     <updated>2010-09-03T11:04:55+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/09/03/ipad-from-metro</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/09/iPad_v_Metro.png"><img src="http://buynov.github.io/images/2010/09/iPad_v_Metro-242x300.png" alt="" /></a></p>
+    <id>http://buynov.com/blog/2010/09/03/ipad-from-metro</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/09/iPad_v_Metro.png"><img src="http://buynov.com/images/2010/09/iPad_v_Metro-242x300.png" alt="" /></a></p>
 
 <p>Невероятно, но факт &ndash; пуснали са <a href="http://www.apple.com/ipad/">iPad</a> в <a href="http://www.metro.bg">Метро</a>! Ако не вярваш, виж в <a href="http://metro.bg/pages/1102.aspx?0&amp;mm=10180&amp;cd=2&amp;kd=1&amp;pg=6">онлайн каталога</a> (трябва ти Метро карта).</p>
 
@@ -226,15 +226,15 @@
   
   <entry>
     <title type="html"><![CDATA[InitialSetup – Интернет/Мрежови Приложения]]></title>
-    <link href="http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
+    <link href="http://buynov.com/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
     <updated>2010-08-25T11:32:08+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
+    <id>http://buynov.com/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
     <content type="html"><![CDATA[<p>На USB флашката/паметта, която нося със себе си, имам една директория  (InitialSetup) със софтуер за Windows, който регулярно актуализирам (с  по нови версии на програмите). Инсталирам го всеки път, когато ми се  налага да правя нова инсталация на моя компютър или на този на приятели.  Това са програми, които съм ползвал дълго време и съм останал доволен  от надеждността им. Всички те са безплатни, някои са и с открит изходен  код. Ще ги изредя в поредица от 4 отделни поста &ndash; надявам се да бъдат  полезни и на теб.</p>
 
 <p>Разделих приложенията условно на следните четири категории (това ще бъдат и постовете по темата):</p>
 
 <ol>
-<li>. <a href="http://buynov.github.io/blog/2010/04/08/initialsetup-system-tools/"><strong>Системни инструменти</strong></a></li>
+<li>. <a href="http://buynov.com/blog/2010/04/08/initialsetup-system-tools/"><strong>Системни инструменти</strong></a></li>
 <li>. <strong>Интернет/Мрежови приложения</strong> (този пост)</li>
 <li>. <strong>Офис приложения/Инструменти за работа с документи</strong></li>
 <li>. <strong>Приложения за мултимедия</strong></li>
@@ -294,9 +294,9 @@
   
   <entry>
     <title type="html"><![CDATA[Интервю с Анатолий Карпов]]></title>
-    <link href="http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
+    <link href="http://buynov.com/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
     <updated>2010-07-07T10:00:48+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
+    <id>http://buynov.com/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
     <content type="html"><![CDATA[<p>Любопитно интервю с Анатолий Карпов, <a href="http://en.wikipedia.org/wiki/World_Chess_Championship#Undisputed_world_champions_1886.E2.80.931993">12-тият</a> световен шампион по шахмат, който в момента води кампания да стане президент на <a href="http://www.fide.com/">ФИДЕ</a> (световната шахматна федерация).</p>
 
 <p>За начина му на игра, кое е важно, за да станеш добър шахматист, за Каспаров, Фишер, Морфи и трябва ли да си луд, за да си световен шампион по шахмат (ако питаш мен, сигурно помага).</p>
@@ -307,9 +307,9 @@
   
   <entry>
     <title type="html"><![CDATA[Постове в блога на Бианор: Юни ’10]]></title>
-    <link href="http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10/"/>
+    <link href="http://buynov.com/blog/2010/07/02/bianor-blog-posts-june-10/"/>
     <updated>2010-07-02T10:00:32+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10</id>
+    <id>http://buynov.com/blog/2010/07/02/bianor-blog-posts-june-10</id>
     <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/06/mobile_app_development.jpg" alt="" /></p>
 
 <h3><a href="http://www.bianor.com/blog/developers-perspective-on-android-blackberry-iphone-symbian/">Developer’s Perspective on Android, BlackBerry, iPhone &amp; Symbian</a></h3>
@@ -320,10 +320,10 @@
   
   <entry>
     <title type="html"><![CDATA[Световно Първенство 2010]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/21/world-cup-2010/"/>
+    <link href="http://buynov.com/blog/2010/06/21/world-cup-2010/"/>
     <updated>2010-06-21T09:00:55+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/21/world-cup-2010</id>
-    <content type="html"><![CDATA[<p><a href="http://www.fifa.com"><img src="http://buynov.github.io/images/2010/06/world_cup_2010.jpg" alt="FIFA World Cup 2010" /></a></p>
+    <id>http://buynov.com/blog/2010/06/21/world-cup-2010</id>
+    <content type="html"><![CDATA[<p><a href="http://www.fifa.com"><img src="http://buynov.com/images/2010/06/world_cup_2010.jpg" alt="FIFA World Cup 2010" /></a></p>
 
 <p>По различно е някак (в добрия смисъл), когато има Световно Първенство по Футбол. Друго си е да знаеш, че има по три мача на ден, и те всички са с потенциала да сътворят <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061464/index.html">една</a> или <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061482/index.html">друга</a> изненада. По повод на световната купа е и един от най добрите <a href="http://twitter.com/">tweet-ове</a>, на които попаднах наскоро (превода е на автора):</p>
 
@@ -333,9 +333,9 @@
   
   <entry>
     <title type="html"><![CDATA[Стив Джобс на D8: Пълното Интервю]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/"/>
+    <link href="http://buynov.com/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/"/>
     <updated>2010-06-08T08:29:34+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview</id>
+    <id>http://buynov.com/blog/2010/06/08/steve-jobs-at-d8-the-full-interview</id>
     <content type="html"><![CDATA[<p>Това е пълното интервю на Стив Джобс от тазгодишната <a href="http://allthingsd.com/d/">D8 конференция</a> (организирана от <a href="http://allthingsd.com">All Things Digital</a>), която се проведе миналата седмица.</p>
 
 <object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
@@ -349,10 +349,10 @@
   
   <entry>
     <title type="html"><![CDATA[TED.com – на Български!]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian/"/>
+    <link href="http://buynov.com/blog/2010/06/03/tedcom-in-bulgarian/"/>
     <updated>2010-06-03T08:32:02+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/06/TED-BG.png"><img src="http://buynov.github.io/images/2010/06/TED-BG.png" alt="" /></a></p>
+    <id>http://buynov.com/blog/2010/06/03/tedcom-in-bulgarian</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/06/TED-BG.png"><img src="http://buynov.com/images/2010/06/TED-BG.png" alt="" /></a></p>
 
 <p>Може и да не е новина, но днес забелязах, че някои от TED презентациите имат субтитри. Включително и на български!</p>
 
@@ -374,9 +374,9 @@
   
   <entry>
     <title type="html"><![CDATA[Постове в блога на Бианор: Май ’10]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10/"/>
+    <link href="http://buynov.com/blog/2010/06/01/bianor-blog-posts-may-10/"/>
     <updated>2010-06-01T08:10:50+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10</id>
+    <id>http://buynov.com/blog/2010/06/01/bianor-blog-posts-may-10</id>
     <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/05/apple_android.jpg" alt="" /></p>
 
 <h3><a href="http://www.bianor.com/blog/open-vs-proprietary-mobile-software-did-apple-learn-the-history-lesson/">Open  vs Proprietary Mobile Software: Did Apple Learn the History Lesson?</a></h3>
@@ -387,9 +387,9 @@
   
   <entry>
     <title type="html"><![CDATA[Конан О’Браян в Google]]></title>
-    <link href="http://buynov.github.io/blog/2010/05/19/conan-obrien-at-google/"/>
+    <link href="http://buynov.com/blog/2010/05/19/conan-obrien-at-google/"/>
     <updated>2010-05-19T08:37:30+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/05/19/conan-obrien-at-google</id>
+    <id>http://buynov.com/blog/2010/05/19/conan-obrien-at-google</id>
     <content type="html"><![CDATA[<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/u7TwqpWiY5s&hl=en_US&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/u7TwqpWiY5s&hl=en_US&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
 
 ]]></content>
@@ -397,9 +397,9 @@
   
   <entry>
     <title type="html"><![CDATA[Triumph of the Nerds]]></title>
-    <link href="http://buynov.github.io/blog/2010/05/13/triumph-of-the-nerds/"/>
+    <link href="http://buynov.com/blog/2010/05/13/triumph-of-the-nerds/"/>
     <updated>2010-05-13T08:36:00+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/05/13/triumph-of-the-nerds</id>
+    <id>http://buynov.com/blog/2010/05/13/triumph-of-the-nerds</id>
     <content type="html"><![CDATA[<p>&ldquo;<a href="http://www.imdb.com/title/tt0115398/">Триумфът на нърдовете</a>&rdquo; е доста интересен документален филм за зората на персоналните компютри и хората, които са движели (и са се облагодетелствали от) процеса. Включително Стив Джобс, Бил Гейтс, Стив Уозняк, Пол Алън, Лари Елисън и т.н. Във филма участва дори <a href="http://bg.wikipedia.org/wiki/%D0%94%D1%8A%D0%B3%D0%BB%D0%B0%D1%81_%D0%90%D0%B4%D0%B0%D0%BC%D1%81">Дългас Адамс</a>.</p>
 
 <p>Филмът можеш да гледаш в YouTube, <a href="http://www.youtube.com/watch?v=3jV3JdtaOGc&amp;feature=PlayList&amp;p=4D5CD637F73C24C7&amp;playnext_from=PL&amp;index=0&amp;playnext=1">тук</a>, или да си го свалиш <a href="http://www.tinyurl.com/5t5ruq">оттук</a> (виж коментара към филмчето в YouTube).</p>
@@ -415,19 +415,19 @@
   
   <entry>
     <title type="html"><![CDATA[Виртуална кирилица в търсачката на Google]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
+    <link href="http://buynov.com/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
     <updated>2010-04-30T08:01:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/04/VirtualKeyboardInGoogle-BG.png"><img src="http://buynov.github.io/images/2010/04/VirtualKeyboardInGoogle-BG.png" alt="" /></a></p>
+    <id>http://buynov.com/blog/2010/04/30/virtual-keyboard-in-google-search</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/04/VirtualKeyboardInGoogle-BG.png"><img src="http://buynov.com/images/2010/04/VirtualKeyboardInGoogle-BG.png" alt="" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Мобилна Биография]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/22/mobile-biography/"/>
+    <link href="http://buynov.com/blog/2010/04/22/mobile-biography/"/>
     <updated>2010-04-22T09:48:25+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/22/mobile-biography</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/04/01_Ericsson_GA628.gif"><img src="http://buynov.github.io/images/2010/04/01_Ericsson_GA628.gif" alt="" /></a></p>
+    <id>http://buynov.com/blog/2010/04/22/mobile-biography</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/04/01_Ericsson_GA628.gif"><img src="http://buynov.com/images/2010/04/01_Ericsson_GA628.gif" alt="" /></a></p>
 
 <p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=615">Ericsson GA-628</a></strong></p>
 
@@ -439,7 +439,7 @@
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/02_Motorola_T2288.gif"><img src="http://buynov.github.io/images/2010/04/02_Motorola_T2288.gif" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/02_Motorola_T2288.gif"><img src="http://buynov.com/images/2010/04/02_Motorola_T2288.gif" alt="" /></a></p>
 
 <p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=401">Motorola T2288</a></strong></p>
 
@@ -452,7 +452,7 @@
 <!-- More -->
 
 
-<p><a href="http://buynov.github.io/images/2010/04/03_Nokia_7110.jpg"><img src="http://buynov.github.io/images/2010/04/03_Nokia_7110.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/03_Nokia_7110.jpg"><img src="http://buynov.com/images/2010/04/03_Nokia_7110.jpg" alt="" /></a></p>
 
 <p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=183">Nokia 7110</a></strong></p>
 
@@ -466,7 +466,7 @@
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/04_SonyEricsson_P800.jpg"><img src="http://buynov.github.io/images/2010/04/04_SonyEricsson_P800.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/04_SonyEricsson_P800.jpg"><img src="http://buynov.com/images/2010/04/04_SonyEricsson_P800.jpg" alt="" /></a></p>
 
 <p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=118">Sony Ericsson P800</a></strong></p>
 
@@ -480,7 +480,7 @@
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/05_SonyEricsson_K750i.jpg"><img src="http://buynov.github.io/images/2010/04/05_SonyEricsson_K750i.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/05_SonyEricsson_K750i.jpg"><img src="http://buynov.com/images/2010/04/05_SonyEricsson_K750i.jpg" alt="" /></a></p>
 
 <p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=775">Sony Ericsson K750i</a></strong></p>
 
@@ -492,7 +492,7 @@
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/06_Nokia_E66.jpg"><img src="http://buynov.github.io/images/2010/04/06_Nokia_E66.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/06_Nokia_E66.jpg"><img src="http://buynov.com/images/2010/04/06_Nokia_E66.jpg" alt="" /></a></p>
 
 <p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=1627">Nokia E66</a></strong></p>
 
@@ -504,7 +504,7 @@
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/07_HTC_Magic.jpg"><img src="http://buynov.github.io/images/2010/04/07_HTC_Magic.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/07_HTC_Magic.jpg"><img src="http://buynov.com/images/2010/04/07_HTC_Magic.jpg" alt="" /></a></p>
 
 <p>Модел: <strong><a href="http://www.mobilebulgaria.com/mobiles/view.php?id=1783">HTC Magic</a></strong></p>
 
@@ -512,7 +512,7 @@
 
 <p>От HTC Magic има много какво да се желае, но все пак имай предвид, че това е едва втория модел с Android. По едно време много се бях ядосал на HTC, защото оргиналния софтуер започна да бави доста и да ме изнервя, но тогава реших да експериментирам с ROM-ове на <a href="http://forum.xda-developers.com/forumdisplay.php?f=493">XDA Developers</a> и съм много доволен. <a href="http://en.wikipedia.org/wiki/HTC_Sense">HTC Sense</a> преобразява телефона и му дава нов живот. Ако имаш Android телефон, задължително му качи Sense &ndash; уникално добър е.</p>
 
-<p>За Magic <a href="http://buynov.github.io/2009/09/24/440">съм писал</a> и преди, така че няма да изпадам в подробности.</p>
+<p>За Magic <a href="http://buynov.com/2009/09/24/440">съм писал</a> и преди, така че няма да изпадам в подробности.</p>
 
 <p>Какво се чудиш? Направи собствената си мобилна биография и постни линка като коментар.</p>
 

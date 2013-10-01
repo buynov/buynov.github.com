@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Software | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/software/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:00:47+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:43:55+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Проблеми и Решения]]></title>
-    <link href="http://buynov.github.io/blog/2010/11/10/problems-and-solutions/"/>
+    <link href="http://buynov.com/blog/2010/11/10/problems-and-solutions/"/>
     <updated>2010-11-10T21:12:53+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/11/10/problems-and-solutions</id>
+    <id>http://buynov.com/blog/2010/11/10/problems-and-solutions</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/11/community.jpg"><img src="/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
 
 <p>Вчера отидох на сайта на <a href="http://eclipse.org/">Eclipse</a>, да сваля последната версия (JEE edition, ако трябва да уточнявам). Отидох на <a href="http://eclipse.org/home/categories/index.php?category=enterprise">Enterprise Java</a> &ndash;> <strong>Eclipse IDE for Java EE Developers</strong> и download-а тръгна, но ми направи впечатление че версията, която започна да се сваля, е стара (не е от последния, Helios release). Слава богу, версията я има в името на файла. Отидох на <a href="http://www.eclipse.org/downloads/">Downloads</a> и там успях да си сваля актуалната, последна версия.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[InitialSetup – Интернет/Мрежови Приложения]]></title>
-    <link href="http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
+    <link href="http://buynov.com/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
     <updated>2010-08-25T11:32:08+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
+    <id>http://buynov.com/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
     <content type="html"><![CDATA[<p>На USB флашката/паметта, която нося със себе си, имам една директория  (InitialSetup) със софтуер за Windows, който регулярно актуализирам (с  по нови версии на програмите). Инсталирам го всеки път, когато ми се  налага да правя нова инсталация на моя компютър или на този на приятели.  Това са програми, които съм ползвал дълго време и съм останал доволен  от надеждността им. Всички те са безплатни, някои са и с открит изходен  код. Ще ги изредя в поредица от 4 отделни поста &ndash; надявам се да бъдат  полезни и на теб.</p>
 
 <p>Разделих приложенията условно на следните четири категории (това ще бъдат и постовете по темата):</p>
@@ -100,18 +100,18 @@
   
   <entry>
     <title type="html"><![CDATA[Виртуална кирилица в търсачката на Google]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
+    <link href="http://buynov.com/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
     <updated>2010-04-30T08:01:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search</id>
+    <id>http://buynov.com/blog/2010/04/30/virtual-keyboard-in-google-search</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/04/VirtualKeyboardInGoogle-BG.png"><img src="/images/2010/04/VirtualKeyboardInGoogle-BG.png" alt="" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[iPhone OS 4: Акценти]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/15/iphone-os-4-highlights/"/>
+    <link href="http://buynov.com/blog/2010/04/15/iphone-os-4-highlights/"/>
     <updated>2010-04-15T09:01:18+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/15/iphone-os-4-highlights</id>
+    <id>http://buynov.com/blog/2010/04/15/iphone-os-4-highlights</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/04/iPhoneOS4.jpg"><img src="/images/2010/04/iPhoneOS4.jpg" alt="" /></a></p>
 
 <p>Миналият четвъртък, на 08 Април, Стив Джобс и <a href="http://www.apple.com/pr/bios/forstall.html">Скот Форстал</a> представиха плановете за новата операционна система на iPhone,  <strong>iPhone OS 4</strong>. Цялото представяне можеш да проследиш на <a href="http://events.apple.com.edgesuite.net/1004fk8d5gt/event/">официалния сайт</a>. Какви са акцентите?</p>
@@ -162,9 +162,9 @@
   
   <entry>
     <title type="html"><![CDATA[InitialSetup – Системни инструменти]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/08/initialsetup-system-tools/"/>
+    <link href="http://buynov.com/blog/2010/04/08/initialsetup-system-tools/"/>
     <updated>2010-04-08T08:38:18+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/08/initialsetup-system-tools</id>
+    <id>http://buynov.com/blog/2010/04/08/initialsetup-system-tools</id>
     <content type="html"><![CDATA[<p>На USB флашката/паметта, която нося със себе си, имам една директория (InitialSetup) със софтуер за Windows, който регулярно актуализирам (с по нови версии на програмите). Инсталирам го всеки път, когато ми се налага да правя нова инсталация на моя компютър или на този на приятели. Това са програми, които съм ползвал дълго време и съм останал доволен от надеждността им. Всички те са безплатни, някои са и с открит изходен код. Ще ги изредя в поредица от 4 отделни поста &ndash; надявам се да бъдат полезни и на теб.</p>
 
 <p>Разделих приложенията условно на следните четири категории (това ще бъдат и постовете по темата):</p>

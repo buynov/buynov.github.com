@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Business | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/business/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:02:20+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/business/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:47:39+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Motivation]]></title>
-    <link href="http://buynov.github.io/blog/2012/03/20/motivation/"/>
+    <link href="http://buynov.com/blog/2012/03/20/motivation/"/>
     <updated>2012-03-20T10:22:45+02:00</updated>
-    <id>http://buynov.github.io/blog/2012/03/20/motivation</id>
+    <id>http://buynov.com/blog/2012/03/20/motivation</id>
     <content type="html"><![CDATA[<p><a href="/images/2012/02/motivation.jpg"><img src="/images/2012/02/motivation.jpg" alt="" /></a></p>
 
 <p>An <a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">article</a> by <a href="http://joelonsoftware.com/items/2012/02/13.html">Joel Spolsky</a> reminded me of my introductory management class at the University. There is (only) one topic I vividly remember from this class &ndash; theories of human motivation.
@@ -53,9 +53,9 @@ __</p>
   
   <entry>
     <title type="html"><![CDATA[Andy Rubin at D: Dive Into Mobile]]></title>
-    <link href="http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
+    <link href="http://buynov.com/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
     <updated>2011-01-05T10:06:41+02:00</updated>
-    <id>http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
+    <id>http://buynov.com/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
     <content type="html"><![CDATA[<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 
@@ -69,9 +69,9 @@ __</p>
   
   <entry>
     <title type="html"><![CDATA[Bianor blog posts: June '10]]></title>
-    <link href="http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10/"/>
+    <link href="http://buynov.com/blog/2010/07/02/bianor-blog-posts-june-10/"/>
     <updated>2010-07-02T10:00:32+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10</id>
+    <id>http://buynov.com/blog/2010/07/02/bianor-blog-posts-june-10</id>
     <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/06/mobile_app_development.jpg" alt="" /></p>
 
 <h3><a href="http://www.bianor.com/blog/developers-perspective-on-android-blackberry-iphone-symbian/">Developer’s Perspective on Android, BlackBerry, iPhone &amp; Symbian</a></h3>
@@ -82,9 +82,9 @@ __</p>
   
   <entry>
     <title type="html"><![CDATA[Steve Jobs at D8: The Full Interview]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/"/>
+    <link href="http://buynov.com/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/"/>
     <updated>2010-06-08T08:29:34+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview</id>
+    <id>http://buynov.com/blog/2010/06/08/steve-jobs-at-d8-the-full-interview</id>
     <content type="html"><![CDATA[<p>This is the full interview with Steve Jobs from this year&rsquo;s <a href="http://allthingsd.com/d/">D8  conference</a> (organized by <a href="http://allthingsd.com/">All Things Digital</a>), which was held last week.</p>
 
 <object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
@@ -98,9 +98,9 @@ __</p>
   
   <entry>
     <title type="html"><![CDATA[Bianor blog posts: May '10]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10/"/>
+    <link href="http://buynov.com/blog/2010/06/01/bianor-blog-posts-may-10/"/>
     <updated>2010-06-01T08:10:50+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10</id>
+    <id>http://buynov.com/blog/2010/06/01/bianor-blog-posts-may-10</id>
     <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/05/apple_android.jpg" alt="" /></p>
 
 <h3><a href="http://www.bianor.com/blog/open-vs-proprietary-mobile-software-did-apple-learn-the-history-lesson/">Open  vs Proprietary Mobile Software: Did Apple Learn the History Lesson?</a></h3>

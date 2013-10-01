@@ -15,8 +15,6 @@ function redirectCurrent(option) {
         "//" +
         document.location.host + 
         path;
-
-//    alert("BG:" + newUrl);
   } else if (option == redirectOptions.EN) {
     var path = document.location.pathname;
     if (path.indexOf("/en") != 0) {
@@ -27,8 +25,6 @@ function redirectCurrent(option) {
         "//" +
         document.location.host + 
         path;
-
-//    alert("EN:" + newUrl);
   }
 
   if (document.location.href != newUrl)

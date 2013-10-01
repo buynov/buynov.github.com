@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Entertainment | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/entertainment/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:02:20+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/entertainment/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:47:39+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Raspberry Pi and RaspBMC as a Media Player]]></title>
-    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <link href="http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
     <updated>2013-03-13T10:36:17+02:00</updated>
-    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <id>http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
     <content type="html"><![CDATA[<h3>A Bit of Background</h3>
 
 <p>I bought a TV set in the autumn (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). It is a LED TV, with 3D (not that this matters), built-in WiFi, Smart TV, etc. The specs looked great and the price was quite acceptable. The picture, as a matter of fact, is very good &ndash; and thank God, because this is probably the most important thing about a TV. The software, however, is bad. Really bad. It appears as if it supports some standards, it appears to have some programmes and channels , but everything is so slow, clunky and poorly designed, that it doesn&rsquo;t seem to be worth the effort. Without getting into too much details (and I am not familiar with them, simply because I lost interest pretty quickly), I&rsquo;ll just say that the media player built into the TV was not satisfying for me (it doesn&rsquo;t support any kind of subtitles in Cyrillic, for example) and I decided to get an external one. I quickly started leaning towards <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, probably the best choice if you compare price and capabilities. It didn&rsquo;t take long to decide and order it. Whether because it was around Christmas or for some other reason, it turned out that this model is not available anywhere. And no deliveries were expected shortly. Pretty amazing how you can order something online, from Amazon UK, for example, but you cannot get it from a local Sofia store, most likely because the local distributor is too lazy to make an order. Anyway.</p>
@@ -61,9 +61,9 @@
   
   <entry>
     <title type="html"><![CDATA[Germany and Benelux 2011]]></title>
-    <link href="http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011/"/>
+    <link href="http://buynov.com/blog/2011/06/10/germany-and-benelux-2011/"/>
     <updated>2011-06-10T10:53:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011</id>
+    <id>http://buynov.com/blog/2011/06/10/germany-and-benelux-2011</id>
     <content type="html"><![CDATA[<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
 
 
@@ -75,9 +75,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bears, downtown Sofia]]></title>
-    <link href="http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia/"/>
+    <link href="http://buynov.com/blog/2011/04/12/bears-downtown-sofia/"/>
     <updated>2011-04-12T10:33:39+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia</id>
+    <id>http://buynov.com/blog/2011/04/12/bears-downtown-sofia</id>
     <content type="html"><![CDATA[<p>More than 120 bears are traveling around the world since 2003. More information, <a href="http://www.buddy-baer.com/united-buddy-bears/world-tour/sofija-2011.html">here</a>.
 The good news is that the bears are in Sofia until May, on the <a href="http://www.google.bg/url?sa=t&amp;source=web&amp;cd=4&amp;ved=0CDoQoAIwAw&amp;url=http%3A%2F%2Fmaps.google.bg%2Fmaps%2Fplace%3Fhl%3Dbg%26client%3Dfirefox-a%26hs%3DYW3%26rls%3Dorg.mozilla%3Aen-US%3Aofficial%26channel%3Ds%26um%3D1%26ie%3DUTF-8%26q%3D%25D1%2581%25D0%25B2%25D0%25B5%25D1%2582%25D0%25B0%2B%25D0%25BD%25D0%25B5%25D0%25B4%25D0%25B5%25D0%25BB%25D1%258F%26fb%3D1%26gl%3Dbg%26hq%3D%25D1%2581%25D0%25B2%25D0%25B5%25D1%2582%25D0%25B0%2B%25D0%25BD%25D0%25B5%25D0%25B4%25D0%25B5%25D0%25BB%25D1%258F%26hnear%3D%25D0%25A1%25D0%25BE%25D1%2584%25D0%25B8%25D1%258F%26cid%3D14300161323953423416&amp;rct=j&amp;q=%D1%81%D0%B2%D0%B5%D1%82%D0%B0%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F&amp;ei=gV6jTemOMoPesgbH0oTfAw&amp;usg=AFQjCNEl26M3dYVMCooe4tkgbV5DiMj-ZQ&amp;cad=rja">Sveta Nedelya</a> square, next to the church.</p>
 
@@ -105,9 +105,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[An interview with Anatoly Karpov]]></title>
-    <link href="http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
+    <link href="http://buynov.com/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
     <updated>2010-07-07T10:00:48+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
+    <id>http://buynov.com/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
     <content type="html"><![CDATA[<p>An interesting interview with Anatoly Karpov, <a href="http://en.wikipedia.org/wiki/World_Chess_Championship#Undisputed_world_champions_1886.E2.80.931993">12-th</a> world chess champion, who is having an election campaign for the <a href="http://www.fide.com/">FIDE</a> (the world chess federation) presidency.</p>
 
 <p>For his style of play, what is important, in order to become a good chess played, about Kasparov, Fischer, Morphy and do you have to be crazy in order to become a world chess champion (if you ask me, it probably helps).</p>
@@ -118,9 +118,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[World Cup 2010]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/21/world-cup-2010/"/>
+    <link href="http://buynov.com/blog/2010/06/21/world-cup-2010/"/>
     <updated>2010-06-21T09:00:55+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/21/world-cup-2010</id>
+    <id>http://buynov.com/blog/2010/06/21/world-cup-2010</id>
     <content type="html"><![CDATA[<p><a href="http://www.fifa.com"><img src="/images/2010/06/world_cup_2010.jpg" alt="FIFA World Cup 2010" /></a></p>
 
 <p>It is different, in a way (a positive way) when there is a FIFA World Cup going on. It is good to know that there are three games each day, each of them having the potential to become <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061464/index.html">one</a> or <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061482/index.html">another</a> sensation. In regard to the World Cup is one of the best <a href="http://twitter.com/">tweets</a> I came across lately:</p>

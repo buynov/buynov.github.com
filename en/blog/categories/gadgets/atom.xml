@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Gadgets | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/gadgets/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:02:20+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/gadgets/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:47:39+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Raspberry Pi and RaspBMC as a Media Player]]></title>
-    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <link href="http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
     <updated>2013-03-13T10:36:17+02:00</updated>
-    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <id>http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
     <content type="html"><![CDATA[<h3>A Bit of Background</h3>
 
 <p>I bought a TV set in the autumn (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). It is a LED TV, with 3D (not that this matters), built-in WiFi, Smart TV, etc. The specs looked great and the price was quite acceptable. The picture, as a matter of fact, is very good &ndash; and thank God, because this is probably the most important thing about a TV. The software, however, is bad. Really bad. It appears as if it supports some standards, it appears to have some programmes and channels , but everything is so slow, clunky and poorly designed, that it doesn&rsquo;t seem to be worth the effort. Without getting into too much details (and I am not familiar with them, simply because I lost interest pretty quickly), I&rsquo;ll just say that the media player built into the TV was not satisfying for me (it doesn&rsquo;t support any kind of subtitles in Cyrillic, for example) and I decided to get an external one. I quickly started leaning towards <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, probably the best choice if you compare price and capabilities. It didn&rsquo;t take long to decide and order it. Whether because it was around Christmas or for some other reason, it turned out that this model is not available anywhere. And no deliveries were expected shortly. Pretty amazing how you can order something online, from Amazon UK, for example, but you cannot get it from a local Sofia store, most likely because the local distributor is too lazy to make an order. Anyway.</p>
@@ -61,9 +61,9 @@
   
   <entry>
     <title type="html"><![CDATA[Andy Rubin at D: Dive Into Mobile]]></title>
-    <link href="http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
+    <link href="http://buynov.com/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
     <updated>2011-01-05T10:06:41+02:00</updated>
-    <id>http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
+    <id>http://buynov.com/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
     <content type="html"><![CDATA[<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 
@@ -77,9 +77,9 @@
   
   <entry>
     <title type="html"><![CDATA[John's Phone]]></title>
-    <link href="http://buynov.github.io/blog/2010/11/16/johns-phone/"/>
+    <link href="http://buynov.com/blog/2010/11/16/johns-phone/"/>
     <updated>2010-11-16T09:43:05+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/11/16/johns-phone</id>
+    <id>http://buynov.com/blog/2010/11/16/johns-phone</id>
     <content type="html"><![CDATA[<p>This is THE simplest cell-phone ever. It&rsquo;s address book ROCKS &hellip;</p>
 
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"> </embed></object>
@@ -91,9 +91,9 @@
   
   <entry>
     <title type="html"><![CDATA[iPad from Metro]]></title>
-    <link href="http://buynov.github.io/blog/2010/09/03/ipad-from-metro/"/>
+    <link href="http://buynov.com/blog/2010/09/03/ipad-from-metro/"/>
     <updated>2010-09-03T11:04:55+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/09/03/ipad-from-metro</id>
+    <id>http://buynov.com/blog/2010/09/03/ipad-from-metro</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/09/iPad_v_Metro.png"><img src="/images/2010/09/iPad_v_Metro-242x300.png" alt="" /></a></p>
 
 <p>Unbelievable and yet, true &ndash; they are selling <a href="http://www.apple.com/ipad/">iPads</a> in <a href="http://www.metro.bg">Metro</a>! If you don&rsquo;t believe it, check their <a href="http://metro.bg/pages/1102.aspx?0&amp;mm=10180&amp;cd=2&amp;kd=1&amp;pg=6">online catalogue</a> (you need a Metro card to be able to do so).</p>
@@ -108,9 +108,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mobile Biography]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/22/mobile-biography/"/>
+    <link href="http://buynov.com/blog/2010/04/22/mobile-biography/"/>
     <updated>2010-04-22T09:48:25+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/22/mobile-biography</id>
+    <id>http://buynov.com/blog/2010/04/22/mobile-biography</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/04/01_Ericsson_GA628.gif"><img src="/images/2010/04/01_Ericsson_GA628.gif" alt="" /></a></p>
 
 <p>Model: <strong><a href="http://www.gsmarena.com/ericsson_ga_628-105.php">Ericsson GA-628</a></strong></p>

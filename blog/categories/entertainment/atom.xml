@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Entertainment | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/entertainment/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:00:47+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/entertainment/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:43:55+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Raspberry Pi и RaspBMC като Медия Плейър]]></title>
-    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <link href="http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
     <updated>2013-03-13T10:36:17+02:00</updated>
-    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <id>http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
     <content type="html"><![CDATA[<h3>Малко Предистория</h3>
 
 <p>Есента си купих телевизор (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). Телевизорът е LED, има 3D (не че това има значение), вграден WiFi, Smart TV и т.н. На хартия изглеждаше супер, а и цената беше приемлива. Картината, в интерес на истината, е доста добра &ndash; и слава богу, защото това в един телевизор е може би основното. Софтуерът, обаче, е зле. Много зле. Поддържат се уж някакви стандарти, има уж някакви канали и програми, но всичко е толкова бавно, недодялано и нeдомислено, че общо взето не си струва човек да се занимава. Без да изпадам в подробности (а с подробностите не съм и много запознат, защото бързо загубих интерес), ще кажа че медия плейъра на телевизора не ме удовлетвори (меко казано, не поддържа никакви субтитри на кирилица) и реших да си взема външен. Ориентирах се към <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, който е може би най добрия вариант като сравниш цената и качеството. Бързо се навих и го поръчах. Беше около Коледа и дали заради това, или заради друго, но се оказа че този модел в момента го няма в България. Никъде. Нямало внос. Това само по нашите географски ширини може да се случи &ndash; да можеш да поръчаш нещо от Амазон във Великобритания, например, но местния доставчик да го мързи да се напъне да направи доставка. Както и да е.</p>
@@ -69,9 +69,9 @@
   
   <entry>
     <title type="html"><![CDATA[Германия и Бенелюкс 2011]]></title>
-    <link href="http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011/"/>
+    <link href="http://buynov.com/blog/2011/06/10/germany-and-benelux-2011/"/>
     <updated>2011-06-10T10:53:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011</id>
+    <id>http://buynov.com/blog/2011/06/10/germany-and-benelux-2011</id>
     <content type="html"><![CDATA[<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
 
 
@@ -83,9 +83,9 @@
   
   <entry>
     <title type="html"><![CDATA[Мечки, в центъра на София]]></title>
-    <link href="http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia/"/>
+    <link href="http://buynov.com/blog/2011/04/12/bears-downtown-sofia/"/>
     <updated>2011-04-12T10:33:39+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia</id>
+    <id>http://buynov.com/blog/2011/04/12/bears-downtown-sofia</id>
     <content type="html"><![CDATA[<p>Повече от 120 мечки обикалят света от 2003 година насам. Повече информация, <a href="http://www.buddy-baer.com/united-buddy-bears/world-tour/sofija-2011.html">тук</a>.
 Добрата новина е, че мечките са в София до началото на Май месец, на <a href="http://bg360.net/pano/sofia/sveta-nedelya.php">площад Света Неделя</a> до едноименната църква.</p>
 
@@ -113,9 +113,9 @@
   
   <entry>
     <title type="html"><![CDATA[Интервю с Анатолий Карпов]]></title>
-    <link href="http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
+    <link href="http://buynov.com/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
     <updated>2010-07-07T10:00:48+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
+    <id>http://buynov.com/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
     <content type="html"><![CDATA[<p>Любопитно интервю с Анатолий Карпов, <a href="http://en.wikipedia.org/wiki/World_Chess_Championship#Undisputed_world_champions_1886.E2.80.931993">12-тият</a> световен шампион по шахмат, който в момента води кампания да стане президент на <a href="http://www.fide.com/">ФИДЕ</a> (световната шахматна федерация).</p>
 
 <p>За начина му на игра, кое е важно, за да станеш добър шахматист, за Каспаров, Фишер, Морфи и трябва ли да си луд, за да си световен шампион по шахмат (ако питаш мен, сигурно помага).</p>
@@ -126,9 +126,9 @@
   
   <entry>
     <title type="html"><![CDATA[Световно Първенство 2010]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/21/world-cup-2010/"/>
+    <link href="http://buynov.com/blog/2010/06/21/world-cup-2010/"/>
     <updated>2010-06-21T09:00:55+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/21/world-cup-2010</id>
+    <id>http://buynov.com/blog/2010/06/21/world-cup-2010</id>
     <content type="html"><![CDATA[<p><a href="http://www.fifa.com"><img src="/images/2010/06/world_cup_2010.jpg" alt="FIFA World Cup 2010" /></a></p>
 
 <p>По различно е някак (в добрия смисъл), когато има Световно Първенство по Футбол. Друго си е да знаеш, че има по три мача на ден, и те всички са с потенциала да сътворят <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061464/index.html">една</a> или <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061482/index.html">друга</a> изненада. По повод на световната купа е и един от най добрите <a href="http://twitter.com/">tweet-ове</a>, на които попаднах наскоро (превода е на автора):</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Software | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/software/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:02:20+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:47:39+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Problems and Solutions]]></title>
-    <link href="http://buynov.github.io/blog/2010/11/10/problems-and-solutions/"/>
+    <link href="http://buynov.com/blog/2010/11/10/problems-and-solutions/"/>
     <updated>2010-11-10T21:12:53+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/11/10/problems-and-solutions</id>
+    <id>http://buynov.com/blog/2010/11/10/problems-and-solutions</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/11/community.jpg"><img src="/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
 
 <p>I went to the <a href="http://eclipse.org/">Eclipse</a> website yesterday, to download the latest version (the JEE edition, if I have to be exact). I went to <a href="http://eclipse.org/home/categories/index.php?category=enterprise">Enterprise Java</a> &ndash;> <strong>Eclipse IDE for Java EE Developers</strong> and the download started successfully, but I noticed that the file, that was being downloaded is old (not from the latest, Helios release). Thank God they put the release in the file name. I went to <a href="http://www.eclipse.org/downloads/">Downloads</a> and managed to get the correct, latest version from there.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[InitialSetup - Internet/Network Applications]]></title>
-    <link href="http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
+    <link href="http://buynov.com/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
     <updated>2010-08-25T11:32:08+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
+    <id>http://buynov.com/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
     <content type="html"><![CDATA[<p>On the USB stick I carry with me, I have a directory (called  InitialSetup) with software for Windows, which I update occasionally  (with new versions of the applications). I install the software each  time I do a new installation on my computer, or the computer of a  friend. These are applications, which I had used for awhile and am  pleased with their reliability. All of them are free, some are with open  source code. I will list those application in a series of 4 posts &ndash; I  hope they will be useful to you too.</p>
 
 <p>I separated the software in the following four categories (thеse will be the names of the posts on the subject as well):</p>
@@ -97,18 +97,18 @@
   
   <entry>
     <title type="html"><![CDATA[Virtual keyboard in Google search]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
+    <link href="http://buynov.com/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
     <updated>2010-04-30T08:01:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search</id>
+    <id>http://buynov.com/blog/2010/04/30/virtual-keyboard-in-google-search</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/04/VirtualKeyboardInGoogle-EN.png"><img src="/images/2010/04/VirtualKeyboardInGoogle-EN.png" alt="" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[iPhone OS 4: Highlights]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/15/iphone-os-4-highlights/"/>
+    <link href="http://buynov.com/blog/2010/04/15/iphone-os-4-highlights/"/>
     <updated>2010-04-15T09:01:18+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/15/iphone-os-4-highlights</id>
+    <id>http://buynov.com/blog/2010/04/15/iphone-os-4-highlights</id>
     <content type="html"><![CDATA[<p><a href="/images/2010/04/iPhoneOS4.jpg"><img src="/images/2010/04/iPhoneOS4.jpg" alt="" /></a></p>
 
 <p>Last Thursday, on Apr 08, Steve Jobs and <a href="http://www.apple.com/pr/bios/forstall.html">Scott Forstall</a> presented the plans for the new iPhone operating system, <strong>iPhone  OS 4</strong>. The event itself can be seen on the <a href="http://events.apple.com.edgesuite.net/1004fk8d5gt/event/">official site</a>. What are the highlights?</p>
@@ -156,9 +156,9 @@
   
   <entry>
     <title type="html"><![CDATA[InitialSetup - System tools]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/08/initialsetup-system-tools/"/>
+    <link href="http://buynov.com/blog/2010/04/08/initialsetup-system-tools/"/>
     <updated>2010-04-08T08:38:18+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/08/initialsetup-system-tools</id>
+    <id>http://buynov.com/blog/2010/04/08/initialsetup-system-tools</id>
     <content type="html"><![CDATA[<p>On the USB stick I carry with me, I have a directory (called InitialSetup) with software for Windows, which I update occasionally (with new versions of the applications). I install the software each time I do a new installation on my computer, or the computer of a friend. These are applications, which I had used for awhile and I was pleased with their reliability. All of them are free, some are with open source code. I will list those application in a series of 4 posts &ndash; I hope they will be useful to you too.</p>
 
 <p>I separated the software in the following four categories (thеse will be the names of the posts on the subject as well):</p>

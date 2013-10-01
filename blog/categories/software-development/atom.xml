@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Software Development | Buynov]]></title>
-  <link href="http://buynov.github.io/blog/categories/software-development/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:00:47+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/blog/categories/software-development/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:43:55+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Мотивация]]></title>
-    <link href="http://buynov.github.io/blog/2012/03/20/motivation/"/>
+    <link href="http://buynov.com/blog/2012/03/20/motivation/"/>
     <updated>2012-03-20T10:22:45+02:00</updated>
-    <id>http://buynov.github.io/blog/2012/03/20/motivation</id>
+    <id>http://buynov.com/blog/2012/03/20/motivation</id>
     <content type="html"><![CDATA[<p><a href="/images/2012/02/motivation.jpg"><img src="/images/2012/02/motivation.jpg" alt="" /></a></p>
 
 <p>Една <a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">статия</a> на <a href="http://joelonsoftware.com/items/2012/02/13.html">Джоел Сполски</a> ми напомни за уводния ми курс по мениджмънт в университета. Има (само) една тема, която много добре си спомням от този курс &ndash; теориите за човешката мотивация.
@@ -52,9 +52,9 @@
   
   <entry>
     <title type="html"><![CDATA[REST обяснен]]></title>
-    <link href="http://buynov.github.io/blog/2010/03/25/rest-explained/"/>
+    <link href="http://buynov.com/blog/2010/03/25/rest-explained/"/>
     <updated>2010-03-25T07:53:12+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/03/25/rest-explained</id>
+    <id>http://buynov.com/blog/2010/03/25/rest-explained</id>
     <content type="html"><![CDATA[<p>Най краткото и разбираемо обяснение, което съм срещал, на това какво е <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a> &ndash; от самия <a href="http://martinfowler.com/">Мартин Фаулър</a>:</p>
 
 <p><a href="http://martinfowler.com/articles/richardsonMaturityModel.html">Steps toward the glory of REST</a></p>
@@ -63,9 +63,9 @@
   
   <entry>
     <title type="html"><![CDATA[Род Джонсън за бъдещето на Java]]></title>
-    <link href="http://buynov.github.io/blog/2009/08/13/rod-johnson-on-the-future-of-java/"/>
+    <link href="http://buynov.com/blog/2009/08/13/rod-johnson-on-the-future-of-java/"/>
     <updated>2009-08-13T23:09:07+03:00</updated>
-    <id>http://buynov.github.io/blog/2009/08/13/rod-johnson-on-the-future-of-java</id>
+    <id>http://buynov.com/blog/2009/08/13/rod-johnson-on-the-future-of-java</id>
     <content type="html"><![CDATA[<p><a href="http://www.infoq.com/presentations/SpringOne-Keynote-Rod-Johnson"><img src="/images/2009/08/rod_johnson.jpg" alt="The Future of Java Innovation" /></a></p>
 
 <p>Във връзка с новината от тази седмица &ndash; <a href="http://www.infoq.com/news/2009/08/vmware-springsource">VMware купува SpringSource</a> &ndash; се сетих за <a href="http://www.infoq.com/presentations/SpringOne-Keynote-Rod-Johnson">едно видео</a> с <a href="http://www.springone2gx.com/conference/speaker/rod_johnson">Род Джонсън</a>, което гледах наскоро. В него той говори за бъдещето на Java иновациите и на Java като цяло, и доколко <a href="/2009/07/19/342">сделката между Oracle и SUN</a> би повлияла на него. Не се стряскай от продължителността на презентацията, препоръчвам ти първите 25-30 минути (освен ако не си Spring фен и не искаш да видиш демо на отговора на Rails &ndash; <a href="http://www.springsource.org/roo">Spring Roo</a>). Като цяло изложението ми се стори доста смислено и разумно, ще се опитам да го преразкажа накратко, в случай че не ти се гледа презентацията.</p>
@@ -80,9 +80,9 @@
   
   <entry>
     <title type="html"><![CDATA[Java – силно повлиян от Objective-C]]></title>
-    <link href="http://buynov.github.io/blog/2009/08/02/java-strongly-influenced-by-objective-c/"/>
+    <link href="http://buynov.com/blog/2009/08/02/java-strongly-influenced-by-objective-c/"/>
     <updated>2009-08-02T18:13:10+03:00</updated>
-    <id>http://buynov.github.io/blog/2009/08/02/java-strongly-influenced-by-objective-c</id>
+    <id>http://buynov.com/blog/2009/08/02/java-strongly-influenced-by-objective-c</id>
     <content type="html"><![CDATA[<p>Любопитен линк: <a href="http://www.virtualschool.edu/objectivec/influenceOnJava.html">Java Was Strongly Influenced by Objective-C</a>.</p>
 
 <p>Java като език бил силно повлиян от <a href="http://wikipedia.org/wiki/Objective-C">Objective-C</a>, който тогава е използван от екипа на <a href="http://wikipedia.org/wiki/NEXTSTEP">NeXTSTEP</a>. NeXTSTEP пък е операционната система на <a href="http://wikipedia.org/wiki/NeXT">NeXT</a>, фирмата която Стив Джобс създава след като напуска Apple през 1985. Накрая, и до ден днешен Objective-C е основния език за програмиране в Apple, включително и за iPhone.</p>
@@ -91,9 +91,9 @@
   
   <entry>
     <title type="html"><![CDATA[Мартин Фаулър за Ruby]]></title>
-    <link href="http://buynov.github.io/blog/2009/07/18/martin-fowler-about-ruby/"/>
+    <link href="http://buynov.com/blog/2009/07/18/martin-fowler-about-ruby/"/>
     <updated>2009-07-18T12:13:15+03:00</updated>
-    <id>http://buynov.github.io/blog/2009/07/18/martin-fowler-about-ruby</id>
+    <id>http://buynov.com/blog/2009/07/18/martin-fowler-about-ruby</id>
     <content type="html"><![CDATA[<p><a href="/images/2009/07/martin_fowler.jpg"><img src="/images/2009/07/martin_fowler.jpg" alt="martin_fowler" /></a></p>
 
 <p>В <a href="http://www.infoq.com/presentations/fowler-ruby">тази презентация</a> от <a href="http://qcon.infoq.com/">QCon</a>, <a href="http://martinfowler.com">Мартин Фаулър</a> споделя опита на <a href="http://www.thoughtworks.com/">ThoughtWorks</a> с <a href="http://www.ruby-lang.org/">Ruby</a>. Има и транскрипт на презентацията, <a href="http://martinfowler.com/articles/rubyAtThoughtWorks.html">тук</a>.</p>

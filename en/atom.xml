@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Buynov]]></title>
-  <link href="http://buynov.github.io/atom.xml" rel="self"/>
-  <link href="http://buynov.github.io/"/>
-  <updated>2013-10-01T21:02:20+03:00</updated>
-  <id>http://buynov.github.io/</id>
+  <link href="http://buynov.com/atom.xml" rel="self"/>
+  <link href="http://buynov.com/"/>
+  <updated>2013-10-01T21:47:39+03:00</updated>
+  <id>http://buynov.com/</id>
   <author>
     <name><![CDATA[Stefan Buynov]]></name>
     
@@ -15,14 +15,14 @@
   
   <entry>
     <title type="html"><![CDATA[Raspberry Pi and RaspBMC as a Media Player]]></title>
-    <link href="http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
+    <link href="http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player/"/>
     <updated>2013-03-13T10:36:17+02:00</updated>
-    <id>http://buynov.github.io/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
+    <id>http://buynov.com/blog/2013/03/13/raspberry-pi-and-raspbmc-as-a-media-player</id>
     <content type="html"><![CDATA[<h3>A Bit of Background</h3>
 
 <p>I bought a TV set in the autumn (<a href="http://www.p4c.philips.com/cgi-bin/cpindex.pl?ctn=46PFL5537K/12">Philips 46PFL5537K/12</a>). It is a LED TV, with 3D (not that this matters), built-in WiFi, Smart TV, etc. The specs looked great and the price was quite acceptable. The picture, as a matter of fact, is very good &ndash; and thank God, because this is probably the most important thing about a TV. The software, however, is bad. Really bad. It appears as if it supports some standards, it appears to have some programmes and channels , but everything is so slow, clunky and poorly designed, that it doesn&rsquo;t seem to be worth the effort. Without getting into too much details (and I am not familiar with them, simply because I lost interest pretty quickly), I&rsquo;ll just say that the media player built into the TV was not satisfying for me (it doesn&rsquo;t support any kind of subtitles in Cyrillic, for example) and I decided to get an external one. I quickly started leaning towards <a href="http://www.wdc.com/en/products/products.aspx?id=330">WD Live</a>, probably the best choice if you compare price and capabilities. It didn&rsquo;t take long to decide and order it. Whether because it was around Christmas or for some other reason, it turned out that this model is not available anywhere. And no deliveries were expected shortly. Pretty amazing how you can order something online, from Amazon UK, for example, but you cannot get it from a local Sofia store, most likely because the local distributor is too lazy to make an order. Anyway.</p>
 
-<p><a href="http://buynov.github.io/images/2013/03/RPi_front_small.jpg"><img src="http://buynov.github.io/images/2013/03/RPi_front_small.jpg" alt="" /></a>Looking for an alternative, I decided to try the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (or RPi for short) of a colleague. I took it for a weekend, installed <a href="http://www.raspbmc.com/">RaspBMC</a>, connected it to a TV via HDMI cable and voila! It was working pretty well &ndash; several movies, pictures, everything was flawless. In exchange for 35 Euros (plus a couple of other things, see below) without VAT (if you heard the rumor of a $35 RPi, it is Europe after all ;)), I could assemble a media player, and a pretty good one. Additionally, Raspberry Pi (or RPi for short) is a fully functional computer, which you can use as a server &ndash; I read that some people host their Wordpress blog on it. Most RPi images are Debian-based (including the official <a href="http://www.raspbian.org/">Raspbian</a> and <a href="http://www.raspbmc.com/">RaspBMC</a>, which I prefer), so you have a bunch of packages ready to install.</p>
+<p><a href="http://buynov.com/images/2013/03/RPi_front_small.jpg"><img src="http://buynov.com/images/2013/03/RPi_front_small.jpg" alt="" /></a>Looking for an alternative, I decided to try the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (or RPi for short) of a colleague. I took it for a weekend, installed <a href="http://www.raspbmc.com/">RaspBMC</a>, connected it to a TV via HDMI cable and voila! It was working pretty well &ndash; several movies, pictures, everything was flawless. In exchange for 35 Euros (plus a couple of other things, see below) without VAT (if you heard the rumor of a $35 RPi, it is Europe after all ;)), I could assemble a media player, and a pretty good one. Additionally, Raspberry Pi (or RPi for short) is a fully functional computer, which you can use as a server &ndash; I read that some people host their Wordpress blog on it. Most RPi images are Debian-based (including the official <a href="http://www.raspbian.org/">Raspbian</a> and <a href="http://www.raspbmc.com/">RaspBMC</a>, which I prefer), so you have a bunch of packages ready to install.</p>
 
 <!-- More -->
 
@@ -33,7 +33,7 @@
 
 <p>Keep in mind, though, that this is not a fully functional computer out of the box &ndash; the RPi itself is just a mainboard and in order to use it, you will need a micro USB charging cable, SD flash card (it helps if you consult <a href="http://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards">this list</a> first) and an HDMI cable in order to connect it to a monitor or a TV set. You can also get additional accessories like a box, keyboard, mouse, WiFi adapter, etc. But before start extending the RPi, notice that some of those are highly overpriced &ndash; apparently some people / companies are trying to make easy money out of the popularity of the product, and its low price. Overall you should look at RPi as a construction computer kit, which requires &ldquo;do-it-yourself&rdquo; approach. If this sounds disturbing to you and you prefer everything to work out of the box, RPi is not for you.</p>
 
-<h3><a href="http://buynov.github.io/images/2013/03/RPi_sideways_small.jpg"><img src="http://buynov.github.io/images/2013/03/RPi_sideways_small.jpg" alt="" /></a>A Bit of Restrictions</h3>
+<h3><a href="http://buynov.com/images/2013/03/RPi_sideways_small.jpg"><img src="http://buynov.com/images/2013/03/RPi_sideways_small.jpg" alt="" /></a>A Bit of Restrictions</h3>
 
 <p>RPi has an ARM processor, which means that at this stage, you cannot install Windows on it. Microsoft already have an ARM based version of Windows (<a href="http://en.wikipedia.org/wiki/Windows_RT">Windows RT</a>), but I haven&rsquo;t seen anyone to get it going on a RPi, yet. And having in mind the serious requirements (for <a href="http://www.tomshardware.com/news/Surface-Windows-RT-Microsoft-windows-8,18536.html">disk space</a>, for example), this might never happen.</p>
 
@@ -41,7 +41,7 @@
 
 <p>The RPi foundation granted exclusive right to only two official distributors world-wide &ndash; <a href="http://www.farnell.com/">Farnell</a> and <a href="http://www.rs-components.com">RS Components</a>. Lucky enough, one of those has an official representative in Bulgaria &ndash; namely, <a href="http://www.comet.bg/">Comet</a>. You can order an RPi from sites outside Bulgaria, (like Amazon DE/UK, for example), but it is not very likely that you will get it cheaper. I got my RPi from Comet, and I don&rsquo;t regret it. Their sales reps are very responsive &ndash; I had all the communication conducted over email and every time they responded within hours. They answered to all my questions and provided a final price before I place the order. Apart from the RPi itself, you can also order <a href="http://store.comet.bg/bg/CatalogueFarnell/Search/?keywords=raspberry#eyJpcHAiOiIxMCIsImsiOiJyYXNwYmVycnkifQ%3D%3D">all the accessories</a> that Farnell offers (keep in mind that Comet&rsquo;s search engine is a bit weird, and takes some time to provide results, without indicating that there is something going on in the background). If you order, you can have your items delivered by Speedy or Econt Express &ndash; about 10 leva for Sofia. for example. You can also pick-up your order from their office &ndash; they have one downtown Sofia. I also had a <a href="http://bg.farnell.com/multicomp/mc-rp001-clr/enclosure-raspberry-pi-clear/dp/2113799#">transparent box</a> delivered, which seems quite nice.</p>
 
-<h3><a href="http://buynov.github.io/images/2013/03/xbmc_theater.jpg"><img src="http://buynov.github.io/images/2013/03/xbmc_theater.jpg" alt="" /></a>A Little Media Player</h3>
+<h3><a href="http://buynov.com/images/2013/03/xbmc_theater.jpg"><img src="http://buynov.com/images/2013/03/xbmc_theater.jpg" alt="" /></a>A Little Media Player</h3>
 
 <p>When you hear the word computer, usually you imagine basic peripherals like keyboard and mouse. In general, you can hook those up to the RPi, but with RaspBMC this is not required. RaspBMC is at its core a Debian with <a href="http://xbmc.org/">XBMC</a> as a user interface. The name of XBMC comes from XBox Media Center or to put it another way, a media player which resembles the interface of XBox. The software is quite mature and developed, the last version is 12, and it has been around for awhile. XBMC is open source software, and there are quite a few plugins and extensions for it. The best part of it is, that an XBMC instance can be controlled remotely in many different ways, including a web control panel (on RaspBMC it is enabled by default), smartphone applications (I use <a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree">this one</a>, which is very good), and because it supports <a href="http://en.wikipedia.org/wiki/Digital_Living_Network_Alliance">DLNA</a> you can use any DLNA enabled remote controller, like <a href="http://www.imediashare.tv/">iMediaShare</a>, for example. In short, take the SD flash card from the RPi, install RaspBMC on a computer, put the SD card back in the RPi and power it up. Everything works great. Again, if installation, configuration and similar terms bother you, RPi is probably not for you. Check WD Live, it might already be available ;)</p>
 
@@ -61,10 +61,10 @@
   
   <entry>
     <title type="html"><![CDATA[Motivation]]></title>
-    <link href="http://buynov.github.io/blog/2012/03/20/motivation/"/>
+    <link href="http://buynov.com/blog/2012/03/20/motivation/"/>
     <updated>2012-03-20T10:22:45+02:00</updated>
-    <id>http://buynov.github.io/blog/2012/03/20/motivation</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2012/02/motivation.jpg"><img src="http://buynov.github.io/images/2012/02/motivation.jpg" alt="" /></a></p>
+    <id>http://buynov.com/blog/2012/03/20/motivation</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2012/02/motivation.jpg"><img src="http://buynov.com/images/2012/02/motivation.jpg" alt="" /></a></p>
 
 <p>An <a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">article</a> by <a href="http://joelonsoftware.com/items/2012/02/13.html">Joel Spolsky</a> reminded me of my introductory management class at the University. There is (only) one topic I vividly remember from this class &ndash; theories of human motivation.
 Basically, there are <a href="http://en.wikipedia.org/wiki/Theory_X_and_theory_Y">two</a> (well, <a href="http://en.wikipedia.org/wiki/Theory_Z">three</a> if we have to be exact, but the third one applies mainly for Asia). The difference is mainly in the assumptions about people/employees:</p>
@@ -93,15 +93,15 @@ __</p>
 
 <p><a href="http://www.avc.com/a_vc/2012/02/the-management-team-guest-post-from-joel-spolsky.html">The article</a> is worth it &ndash; I would advise you to read it.</p>
 
-<p>P.S. Somewhat related to this topic &ndash; <a href="http://buynov.github.io/blog/2007/09/03/how-to-become-a-manager/">my thoughts</a> from several years back.</p>
+<p>P.S. Somewhat related to this topic &ndash; <a href="http://buynov.com/blog/2007/09/03/how-to-become-a-manager/">my thoughts</a> from several years back.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Digital Natives]]></title>
-    <link href="http://buynov.github.io/blog/2011/06/23/digital-natives/"/>
+    <link href="http://buynov.com/blog/2011/06/23/digital-natives/"/>
     <updated>2011-06-23T11:10:15+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/06/23/digital-natives</id>
+    <id>http://buynov.com/blog/2011/06/23/digital-natives</id>
     <content type="html"><![CDATA[<p><strong>Warning</strong>: This is an advertisement. But worth watching :)</p>
 
 <iframe width="560" height="349" src="http://www.youtube.com/embed/_eq3Sj1GGs8?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -111,9 +111,9 @@ __</p>
   
   <entry>
     <title type="html"><![CDATA[Germany and Benelux 2011]]></title>
-    <link href="http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011/"/>
+    <link href="http://buynov.com/blog/2011/06/10/germany-and-benelux-2011/"/>
     <updated>2011-06-10T10:53:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/06/10/germany-and-benelux-2011</id>
+    <id>http://buynov.com/blog/2011/06/10/germany-and-benelux-2011</id>
     <content type="html"><![CDATA[<iframe width="638" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=bg&amp;msa=0&amp;msid=218035029421801257340.0004a4902f4ec8fd30911&amp;ll=47.609946,13.838865&amp;spn=9.826913,18.97429&amp;output=embed"></iframe>
 
 
@@ -125,29 +125,29 @@ __</p>
   
   <entry>
     <title type="html"><![CDATA[Bears, downtown Sofia]]></title>
-    <link href="http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia/"/>
+    <link href="http://buynov.com/blog/2011/04/12/bears-downtown-sofia/"/>
     <updated>2011-04-12T10:33:39+03:00</updated>
-    <id>http://buynov.github.io/blog/2011/04/12/bears-downtown-sofia</id>
+    <id>http://buynov.com/blog/2011/04/12/bears-downtown-sofia</id>
     <content type="html"><![CDATA[<p>More than 120 bears are traveling around the world since 2003. More information, <a href="http://www.buddy-baer.com/united-buddy-bears/world-tour/sofija-2011.html">here</a>.
 The good news is that the bears are in Sofia until May, on the <a href="http://www.google.bg/url?sa=t&amp;source=web&amp;cd=4&amp;ved=0CDoQoAIwAw&amp;url=http%3A%2F%2Fmaps.google.bg%2Fmaps%2Fplace%3Fhl%3Dbg%26client%3Dfirefox-a%26hs%3DYW3%26rls%3Dorg.mozilla%3Aen-US%3Aofficial%26channel%3Ds%26um%3D1%26ie%3DUTF-8%26q%3D%25D1%2581%25D0%25B2%25D0%25B5%25D1%2582%25D0%25B0%2B%25D0%25BD%25D0%25B5%25D0%25B4%25D0%25B5%25D0%25BB%25D1%258F%26fb%3D1%26gl%3Dbg%26hq%3D%25D1%2581%25D0%25B2%25D0%25B5%25D1%2582%25D0%25B0%2B%25D0%25BD%25D0%25B5%25D0%25B4%25D0%25B5%25D0%25BB%25D1%258F%26hnear%3D%25D0%25A1%25D0%25BE%25D1%2584%25D0%25B8%25D1%258F%26cid%3D14300161323953423416&amp;rct=j&amp;q=%D1%81%D0%B2%D0%B5%D1%82%D0%B0%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F&amp;ei=gV6jTemOMoPesgbH0oTfAw&amp;usg=AFQjCNEl26M3dYVMCooe4tkgbV5DiMj-ZQ&amp;cad=rja">Sveta Nedelya</a> square, next to the church.</p>
 
 <p>And as seen from the photographic material below, the Cuban bear is the best friend of the Bulgarian bear ;)</p>
 
-<p><a href="http://buynov.github.io/gallery/sofia-bears/dsc02629.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02630.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02646.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02647.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02648.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02649.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02655.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02662.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02667.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02679.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02691.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02694.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02695.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02698.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg" alt="" /></a>
-<a href="http://buynov.github.io/gallery/sofia-bears/dsc02699.jpg"><img src="http://buynov.github.io/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/gallery/sofia-bears/dsc02629.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02630.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02646.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02647.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02648.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02649.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02655.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02662.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02667.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02679.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02691.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02694.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02695.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02698.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg" alt="" /></a>
+<a href="http://buynov.com/gallery/sofia-bears/dsc02699.jpg"><img src="http://buynov.com/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg" alt="" /></a></p>
 
 <p>Well, take a hike and enjoy it!</p>
 ]]></content>
@@ -155,13 +155,13 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[Andy Rubin at D: Dive Into Mobile]]></title>
-    <link href="http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
+    <link href="http://buynov.com/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile/"/>
     <updated>2011-01-05T10:06:41+02:00</updated>
-    <id>http://buynov.github.io/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
+    <id>http://buynov.com/blog/2011/01/05/andy-rubin-at-d-dive-into-mobile</id>
     <content type="html"><![CDATA[<object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=88F98ADB-3F87-49DF-AD08-385D66B0DDE8&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 
-<p>This is the full interview with <a href="http://en.wikipedia.org/wiki/Andy_Rubin">Andy Rubin</a> from (already) last year&rsquo;s <a href="http://allthingsd.com/d/dive-into-mobile/">D: Dive Into Mobile</a> conference (I&rsquo;ve mentioned the <a href="http://allthingsd.com/">All Things Digital</a>&rsquo;s conferences <a href="http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/">before</a>).</p>
+<p>This is the full interview with <a href="http://en.wikipedia.org/wiki/Andy_Rubin">Andy Rubin</a> from (already) last year&rsquo;s <a href="http://allthingsd.com/d/dive-into-mobile/">D: Dive Into Mobile</a> conference (I&rsquo;ve mentioned the <a href="http://allthingsd.com/">All Things Digital</a>&rsquo;s conferences <a href="http://buynov.com/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/">before</a>).</p>
 
 <p>Andy Rubin has two successful start-ups behind his back. One (the so called <a href="http://en.wikipedia.org/wiki/T-Mobile_Sidekick">T-Mobile Sidekick</a>) he sold to Micro$soft, and the other (precisely, <a href="http://www.android.com/">Android</a>) &ndash; to Google. This information, by itself, should tell enough.</p>
 
@@ -171,9 +171,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[John's Phone]]></title>
-    <link href="http://buynov.github.io/blog/2010/11/16/johns-phone/"/>
+    <link href="http://buynov.com/blog/2010/11/16/johns-phone/"/>
     <updated>2010-11-16T09:43:05+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/11/16/johns-phone</id>
+    <id>http://buynov.com/blog/2010/11/16/johns-phone</id>
     <content type="html"><![CDATA[<p>This is THE simplest cell-phone ever. It&rsquo;s address book ROCKS &hellip;</p>
 
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="http://www.youtube.com/v/1e2TCLiDECw?fs=1&amp;hl=bg_BG&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"> </embed></object>
@@ -185,10 +185,10 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[Problems and Solutions]]></title>
-    <link href="http://buynov.github.io/blog/2010/11/10/problems-and-solutions/"/>
+    <link href="http://buynov.com/blog/2010/11/10/problems-and-solutions/"/>
     <updated>2010-11-10T21:12:53+02:00</updated>
-    <id>http://buynov.github.io/blog/2010/11/10/problems-and-solutions</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/11/community.jpg"><img src="http://buynov.github.io/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
+    <id>http://buynov.com/blog/2010/11/10/problems-and-solutions</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/11/community.jpg"><img src="http://buynov.com/images/2010/11/community-300x229.jpg" alt="Community" /></a></p>
 
 <p>I went to the <a href="http://eclipse.org/">Eclipse</a> website yesterday, to download the latest version (the JEE edition, if I have to be exact). I went to <a href="http://eclipse.org/home/categories/index.php?category=enterprise">Enterprise Java</a> &ndash;> <strong>Eclipse IDE for Java EE Developers</strong> and the download started successfully, but I noticed that the file, that was being downloaded is old (not from the latest, Helios release). Thank God they put the release in the file name. I went to <a href="http://www.eclipse.org/downloads/">Downloads</a> and managed to get the correct, latest version from there.</p>
 
@@ -202,10 +202,10 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[iPad from Metro]]></title>
-    <link href="http://buynov.github.io/blog/2010/09/03/ipad-from-metro/"/>
+    <link href="http://buynov.com/blog/2010/09/03/ipad-from-metro/"/>
     <updated>2010-09-03T11:04:55+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/09/03/ipad-from-metro</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/09/iPad_v_Metro.png"><img src="http://buynov.github.io/images/2010/09/iPad_v_Metro-242x300.png" alt="" /></a></p>
+    <id>http://buynov.com/blog/2010/09/03/ipad-from-metro</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/09/iPad_v_Metro.png"><img src="http://buynov.com/images/2010/09/iPad_v_Metro-242x300.png" alt="" /></a></p>
 
 <p>Unbelievable and yet, true &ndash; they are selling <a href="http://www.apple.com/ipad/">iPads</a> in <a href="http://www.metro.bg">Metro</a>! If you don&rsquo;t believe it, check their <a href="http://metro.bg/pages/1102.aspx?0&amp;mm=10180&amp;cd=2&amp;kd=1&amp;pg=6">online catalogue</a> (you need a Metro card to be able to do so).</p>
 
@@ -219,15 +219,15 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[InitialSetup - Internet/Network Applications]]></title>
-    <link href="http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
+    <link href="http://buynov.com/blog/2010/08/25/initialsetup-internetnetwork-applications/"/>
     <updated>2010-08-25T11:32:08+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
+    <id>http://buynov.com/blog/2010/08/25/initialsetup-internetnetwork-applications</id>
     <content type="html"><![CDATA[<p>On the USB stick I carry with me, I have a directory (called  InitialSetup) with software for Windows, which I update occasionally  (with new versions of the applications). I install the software each  time I do a new installation on my computer, or the computer of a  friend. These are applications, which I had used for awhile and am  pleased with their reliability. All of them are free, some are with open  source code. I will list those application in a series of 4 posts &ndash; I  hope they will be useful to you too.</p>
 
 <p>I separated the software in the following four categories (thеse will be the names of the posts on the subject as well):</p>
 
 <ol>
-<li>. <a href="http://buynov.github.io/blog/2010/04/08/initialsetup-system-tools/"><strong>System tools</strong></a></li>
+<li>. <a href="http://buynov.com/blog/2010/04/08/initialsetup-system-tools/"><strong>System tools</strong></a></li>
 <li>. <strong>Internet/Network applications</strong><strong> </strong>(this post)</li>
 <li>. <strong>Office applications/Tools for document (word) processing</strong></li>
 <li>. <strong>Multimedia applications</strong></li>
@@ -238,13 +238,13 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <h3>Browsers</h3>
 
-<p>There are at least three browsers, that are much better than <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Internet  Explorer</a> for several reasons. They are more secure (in the sense of  <strong>Security and Protection</strong> in the <a href="http://buynov.github.io/blog/2010/04/08/initialsetup-system-tools/">previous post</a> on the subject), they are  faster and they offer additional functionality to what IE has.</p>
+<p>There are at least three browsers, that are much better than <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Internet  Explorer</a> for several reasons. They are more secure (in the sense of  <strong>Security and Protection</strong> in the <a href="http://buynov.com/blog/2010/04/08/initialsetup-system-tools/">previous post</a> on the subject), they are  faster and they offer additional functionality to what IE has.</p>
 
 <ul>
 <li><p><strong><a href="http://www.mozilla.com">Firefox</a> </strong>&ndash; Internet Explorer&rsquo;s main competitor according to <a href="http://en.wikipedia.org/wiki/Usage_share_of_web_browsers">usage  statistics</a> of the web browsers in the internet. Besides being quite fast  and reliable, Firefox is also famous for abiding official internet  standards (<a href="http://www.w3.org/">W3C</a>) most strictly. It is very useful,  that Firefox can be extended with a variety of add-ons, which improve  your internet (and not only) experience. You can install, for example,  status bar icons to notify you when you have new mail (without the need  to log into your email account every time you want to check it), block  Flash advertisements from the web sites you visit, to improve your Gmail  experience and <a href="https://addons.mozilla.org">a bunch</a> of other extensions.</p></li>
 <li><p><a href="http://www.opera.com/"><strong>Opera </strong></a>&ndash; Alongside the most popular mobile browser, <a href="http://www.opera.com/mobile/">Opera Mini</a>, Opera provide a desktop browser for quite some time. Very fast browser, the first one to introduce browsing in tabs (instead of different windows). This is a common feature for all modern browsers, but Opera made it first. The team behind Opera is known for their innovations, and they were the first to introduce the Speed Dial &ndash; when opening a new window/tab, the user is presented a preview of the most visited (or preconfigured) pages to choose from and go there fast. At present Google Chrome (and even Safari) provides the same functionality, but don&rsquo;t forget that Opera were first in this as well. Opera also offers add-ons (<a href="http://www.opera.com/widgets/">widgets</a>), but the choice is pretty limited, compared to what Firefox has to offer.</p></li>
 <li><p><a href="http://www.google.com/chrome"><strong>Google Chrome</strong></a> &ndash; Google&rsquo;s browser slowly (but consistently) gains traction and is based on the same open source toolkit (<a href="http://webkit.org/">WebKit</a>), used by Apple for their browser, <a href="http://www.apple.com/safari/">Safari</a>. It also introduced <a href="https://chrome.google.com/extensions">extensions</a> recently, which will make it even more popular. The curious thing about Chrome is, that it updates itself automatically (without asking the user) and each website is opened in e separate process &ndash; meaning that if one page you&rsquo;ve opened crashes, the rest are left intact.</p></li>
-<li><p><a href="http://www.launchy.net/"><strong>Launchy</strong></a> &ndash; Launchy is not exactly a browser, but this seems the most appropriate category for it. I <a href="http://buynov.github.io/blog/2007/08/27/sourceforgenet-update-2007-08-24-edition/">mentioned</a> this extremely useful application before and to be honest, I&rsquo;ve been using it intensively ever since. A really useful tool for starting applications quickly, without having to look for them in the Start menu. Just press <strong>Alt + Space</strong>,  and start typing the name of the application you want to start and Launchy will suggest the programs it found. Try it if you haven&rsquo;t already &ndash; you won&rsquo;t regret it.</p></li>
+<li><p><a href="http://www.launchy.net/"><strong>Launchy</strong></a> &ndash; Launchy is not exactly a browser, but this seems the most appropriate category for it. I <a href="http://buynov.com/blog/2007/08/27/sourceforgenet-update-2007-08-24-edition/">mentioned</a> this extremely useful application before and to be honest, I&rsquo;ve been using it intensively ever since. A really useful tool for starting applications quickly, without having to look for them in the Start menu. Just press <strong>Alt + Space</strong>,  and start typing the name of the application you want to start and Launchy will suggest the programs it found. Try it if you haven&rsquo;t already &ndash; you won&rsquo;t regret it.</p></li>
 </ul>
 
 
@@ -284,9 +284,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[An interview with Anatoly Karpov]]></title>
-    <link href="http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
+    <link href="http://buynov.com/blog/2010/07/07/an-interview-with-anatoly-karpov/"/>
     <updated>2010-07-07T10:00:48+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
+    <id>http://buynov.com/blog/2010/07/07/an-interview-with-anatoly-karpov</id>
     <content type="html"><![CDATA[<p>An interesting interview with Anatoly Karpov, <a href="http://en.wikipedia.org/wiki/World_Chess_Championship#Undisputed_world_champions_1886.E2.80.931993">12-th</a> world chess champion, who is having an election campaign for the <a href="http://www.fide.com/">FIDE</a> (the world chess federation) presidency.</p>
 
 <p>For his style of play, what is important, in order to become a good chess played, about Kasparov, Fischer, Morphy and do you have to be crazy in order to become a world chess champion (if you ask me, it probably helps).</p>
@@ -297,9 +297,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[Bianor blog posts: June '10]]></title>
-    <link href="http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10/"/>
+    <link href="http://buynov.com/blog/2010/07/02/bianor-blog-posts-june-10/"/>
     <updated>2010-07-02T10:00:32+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/07/02/bianor-blog-posts-june-10</id>
+    <id>http://buynov.com/blog/2010/07/02/bianor-blog-posts-june-10</id>
     <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/06/mobile_app_development.jpg" alt="" /></p>
 
 <h3><a href="http://www.bianor.com/blog/developers-perspective-on-android-blackberry-iphone-symbian/">Developer’s Perspective on Android, BlackBerry, iPhone &amp; Symbian</a></h3>
@@ -310,10 +310,10 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[World Cup 2010]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/21/world-cup-2010/"/>
+    <link href="http://buynov.com/blog/2010/06/21/world-cup-2010/"/>
     <updated>2010-06-21T09:00:55+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/21/world-cup-2010</id>
-    <content type="html"><![CDATA[<p><a href="http://www.fifa.com"><img src="http://buynov.github.io/images/2010/06/world_cup_2010.jpg" alt="FIFA World Cup 2010" /></a></p>
+    <id>http://buynov.com/blog/2010/06/21/world-cup-2010</id>
+    <content type="html"><![CDATA[<p><a href="http://www.fifa.com"><img src="http://buynov.com/images/2010/06/world_cup_2010.jpg" alt="FIFA World Cup 2010" /></a></p>
 
 <p>It is different, in a way (a positive way) when there is a FIFA World Cup going on. It is good to know that there are three games each day, each of them having the potential to become <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061464/index.html">one</a> or <a href="http://www.fifa.com/worldcup/matches/round=249722/match=300061482/index.html">another</a> sensation. In regard to the World Cup is one of the best <a href="http://twitter.com/">tweets</a> I came across lately:</p>
 
@@ -323,9 +323,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[Steve Jobs at D8: The Full Interview]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/"/>
+    <link href="http://buynov.com/blog/2010/06/08/steve-jobs-at-d8-the-full-interview/"/>
     <updated>2010-06-08T08:29:34+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/08/steve-jobs-at-d8-the-full-interview</id>
+    <id>http://buynov.com/blog/2010/06/08/steve-jobs-at-d8-the-full-interview</id>
     <content type="html"><![CDATA[<p>This is the full interview with Steve Jobs from this year&rsquo;s <a href="http://allthingsd.com/d/">D8  conference</a> (organized by <a href="http://allthingsd.com/">All Things Digital</a>), which was held last week.</p>
 
 <object id="wsj_fp" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="544" height="360" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" /><param name="src" value="http://s.wsj.net/media/swf/microPlayer.swf" /><param name="name" value="microflashPlayer" /><param name="bgcolor" value="#FFFFFF" /><param name="allowfullscreen" value="true" /><embed id="wsj_fp" type="application/x-shockwave-flash" width="544" height="360" src="http://s.wsj.net/media/swf/microPlayer.swf" bgcolor="#FFFFFF" name="microflashPlayer" flashvars="videoGUID=70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11&amp;playerid=4001&amp;plyMediaEnabled=1&amp;configURL=http://wsj.vo.llnwd.net/o28/players/&amp;autoStart=false" allowscriptaccess="always" allowfullscreen="true"></embed></object>
@@ -339,10 +339,10 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[TED.com - in Bulgarian!]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian/"/>
+    <link href="http://buynov.com/blog/2010/06/03/tedcom-in-bulgarian/"/>
     <updated>2010-06-03T08:32:02+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/03/tedcom-in-bulgarian</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/06/TED-BG.png"><img src="http://buynov.github.io/images/2010/06/TED-BG.png" alt="" /></a></p>
+    <id>http://buynov.com/blog/2010/06/03/tedcom-in-bulgarian</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/06/TED-BG.png"><img src="http://buynov.com/images/2010/06/TED-BG.png" alt="" /></a></p>
 
 <p>It might not be news, but just today I realized, that some of the TED presentations have subtitles. Including my mother tongue, Bulgarian!</p>
 
@@ -364,9 +364,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[Bianor blog posts: May '10]]></title>
-    <link href="http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10/"/>
+    <link href="http://buynov.com/blog/2010/06/01/bianor-blog-posts-may-10/"/>
     <updated>2010-06-01T08:10:50+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/06/01/bianor-blog-posts-may-10</id>
+    <id>http://buynov.com/blog/2010/06/01/bianor-blog-posts-may-10</id>
     <content type="html"><![CDATA[<p><img src="http://www.bianor.com/blog/wp-content/uploads/2010/05/apple_android.jpg" alt="" /></p>
 
 <h3><a href="http://www.bianor.com/blog/open-vs-proprietary-mobile-software-did-apple-learn-the-history-lesson/">Open  vs Proprietary Mobile Software: Did Apple Learn the History Lesson?</a></h3>
@@ -377,9 +377,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[Conan O'Brien at Google]]></title>
-    <link href="http://buynov.github.io/blog/2010/05/19/conan-obrien-at-google/"/>
+    <link href="http://buynov.com/blog/2010/05/19/conan-obrien-at-google/"/>
     <updated>2010-05-19T08:37:30+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/05/19/conan-obrien-at-google</id>
+    <id>http://buynov.com/blog/2010/05/19/conan-obrien-at-google</id>
     <content type="html"><![CDATA[<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/u7TwqpWiY5s&hl=en_US&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/u7TwqpWiY5s&hl=en_US&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
 
 ]]></content>
@@ -387,9 +387,9 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[Triumph of the Nerds]]></title>
-    <link href="http://buynov.github.io/blog/2010/05/13/triumph-of-the-nerds/"/>
+    <link href="http://buynov.com/blog/2010/05/13/triumph-of-the-nerds/"/>
     <updated>2010-05-13T08:36:00+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/05/13/triumph-of-the-nerds</id>
+    <id>http://buynov.com/blog/2010/05/13/triumph-of-the-nerds</id>
     <content type="html"><![CDATA[<p>&ldquo;<a href="http://www.imdb.com/title/tt0115398/">Triumph of the Nerds</a>&#8220;  is a fascinating documentary about the dawn of personal computers and the people, who drove (and took advantage) of the process. Including Steve Jobs, Bill Gates, Steve Wozniak, Paul Allen, Larry Ellison, etc. Even <a href="http://en.wikipedia.org/wiki/Douglas_Adams">Douglas Adams</a> makes an appearance.</p>
 
 <p>You can watch the movie on YouTube, <a href="http://www.youtube.com/watch?v=3jV3JdtaOGc&amp;feature=PlayList&amp;p=4D5CD637F73C24C7&amp;playnext_from=PL&amp;index=0&amp;playnext=1">here</a>, or to download it <a href="http://www.tinyurl.com/5t5ruq">from here</a> (take a look at the comment&rsquo;s section below the movie in YouTube).</p>
@@ -405,19 +405,19 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
   
   <entry>
     <title type="html"><![CDATA[Virtual keyboard in Google search]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
+    <link href="http://buynov.com/blog/2010/04/30/virtual-keyboard-in-google-search/"/>
     <updated>2010-04-30T08:01:45+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/30/virtual-keyboard-in-google-search</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/04/VirtualKeyboardInGoogle-EN.png"><img src="http://buynov.github.io/images/2010/04/VirtualKeyboardInGoogle-EN.png" alt="" /></a></p>
+    <id>http://buynov.com/blog/2010/04/30/virtual-keyboard-in-google-search</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/04/VirtualKeyboardInGoogle-EN.png"><img src="http://buynov.com/images/2010/04/VirtualKeyboardInGoogle-EN.png" alt="" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Mobile Biography]]></title>
-    <link href="http://buynov.github.io/blog/2010/04/22/mobile-biography/"/>
+    <link href="http://buynov.com/blog/2010/04/22/mobile-biography/"/>
     <updated>2010-04-22T09:48:25+03:00</updated>
-    <id>http://buynov.github.io/blog/2010/04/22/mobile-biography</id>
-    <content type="html"><![CDATA[<p><a href="http://buynov.github.io/images/2010/04/01_Ericsson_GA628.gif"><img src="http://buynov.github.io/images/2010/04/01_Ericsson_GA628.gif" alt="" /></a></p>
+    <id>http://buynov.com/blog/2010/04/22/mobile-biography</id>
+    <content type="html"><![CDATA[<p><a href="http://buynov.com/images/2010/04/01_Ericsson_GA628.gif"><img src="http://buynov.com/images/2010/04/01_Ericsson_GA628.gif" alt="" /></a></p>
 
 <p>Model: <strong><a href="http://www.gsmarena.com/ericsson_ga_628-105.php">Ericsson GA-628</a></strong></p>
 
@@ -429,7 +429,7 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/02_Motorola_T2288.gif"><img src="http://buynov.github.io/images/2010/04/02_Motorola_T2288.gif" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/02_Motorola_T2288.gif"><img src="http://buynov.com/images/2010/04/02_Motorola_T2288.gif" alt="" /></a></p>
 
 <p>Model: <strong><a href="http://www.gsmarena.com/motorola_talkabout_t2288-82.php">Motorola T2288</a></strong></p>
 
@@ -439,7 +439,7 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/03_Nokia_7110.jpg"><img src="http://buynov.github.io/images/2010/04/03_Nokia_7110.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/03_Nokia_7110.jpg"><img src="http://buynov.com/images/2010/04/03_Nokia_7110.jpg" alt="" /></a></p>
 
 <p>Model: <strong><a href="http://www.gsmarena.com/nokia_7110-15.php">Nokia 7110</a></strong></p>
 
@@ -453,7 +453,7 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/04_SonyEricsson_P800.jpg"><img src="http://buynov.github.io/images/2010/04/04_SonyEricsson_P800.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/04_SonyEricsson_P800.jpg"><img src="http://buynov.com/images/2010/04/04_SonyEricsson_P800.jpg" alt="" /></a></p>
 
 <p>Model: <strong><a href="http://www.gsmarena.com/sony_ericsson_p800-326.php">Sony Ericsson P800</a></strong></p>
 
@@ -467,7 +467,7 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/05_SonyEricsson_K750i.jpg"><img src="http://buynov.github.io/images/2010/04/05_SonyEricsson_K750i.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/05_SonyEricsson_K750i.jpg"><img src="http://buynov.com/images/2010/04/05_SonyEricsson_K750i.jpg" alt="" /></a></p>
 
 <p>Model: <strong><a href="http://www.gsmarena.com/sony_ericsson_k750-1090.php">Sony Ericsson K750i</a></strong></p>
 
@@ -479,7 +479,7 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/06_Nokia_E66.jpg"><img src="http://buynov.github.io/images/2010/04/06_Nokia_E66.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/06_Nokia_E66.jpg"><img src="http://buynov.com/images/2010/04/06_Nokia_E66.jpg" alt="" /></a></p>
 
 <p>Model: <strong><a href="http://www.gsmarena.com/nokia_e66-2426.php">Nokia E66</a></strong></p>
 
@@ -491,7 +491,7 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <hr />
 
-<p><a href="http://buynov.github.io/images/2010/04/07_HTC_Magic.jpg"><img src="http://buynov.github.io/images/2010/04/07_HTC_Magic.jpg" alt="" /></a></p>
+<p><a href="http://buynov.com/images/2010/04/07_HTC_Magic.jpg"><img src="http://buynov.com/images/2010/04/07_HTC_Magic.jpg" alt="" /></a></p>
 
 <p>Model: <strong><a href="http://www.gsmarena.com/htc_magic-2714.php">HTC  Magic</a></strong></p>
 
@@ -499,7 +499,7 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <p>There is a lot to be desired from the HTC Magic, but keep in mind that this is just about the second Android phone out there. At one time I was really mad at HTC, because the original software was really slow and was annoying me day after day, but then I decided to experiment with the custom made ROMs from <a href="http://forum.xda-developers.com/forumdisplay.php?f=493">XDA  Developers</a> and I am really glad I did so. <a href="http://en.wikipedia.org/wiki/HTC_Sense">HTC Sense</a> really changes your phone and breathes it a new life. If you have an Android device, make sure you get Sense on it &ndash; it is extremely good.</p>
 
-<p>I <a href="http://buynov.github.io/2009/09/24/440">wrote about the Magic</a> before, so I won&rsquo;t get into details here.</p>
+<p>I <a href="http://buynov.com/2009/09/24/440">wrote about the Magic</a> before, so I won&rsquo;t get into details here.</p>
 
 <p>Stop wondering. Prepare your own mobile biography and post the link as a comment.</p>
 
