@@ -15,20 +15,22 @@ The good news is that the bears are in Sofia until May, on the [Sveta Nedelya](h
 
 And as seen from the photographic material below, the Cuban bear is the best friend of the Bulgarian bear ;)
 
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg)](/gallery/sofia-bears/dsc02629.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg)](/gallery/sofia-bears/dsc02630.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg)](/gallery/sofia-bears/dsc02646.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg)](/gallery/sofia-bears/dsc02647.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg)](/gallery/sofia-bears/dsc02648.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg)](/gallery/sofia-bears/dsc02649.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg)](/gallery/sofia-bears/dsc02655.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg)](/gallery/sofia-bears/dsc02662.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg)](/gallery/sofia-bears/dsc02667.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg)](/gallery/sofia-bears/dsc02679.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg)](/gallery/sofia-bears/dsc02691.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg)](/gallery/sofia-bears/dsc02694.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg)](/gallery/sofia-bears/dsc02695.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg)](/gallery/sofia-bears/dsc02698.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg)](/gallery/sofia-bears/dsc02699.jpg)
+{% gallery %}
+/gallery/sofia-bears/dsc02629.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg]: 
+/gallery/sofia-bears/dsc02630.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg]: 
+/gallery/sofia-bears/dsc02646.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg]: 
+/gallery/sofia-bears/dsc02647.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg]: 
+/gallery/sofia-bears/dsc02648.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg]: 
+/gallery/sofia-bears/dsc02649.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg]: 
+/gallery/sofia-bears/dsc02655.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg]: 
+/gallery/sofia-bears/dsc02662.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg]: 
+/gallery/sofia-bears/dsc02667.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg]: 
+/gallery/sofia-bears/dsc02679.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg]: 
+/gallery/sofia-bears/dsc02691.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg]: 
+/gallery/sofia-bears/dsc02694.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg]: 
+/gallery/sofia-bears/dsc02695.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg]: 
+/gallery/sofia-bears/dsc02698.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg]: 
+/gallery/sofia-bears/dsc02699.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg]: 
+{% endgallery %}
 
 Well, take a hike and enjoy it!
