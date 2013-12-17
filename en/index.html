@@ -28,6 +28,38 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<!-- Load jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery.noConflict(); // ender.js conflicts with jQuery
+</script>
+ 
+<!-- Load FancyBox -->
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" />
+<script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+ 
+<!-- Fix FancyBox style for OctoPress -->
+<style type="text/css">
+  .fancybox-wrap { position: fixed !important; }
+  .fancybox-opened {
+    -webkit-border-radius: 4px !important;
+       -moz-border-radius: 4px !important;
+            border-radius: 4px !important;
+  }
+  .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-color: transparent !important;
+    border: 0 !important;
+  }
+</style>
+
+ 
+<!-- Custom Scripts -->
+<script language="Javascript" type="text/javascript">
+    // ender.js gobbles jQuery's ready event: Use ender.js $ instead
+    $(document).ready(function() {
+        jQuery(".fancybox").fancybox();
+    });
+</script>
 
   
   <script type="text/javascript">
@@ -292,21 +324,10 @@ The good news is that the bears are in Sofia until May, on the <a href="http://w
 
 <p>And as seen from the photographic material below, the Cuban bear is the best friend of the Bulgarian bear ;)</p>
 
-<p><a href="/en/gallery/sofia-bears/dsc02629.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02630.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02646.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02647.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02648.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02649.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02655.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02662.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02667.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02679.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02691.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02694.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02695.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02698.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg" alt="" /></a>
-<a href="/en/gallery/sofia-bears/dsc02699.jpg"><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg" alt="" /></a></p>
+<ul class="gallery">
+<li><a href="/en/gallery/sofia-bears/dsc02629.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02630.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02646.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02647.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02648.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02649.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02655.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02662.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02667.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02679.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02691.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02694.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02695.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02698.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg" alt="" /></a></li><li><a href="/en/gallery/sofia-bears/dsc02699.jpg" class="fancybox" rel="gallery-9d252b01bed4e868d1b7231d9fbeb27f" title=""><img src="/en/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg" alt="" /></a></li>
+</ul>
+
 
 <p>Well, take a hike and enjoy it!</p>
 </div>
