@@ -15,21 +15,23 @@ categories:
 
 И както можеш да се увериш от фото материала по долу, Кубинската мечка е най-добрия приятел на Българската мечка ;) 
 
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg)](/gallery/sofia-bears/dsc02629.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg)](/gallery/sofia-bears/dsc02630.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg)](/gallery/sofia-bears/dsc02646.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg)](/gallery/sofia-bears/dsc02647.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg)](/gallery/sofia-bears/dsc02648.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg)](/gallery/sofia-bears/dsc02649.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg)](/gallery/sofia-bears/dsc02655.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg)](/gallery/sofia-bears/dsc02662.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg)](/gallery/sofia-bears/dsc02667.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg)](/gallery/sofia-bears/dsc02679.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg)](/gallery/sofia-bears/dsc02691.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg)](/gallery/sofia-bears/dsc02694.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg)](/gallery/sofia-bears/dsc02695.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg)](/gallery/sofia-bears/dsc02698.jpg)
-[![](/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg)](/gallery/sofia-bears/dsc02699.jpg)
+{% gallery %}
+/gallery/sofia-bears/dsc02629.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02629.jpg]: 
+/gallery/sofia-bears/dsc02630.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02630.jpg]: 
+/gallery/sofia-bears/dsc02646.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02646.jpg]: 
+/gallery/sofia-bears/dsc02647.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02647.jpg]: 
+/gallery/sofia-bears/dsc02648.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02648.jpg]: 
+/gallery/sofia-bears/dsc02649.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02649.jpg]: 
+/gallery/sofia-bears/dsc02655.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02655.jpg]: 
+/gallery/sofia-bears/dsc02662.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02662.jpg]: 
+/gallery/sofia-bears/dsc02667.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02667.jpg]: 
+/gallery/sofia-bears/dsc02679.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02679.jpg]: 
+/gallery/sofia-bears/dsc02691.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02691.jpg]: 
+/gallery/sofia-bears/dsc02694.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02694.jpg]: 
+/gallery/sofia-bears/dsc02695.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02695.jpg]: 
+/gallery/sofia-bears/dsc02698.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02698.jpg]: 
+/gallery/sofia-bears/dsc02699.jpg[/gallery/sofia-bears/thumbs/thumbs_dsc02699.jpg]: 
+{% endgallery %}
 
 Ами освен да се разходиш и да ги разгледаш?
 
