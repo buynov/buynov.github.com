@@ -2,3 +2,6 @@ baseURL: http://example.org/
 disablePathToLower: true
 languageCode: en-us
 title: My New Hugo Site
+permalinks:
+  post: /:year/:month/:title/
+  
